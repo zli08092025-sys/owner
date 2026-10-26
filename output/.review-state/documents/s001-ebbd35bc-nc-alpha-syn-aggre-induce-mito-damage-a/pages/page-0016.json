@@ -1,0 +1,105 @@
+{
+  "page": 16,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0016.png",
+  "reviewed": true,
+  "review_notes": "Inspected preview PNG and 2.4x PyMuPDF crop of the figure bbox. Figure 8 set (label 'Figure 8', asset_name 'figure-8'); bbox [55,45,546,650] verified to contain all content (PDF content union [60.4,48.6,540.5,644.8]): panels a-h and their letters, the 'N(MitoDsRed)alpha-Syn + M' header, DNA/MitoDsRed/TOMM20/DAPI channel legend, insets i/ii/iii with mtDNA+/mtDNA-/mtDNA extruding labels and arrowheads, 5 um and 10 um scale bars, all axis labels and the SH-SY5Y: Control / alpha-Syn group labels; caption is not inside the crop (it is on page 17). Methods prose below the figure kept in reading order (left column b003 then right column b004). Fixed two line-wrap hyphen losses against the source text layer: '[SigmaAldrich, D9542]' -> '[Sigma-Aldrich, D9542]' and 'Aqua-Poly/ Mount' -> 'Aqua-Poly/Mount'. Set join_previous='space' on b003: page 15 ends '...solution for 15 min at' and this page opens 'RT to quench the fixative.'. Checked 9002-93-1, 18606-20, 1:500, 1:1000, 2% w/v, 0.1% v/v, 16 h, 4 degC, 1X DPBS - all correct. Header/footer items and the page-number omit left untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0016-b000",
+    "Review possible header/footer: p0016-b001",
+    "Review possible header/footer: p0016-b005"
+  ],
+  "items": [
+    {
+      "id": "p0016-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0016-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0016-b002",
+      "kind": "figure",
+      "bbox": [
+        55.0,
+        45.0,
+        546.0,
+        650.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na N MitoDsRed -Syn + M<br>DNA MitoDsRed TOMM20 DAPI  Insets<br>b<br>i mtDNA+<br>iii ii mtDNA-<br>ii<br>iii mtDNA<br>i<br>extruding<br>d<br>c SH-SY5Y + HMC3 HMC3 inset SH-SY5Y- -Syn + HMC3 HMC3 inset<br>GM130 -Syn<br>STING<br>DAPI<br>f<br>e<br>SH-SY5Y + HMC3 HMC3 inset SH-SY5Y- -Syn + HMC3 HMC3 inset<br>NF- B -Syn<br>DAPI<br>g h<br>SH-SY5Y + HMC3 HMC3 inset SH-SY5Y- -Syn + HMC3 HMC3 inset<br>IRF3 -Syn<br>DAPI<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 8",
+      "asset_name": "figure-8"
+    },
+    {
+      "id": "p0016-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        732.0
+      ],
+      "markdown": "RT to quench the fixative. Following three washes, cells were permeabilized with Triton-X100 [Sigma Aldrich, 9002-93-1] (0.1% v/v solution in 1X DPBS) for 5 min at RT. Cells were then incubated in blocking solution (2% w/v in 1X DPBS) for 1 h at RT. Cells were then incubated with primary antibodies overnight (for 16 h) at 4 °C. The next day, cells were incubated with respective secondary antibodies",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0016-b004",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        670.0,
+        562.0,
+        732.0
+      ],
+      "markdown": "(all from Thermo Fisher Scientific, dilution of 1:500 in blocking solution) for 1 h at RT. Cells were then washed three times with 1X DPBS, counterstained for nuclei with DAPI (1:1000 in PBS [Sigma-Aldrich, D9542]) and mounted on glass slides with Aqua-Poly/Mount (Polysciences Inc., 18606-20). Slides were imaged at least a day after mounting of coverslips.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0016-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0016-b006",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "16",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

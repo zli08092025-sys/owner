@@ -1,0 +1,210 @@
+{
+  "page": 13,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0013.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0013.png and 6x PyMuPDF crops of source.pdf. Fig. 6 caption (p0013-b002) re-kinded text->caption; its right-column continuation (was p0013-b008) merged into it and placed full-width at the top (bbox 39,49,562,256); p0013-b008 removed. Caption verified against a superscript-aware dump of the PDF: panels a-h, N = 3, n = 25-26 / 106 / 177 / 92 / 15 / 24-25 / 126 / 124 / 227 / 163 / 223 / 144 / 188 / 134 / 14-16, Kruskal-Wallis with Dunn's and Two-Way ANOVA with Šídák's, and every p-value. Repaired: 'twosided'->'two-sided'; catalogue-style labels '+JSH23'->'+JSH-23' and '(TNFα + JSH23)'->'(TNFα + JSH-23)'; superscripts the extractor broke or dropped: '5.64×10<sup>-</sup> 5'->'5.64×10<sup>-5</sup>', 'p < 1×10-15'->'p < 1×10<sup>-15</sup>', '3.89×10-6'->'3.89×10<sup>-6</sup>'. 'For h: PQ:' is verbatim from the source (printed without the hyphen) and was left alone. Heading hierarchy confirmed on the page: '# Methods' is the top-level section and 'Culture of cell lines', 'Culture of hiPSC lines' and 'Microglia generation' were already at '##' — all three left at '##'. Methods prose checked reagent by reagent against the page: Euroclone ECB2000L, Sigma-Aldrich D6429, 10% foetal calf serum, Eurobio Scientific CVFSVF00-01, 1% penicillin-streptomycin Gibco 15140-122 (100 units/mL), 0.05% Trypsin-EDTA Gibco 25300-054, Epredia CB00120RA120MNZ0, Ibidi GmbH 81156, passages 3-10, Corning 354234, mTeSRTM1 (Stem Cell Technology, 85850), 80 ng/mL BMP-4 PeproTech 120-05, StemProTM-34 SFM Gibco™ 10639011, Cultek SV30010, Lonza LZBE17-605EU1, 80 ng/ml VEGF AF-100-20, 100 ng/ml SCF 300-07, 25 ng/ml FGF-2 100-18B, 50 ng/ml Flt3-L Humanzyme HZ-1151, 50 ng/ml IL-3 200-03, 5 ng/ml TPO 300-18, 50 ng/ml M-CSF 300-25, 25 ng/ml GM-CSF 300-03, 70 μm Filcon™ Syringe-Type mesh BD Biosciences 10271120 — all digits match. Repaired line-wrap damage: 'gap junctionmediated'->'gap junction-mediated', 'damageinduced'->'damage-induced', 'actinchromobody-RFP'->'actin-chromobody-RFP', 'penicillinstreptomycin'->'penicillin-streptomycin', 'fixedcell'->'fixed-cell', 'SyringeType'->'Syringe-Type', and set 'CO2'->'CO<sub>2</sub>' (subscript confirmed by font size in the source). 'mTeSRTM1', 'StemProTM-34' and '(PeproTech,200-34)' are printed that way in the source and were kept verbatim. Removed the stray space between </sup> and following punctuation. Reading order set to full-width caption, left column, right column. Header, DOI, footer and page-number omit item untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0013-b000",
+    "Review possible header/footer: p0013-b001",
+    "Review possible header/footer: p0013-b015"
+  ],
+  "items": [
+    {
+      "id": "p0013-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0013-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0013-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        256.0
+      ],
+      "markdown": "Fig. 6 | Inflammation promotes α-Syn spread to microglia via TNTs. a Representative confocal images of neuronal cells loaded with α-Syn (donors) in co-culture for 24 h with microglial cells (acceptors) in the presence of the STING activator diABZI alone, or alongside the STING inhibitor H-151. Cyan asterisks highlight acceptor microglial cells positive for α-Syn. b Quantification of the percentage of acceptor microglial cells positive for α-Syn. N = 3 independent experiments, n = 25-26 fields of views. Statistical significance was analyzed using a two-sided Kruskal-Wallis test with Dunn’s multiple comparison. c Quantification of the number of α-Syn aggregates per acceptor microglial cell as in (b). n = 106 cells for control, 177 cells for diABZI-treated group, and 92 cells for diABZI+H-151 co-treated group. Statistical significance was analyzed using a two-sided Kruskal-Wallis test with Dunn’s multiple comparison. d Quantification of the extent of α-Syn transfer via secretion (CM: conditioned media). N = 3 independent experiments, n = 15 fields of view. Statistical significance was analyzed using a two-sided Kruskal-Wallis test with Dunn’s multiple comparison. For (b–d), to indicate p-values in a compact manner, the following representation paradigm is used: control = X, diABZI = Y, diABZI+H-151 = Z. For (b)—X-Y: p = 0.00027, X-Z: p = 0.4744; for (c): X-Y: p > 0.9999, X-Z: p = 0.0428; for (d): X-Y: p > 0.9999, X-Z: p = 0.4274. e Representative confocal images of neuronal cells loaded with α-Syn (donors) in co-culture for 24 h with microglial cells (acceptors) in the presence of pro-inflammatory cytokines alone (upper panels) or co-treated with the NF-κB inhibitor JSH-23 (lower panels). Cyan asterisks highlight acceptor microglial cells positive for α-Syn. f Quantification of the percentage of acceptor microglial cells positive for α-Syn. N = 3 independent experiments, n = 24-25 fields of views. Statistical significance was analyzed using two-sided Two-Way ANOVA with Šídák’s multiple comparison. g Quantification of the number of α-Syn aggregates per acceptor microglial cell as in (f). n = 126 (Control –JSH-23), 124 (control +JSH-23), 227 (IL-1α –JSH-23), 163 (IL-1α + JSH-23), 223 (IL-1β –JSH-23), 144 (IL-1β + JSH-23), 188 (TNFα –JSH-23), and 134 (TNFα + JSH-23) cells. Statistical significance was analyzed using Two-Way ANOVA with Šídák’s multiple comparison. h Quantification of the extent of α-Syn transfer via secretion (CM: conditioned media). N = 3 independent experiments, n = 14-16 fields of view. Statistical significance was analyzed using two-sided Two-Way ANOVA with Šídák’s multiple comparison. For (f–h), to indicate p-values in a compact manner, the following representation paradigm is used: control –JSH-23 = P, control +JSH-23 = Q, IL-1α –JSH-23 = R, IL-1α + JSH-23 = S, IL-1β –JSH-23 = T, IL-1β + JSH-23 = U, TNFα –JSH-23 = V, TNFα + JSH-23 = W. For f—P-Q: p = 0.0088, R-S: p = 7.8x10<sup>-14</sup>, T-U: p = 1.09×10<sup>-6</sup>, V-W: p = 6.35×10<sup>-10</sup>, P-R: p = 2.33×10<sup>-10</sup>, P-T: p = 0.0026, P-V: p = 5.64×10<sup>-5</sup>. For g—P-Q: p = 0.00037, R-S: p < 1×10<sup>-15</sup>, T-U: p = 0.8133, V-W: p = 3.89×10<sup>-6</sup>, P-R: p = 0.00016, P-T: p = 0.2364, P-V: p = 0.9995. For h: PQ: p = 0.6397, R-S: p = 0.1559, T-U: p = 0.9999, V-W: p = 0.9999, P-R: p = 0.0477, P-T: p > 0.9999, P-V: p = 0.9662. Data in all the graphs are represented as median and quartiles. Mean values are mentioned within the graphs.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        284.0,
+        295.0,
+        454.0
+      ],
+      "markdown": "pro-inflammatory environment caused by α-Syn-burdened neuronal cells, mtDNA extrusion from transferred mitochondria, instigated mtDNA release from microglial mitochondria, or via gap junction-mediated transfer of cGAMP, which has previously been reported to spread bystander inflammation<sup>86,87</sup>. Inflammatory signals can also propagate via extracellular vesicles, as has been observed for pyroptosis propagation via intercellular transfer of gasdermin pores<sup>88</sup>. Our preliminary attempt at understanding the route of bystander inflammation brings attention towards potential cGAMP transfer from aggregate-burdened neuronal cells to microglia as a possible instigator of microglial priming. A recent study has also observed alterations in microglial morphology and transcriptome upon transfer of neuronal micronuclei in the developing brain, a phenotype dependent on cGAS<sup>89</sup>. Further investigations on this are warranted to fully elucidate the role of intercellular communication between neurons and microglia in shaping cellular phenotypes in vivo.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0013-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        456.0,
+        295.0,
+        615.0
+      ],
+      "markdown": "Collectively, our findings suggest that neuronal reliance on microglia for the clearance of damaged mitochondria represents a biologically rational mechanism underlying mitochondrial damage-induced TNT formation. This study reveals, for the first time, a moonlighting role for mitochondria—not only as targets of dysfunction but also as active initiators of innate immune signaling that promotes intercellular communication and the propagation of pathogenic α-Syn aggregates in vitro. A recent study has implicated thin dendritic nanotubes in the spread of amyloid-β in the brain<sup>90</sup>, which may contribute to the spreading of pathology. Interestingly, pharmacological inhibition of STING<sup>21,74</sup> or its genetic deletion<sup>91</sup> has been reported to be a promising therapeutic target against amyloidosis. Findings in this study, and by others, add a critical new layer to our understanding of neurodegenerative disease progression and open new avenues for targeting TNT-mediated pathology spread.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b005",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        625.0,
+        85.0,
+        634.0
+      ],
+      "markdown": "# Methods",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0013-b006",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        637.0,
+        119.0,
+        645.0
+      ],
+      "markdown": "## Culture of cell lines",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0013-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        648.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Human neuroblastoma cell line SH-SY5Y (referred to as neuronal cells in the manuscript), SH-SY5Y cells stably-expressing a mitochondrial matrix targeted fluorescent reporter (MitoDsRed) and SH-SY5Y actin-chromobody-RFP (referred to as SH-RFP cells) were cultured in RPMI1640 media (Euroclone, ECB2000L), and the human microglia clone 3 cell line HMC3 (referred to as microglial cells) were cultured in DMEM (Sigma-Aldrich, D6429), both supplemented with 10% foetal calf serum (FCS) (Eurobio Scientific, CVFSVF00-01) and 1% penicillin-streptomycin (Gibco, 15140-122; 100 units/mL final concentration).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        284.0,
+        562.0,
+        358.0
+      ],
+      "markdown": "Cells were cultured in a humidified CO<sub>2</sub> incubator at 37 °C, and passaged using 0.05% Trypsin-EDTA (Gibco, 25300-054). Cells were counted before each experiment and seeded on UV-treated 12 mm glass coverslips (uncoated) (Epredia, CB00120RA120MNZ0) for fixed-cell imaging, and on 35 mm glass-bottom microdishes (Ibidi GmbH, 81156) for live-cell imaging. Cells between passages 3 and 10 were used for all the experiments.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b010",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        369.0,
+        394.0,
+        377.0
+      ],
+      "markdown": "## Culture of hiPSC lines",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0013-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        381.0,
+        562.0,
+        443.0
+      ],
+      "markdown": "All procedures adhered to Spanish and EU guidelines and regulations for research involving the use of human pluripotent cell lines. The human iPSC lines used in our studies were generated following procedures approved by the Commission on Guarantees concerning the Donation and Use of Human Tissues and Cells of the Carlos III Health Institute, Madrid, Spain.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        445.0,
+        562.0,
+        508.0
+      ],
+      "markdown": "Control hiPSC line SP11 was used for neurons, and SP13wt/wt for microglia. Generation and characterization of these lines have been described elsewhere<sup>92,93</sup>. hiPSC were maintained on Matrigel (Corning, 354234)-coated plastic plates (Thermo Fisher Scientific) and in mTeSRTM1 medium (Stem Cell Technology, 85850) until the start of the protocols of differentiation.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b013",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        519.0,
+        391.0,
+        529.0
+      ],
+      "markdown": "## Microglia generation",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0013-b014",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        531.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "The employed protocol for the differentiation of microglia and its characterization is as previously described<sup>94</sup>. Briefly, hiPSC were passed in single colonies and after 2–4 days, mTeSRTM1 medium was supplemented with 80 ng/mL of Bone Morphogenetic Protein (BMP)-4 (PeproTech, 120-05) for a total of 4 days. From the following day, cells were changed using SP34 medium (StemProTM-34 SFM (Gibco™, 10639011), 1% of P/S (Cultek, SV30010) and 1% of Ultraglutamine (Glut; Lonza, LZBE17-605EU1). For two days, media was supplemented with 80 ng/ml of VEGF (PeproTech, AF-100-20), 100 ng/ml of Stem Cell Factor (SCF, PeproTech, 300-07) and 25 ng/ml of Fibroblast Growth Factor (FGF)-2 (PeproTech, 100-18B). From days 7 to 14, supplemented factors included 50 ng/ml of Fms-like tyrosine kinase 3-Ligand (Flt3-L, Humanzyme, HZ-1151), 50 ng/ml of IL-3 (PeproTech, 200-03), 50 ng/ml of SCF, 5 ng/ml of Trombopoietin (TPO, PeproTech, 300-18) and 50 ng/ml of M-CSF (PeproTech, 300-25). The last step consisted of the addition to SP34 medium of Flt3-L, M-CSF and 25 ng/ml of GM-CSF (PeproTech, 300-03), with media changes every 3-4 days. Starting from day 35, floating microglial progenitors were collected from the culture’s supernatant and passed through a 70 μm Filcon™ Syringe-Type nylon mesh (BD Biosciences, 10271120). Cells were counted and",
+      "source_class": "text"
+    },
+    {
+      "id": "p0013-b015",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0013-b016",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "13",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

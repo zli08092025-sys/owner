@@ -1,0 +1,117 @@
+{
+  "page": 10,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0010.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview and 9x crops of the left and right edges. p0010-b002 is the full-page Fig. 5 image: bbox [78,46,524,654] verified to enclose the PDF image box [93.8,66.1,518.4,648.8] and all overlay text (union [83.7,50.0,518.4,648.8]) - panel letters a-j, the rotated SH-SY5Y/HMC3 labels whose left edge is at x=83.7 pt, every condition header (Control / α-Syn / H-151 / α-Syn + H-151 / JSH-23 / diABZI / diABZI + H-151 / diABZI + JSH-23), the 'Phalloidin DAPI' channel legends, the 10 um scale bars, the ns/**** significance brackets, the α-Syn / H-151 / JSH-23 / diABZI condition dot-matrix rows under every graph, and the panel j schematic with its STING / IRF3 / NF-κB nodes and 'Type I IFN' / 'IL-6, TNF' labels; the rightmost graph axis ends at x~518 pt, inside the crop. No caption text inside the crop - Fig. 5's caption is on page 11 (p0011-b002), not on this page. Set label 'Figure 5' / asset_name 'figure-5'. All three body paragraphs below the figure verified complete and in left-then-right order: b003 (left), b004 then b005 (right); the left column ends '...the cGAS-STING-NF-κB' and continues into b004 'signaling axis...'. Superscript markers 27, 28,29, 25,26 and 42 kept as <sup>. b003 continues the sentence broken at the page 9/10 boundary ('...Neuronal cells' | 'can transfer α-Syn aggregates...'), so join_previous='space'. Note: this page prints 'cGAS-STING-NF-κB' with plain hyphens in the source (page 7 uses en dashes) - left verbatim. Coordinator: removed 4 extractor-inserted space(s) between a superscript and the punctuation that follows it in the printed source. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0010-b000",
+    "Review possible header/footer: p0010-b001",
+    "Review possible header/footer: p0010-b006"
+  ],
+  "items": [
+    {
+      "id": "p0010-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0010-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0010-b002",
+      "kind": "figure",
+      "bbox": [
+        78.0,
+        46.0,
+        524.0,
+        654.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na<br>Control -Syn H-151 -Syn + H-151<br>b c<br>Phalloidin DAPI<br>d<br>Control -Syn JSH-23 -Syn + JSH-23<br>e f<br>Phalloidin DAPI<br>g<br>Control diABZI diABZI + H-151 diABZI + JSH-23<br>h i<br>Phalloidin DAPI<br>j<br>-Syn<br>Inhibition (H-151) – prevents  Activation (diABZI) – promotes<br>intercellular connections intercellular connections<br>Inhibition (JSH-23) – prevents  STING activation + NF- B inhibition –<br>intercellular connections prevents intercellular connections<br>SH-SY5Y<br>HMC3<br>SH-SY5Y<br>HMC3<br>SH-SY5Y<br>HMC3<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 5",
+      "asset_name": "figure-5"
+    },
+    {
+      "id": "p0010-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "can transfer α-Syn aggregates to astrocytes and microglia via TNTs, enabling their clearance<sup>27</sup>. Moreover, microglia have been shown to exert neuroprotective effects through mitochondrial transfer to neurons<sup>28,29</sup>. However, a central unsolved question in the field pertains to the molecular signals that drive the formation of TNTs under Synucleinopathic stress. Here, we uncover a previously unrecognized role of innate immune activation, specifically the cGAS-STING-NF-κB",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0010-b004",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        670.0,
+        562.0,
+        700.0
+      ],
+      "markdown": "signaling axis, in driving TNT-mediated intercellular communication between neuronal cells and microglia in response to α-Syn aggregates (Fig. 9).",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0010-b005",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        702.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "Exogenous α-Syn aggregates are efficiently internalized by both neuronal and microglial cells, and accumulate predominantly in lysosomes in both murine and human neuronal cells<sup>25,26</sup>, as well as in human microglia<sup>42</sup>, leading to extensive lysosomal damage. Besides",
+      "source_class": "text"
+    },
+    {
+      "id": "p0010-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0010-b007",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "10",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

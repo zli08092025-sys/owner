@@ -1,0 +1,379 @@
+{
+  "page": 18,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0018.png",
+  "reviewed": true,
+  "review_notes": "Inspected the preview PNG and 7x/9x PyMuPDF crops of the primer table, plus a full re-extraction of the page's text spans. TRANSCRIBED the qRT-PCR primer table: label 'Table 1', asset_name 'table-1', rows populated as a header row plus 8 gene rows, every row exactly 3 columns (Gene / Forward primer sequence / Reverse primer sequence) for IL-1beta, TNF-alpha, IL-6, CD68, IFNalpha, IFNbeta, CXCL10 and CCL20. Each printed cell wraps over two typographic lines; the two lines were joined into one continuous uppercase string with no space and no hyphen. Every base was read from the zoomed render AND independently cross-checked against the embedded PDF text layer - the two agree exactly, and every joined sequence was asserted to contain only A/C/G/T. No base was guessed. Gene names keep their Greek letters; markdown italics were deliberately NOT added inside table cells because rows are emitted as CSV. Reordered the whole page into true two-column reading order: the extractor had emitted 'TNT counting' (b020) and its paragraph (b021) after 'References', and the right column's opening fragment b007 ('080] in 1X DPBS)...') before them; left column is now table, Western blotting, alpha-Syn transfer assay, TNT counting, then the right column from b007 through the first two references. Verified the left-to-right column join '0.2 M HEPES buffer [Gibco, 15630-' + '080] in 1X DPBS)' - the hyphen there is part of catalogue number 15630-080 and was kept. Text fixes against the source: '50 mM-TrisHCI' -> '50 mM-Tris-HCI' (compound hyphen lost at a line wrap; the source really does print 'HCI' with a capital I, kept verbatim); 'horseradish peroxidaseconjugated' -> 'horseradish peroxidase-conjugated'; joined the broken ICY URL 'https://icy. bioimageanalysis.org/...' into 'https://icy.bioimageanalysis.org/...'; removed the stray space the superscript extractor left before the full stop in 'FIJI<sup>100</sup> .', 'FIJI<sup>101</sup> .' and 'protocols<sup>28,99</sup> .'. Italicised the journal titles in the first two references ('*Cell Death Dis.*', '*Science*') to match the source. Confirmed heading hierarchy: Western blotting, alpha-Syn transfer assay, TNT counting, Fixed-cell microscopy, FACS sample preparation and acquisition, Quantification and statistical analyses and Reporting summary are all '##'; Data availability and References are '#' (they are set in the larger section font in the source). Checked 20 ug, 95 degC, 63x/1.4, 0.45 um, 0.133 um, 3.33 ug/mL, 11836170001, W32466, A12380, G5882, 15630-080, en dashes in '1-16'/'1075-1079', the em dash in 'used-- fixative 1' and the curly apostrophes. Header/footer items and the page-number omit left untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break. Coordinator: bolded the volume numbers in references 1-2 so the bibliography markup matches references 3-101, where the source sets volumes in a semibold face.",
+  "warnings": [
+    "Review possible header/footer: p0018-b000",
+    "Review possible header/footer: p0018-b001",
+    "Review possible header/footer: p0018-b024"
+  ],
+  "items": [
+    {
+      "id": "p0018-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0018-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0018-b002",
+      "kind": "table",
+      "bbox": [
+        37.0,
+        46.0,
+        297.0,
+        277.0
+      ],
+      "markdown": "|Gene|Forward primer sequence|Reverse primer sequence|\n|---|---|---|\n|IL-1β|CCACAGACCTTCCAGGAGAATG|GTGCAGTTCAGTGATCGTACAGG|\n|TNF-α|CTCTTCTGCCTGCTGCACTTTG|ATGGGCTACAGGCTTGTCACTC|\n|IL-6|AGACAGCCACTCACCTCTTCAG|TTCTGCCAGTGCCTCTTTGCTG|\n|CD68|CGAGCATCATTCTTTCACCAGCT|ATGAGAGGCAGCAAGATGGACC|\n|IFNα|AATGACAGAATTCATGAAAGCGT|GGAGGTTGTCAGAGCAGA|\n|IFNβ|CAACTTGCTTGGATTCCTACAAAG|TATTCAAGCCTCCCATTCAATTG|\n|CXCL10|GGTGAGAAGAGATGTCTGAATCC|GTCCATCCTTGGAAGCACTGCA|\n|CCL20|AAGTTGTCTGTGTGCGCAAATCC|CCATTCCAGAAAAGCCACAGTTTT|",
+      "source_class": "table",
+      "label": "Table 1",
+      "asset_name": "table-1",
+      "rows": [
+        [
+          "Gene",
+          "Forward primer sequence",
+          "Reverse primer sequence"
+        ],
+        [
+          "IL-1β",
+          "CCACAGACCTTCCAGGAGAATG",
+          "GTGCAGTTCAGTGATCGTACAGG"
+        ],
+        [
+          "TNF-α",
+          "CTCTTCTGCCTGCTGCACTTTG",
+          "ATGGGCTACAGGCTTGTCACTC"
+        ],
+        [
+          "IL-6",
+          "AGACAGCCACTCACCTCTTCAG",
+          "TTCTGCCAGTGCCTCTTTGCTG"
+        ],
+        [
+          "CD68",
+          "CGAGCATCATTCTTTCACCAGCT",
+          "ATGAGAGGCAGCAAGATGGACC"
+        ],
+        [
+          "IFNα",
+          "AATGACAGAATTCATGAAAGCGT",
+          "GGAGGTTGTCAGAGCAGA"
+        ],
+        [
+          "IFNβ",
+          "CAACTTGCTTGGATTCCTACAAAG",
+          "TATTCAAGCCTCCCATTCAATTG"
+        ],
+        [
+          "CXCL10",
+          "GGTGAGAAGAGATGTCTGAATCC",
+          "GTCCATCCTTGGAAGCACTGCA"
+        ],
+        [
+          "CCL20",
+          "AAGTTGTCTGTGTGCGCAAATCC",
+          "CCATTCCAGAAAAGCCACAGTTTT"
+        ]
+      ]
+    },
+    {
+      "id": "p0018-b003",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        305.0,
+        109.0,
+        315.0
+      ],
+      "markdown": "## Western blotting",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        316.0,
+        295.0,
+        540.0
+      ],
+      "markdown": "Both SH-SY5Y and HMC3 cells were grown in 6-well dishes for 24 h before appropriate treatment. Following incubation, cells were trypsinized and pellets were homogenized in 100 μl of radioimmunoprecipitation assay (RIPA) buffer consisting of 50 mM-Tris-HCI (pH 7.4), 1% Triton X-100, 0.5% sodium-deoxycholate, 0.1% sodium dodecyl sulphate, 150 mM sodium chloride and 2 mM ethylenediaminetetraacetic acid, supplemented with 1X protease inhibitor (cOmplete Mini, EDTA-free; Sigma, 11836170001). Protein concentrations were measured using Bradford’s method, following the manufacturer’s instructions (Thermo Fisher Scientific). Proteins (20 µg) were denatured in SDS (8%) and β-mercaptoethanol (5%) at 95 °C for 10 min. After separation by SDS-PAGE on a 3-8% tris-acetate gel, proteins were electro-transferred to nitrocellulose membranes. The membranes were blocked with 5% BSA and incubated overnight with primary antibodies (as per the aforementioned dilutions) in blocking buffer, followed by incubation with horseradish peroxidase-conjugated secondary antibody (Millipore, 1:5000) in TBS containing 0.1% Tween-20 at room temperature for 1 h. Finally, proteins were visualized using an ECL kit (Thermo Fisher Scientific), and chemiluminescence images were acquired using GE Amersham Imager AI680 analyzer.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b005",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        552.0,
+        121.0,
+        561.0
+      ],
+      "markdown": "## α-Syn transfer assay",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        563.0,
+        295.0,
+        678.0
+      ],
+      "markdown": "To assess for α-Syn transfer, neuronal cells or microglia were grown for 24 h in a 6-well dish, and then neuronal cells were exposed to 500 nM of α-Syn. After 16 h of incubation, both neuronal cells (now the donor population) and microglial cells (acceptor population) were trypsinized and seeded on 12 mm coverslips in a 1:1 ratio, and co-cultured for 24 h. Inflammatory modulators were added for the entire co-culture duration, except for diABZI, which was added for the final 2 h. Cells were then fixed to preserve TNTs (described below) and stained with wheat germ agglutinin 647 (WGA, Thermo Fisher Scientific, W32466; 3.33 μg/mL) for 15 min at RT, followed by nuclei counterstaining with DAPI (1:1000 in 1X DPBS).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b020",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        691.0,
+        96.0,
+        700.0
+      ],
+      "markdown": "## TNT counting",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b021",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        702.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "To efficiently visualize TNTs in cultures, cells were fixed at subconfluency (~70%) as per previous protocols<sup>28,99</sup>. In brief, two different fixative solutions were used— fixative 1 (0.05% glutaraldehyde [GA {Sigma Aldrich, G5882}], 2% PFA, 0.2 M HEPES buffer [Gibco, 15630-",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b007",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        49.0,
+        562.0,
+        99.0
+      ],
+      "markdown": "080] in 1X DPBS), followed by fixative 2 (4% PFA, 0.2 M HEPES buffer in 1X DPBS) for 15 min each at RT. Cells were then labeled with Phalloidin 647 (Thermo Fisher Scientific, A12380; 1:250 in 1X DPBS) and DAPI (1:1000 in 1X DPBS) for 15 min each at RT, before mounting on glass slides.",
+      "source_class": "text",
+      "join_previous": "none"
+    },
+    {
+      "id": "p0018-b008",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        112.0,
+        395.0,
+        122.0
+      ],
+      "markdown": "## Fixed-cell microscopy",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        124.0,
+        562.0,
+        238.0
+      ],
+      "markdown": "Images were acquired using a Zeiss LSM900 inverted confocal microscope equipped with four lasers (wavelength in nm): 405, 488, 561 and 640 nm. For TNT counting, samples were imaged using a 40X oil immersion objective (1.3 numerical aperture) with a field-of-view effective zoom of 0.8x, whereas all other immunofluorescence samples were acquired using a 63X oil immersion objective (1.4 numerical aperture) with a 1x zoom. Image acquisition was performed using ZEN Blue software. The entire cell volume was imaged for all samples, with optical sections of 0.45 μm. Depending on the cell types, the entire volume of cells ranged between 7 and 13 μm in thickness.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b010",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        241.0,
+        562.0,
+        313.0
+      ],
+      "markdown": "Super-resolution images were acquired using Zeiss LSM 780 Elyra SIM set-up (Carl Zeiss, Germany) using Plan-Apochromat 63×/1.4 oil objective with a 1.518 refractive index oil (Carl Zeiss). 16-bit images were acquired in “frame-fast” mode between wavelengths, with appropriate grid sizes. Optical thickness was set at 0.133 μm. Raw images were processed using the SIM processing tool of Zen black software.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b011",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        327.0,
+        474.0,
+        336.0
+      ],
+      "markdown": "## FACS sample preparation and acquisition",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        338.0,
+        562.0,
+        400.0
+      ],
+      "markdown": "SH-RFP cells treated with α-Syn 16 h or naïve were co-cultured with HMC3 cells for 24 h. Cells were washed with PBS, trypsinized, and resuspended in media. Subsequently, the cells were sorted with the BD FACSymphony S6 sorter for RFP to denote SH-SY5Y cells and non-RFP to denote HMC3 cells. The cells then underwent RNA extraction and qRT-PCR as described above.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b013",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        412.0,
+        460.0,
+        422.0
+      ],
+      "markdown": "## Quantification and statistical analyses",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b014",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        423.0,
+        562.0,
+        582.0
+      ],
+      "markdown": "Colocalization analysis was performed using the JACoP plug-in FIJI<sup>100</sup>. For TNT counting, images were processed for analysis using the “manual TNT annotation” plug-in of ICY software (https://icy.bioimageanalysis.org/plugin/manual-tnt-annotation/). Mitochondrial morphology was analyzed using the mitochondria analyzer plug-in of FIJI<sup>101</sup>. Actin coherency was analyzed using the OrientationJ plug-in of FIJI (developed by the Biomedical Imaging Group, EPFL, Switzerland). No prior power analysis was done to measure the sample size. Graphs were plotted using GraphPad Prism 10.0, and appropriate statistical tests were performed on raw data. For all datasets, an initial normality distribution test was performed, and non-parametric tests were performed for any datasets that did not satisfy normal distribution. Statistical tests performed are mentioned in the respective figure legends. All the experiments were performed for three independent biological replicates, unless stated otherwise.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b015",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        595.0,
+        388.0,
+        604.0
+      ],
+      "markdown": "## Reporting summary",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b016",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        605.0,
+        562.0,
+        625.0
+      ],
+      "markdown": "Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b017",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        636.0,
+        389.0,
+        647.0
+      ],
+      "markdown": "# Data availability",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b018",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        648.0,
+        562.0,
+        668.0
+      ],
+      "markdown": "All data are available in the main text or in the supplementary materials. Source data are provided with this paper.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0018-b019",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        679.0,
+        362.0,
+        688.0
+      ],
+      "markdown": "# References",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0018-b022",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        691.0,
+        557.0,
+        721.0
+      ],
+      "markdown": "1. Calabresi, P. et al. Alpha-synuclein in Parkinson’s disease and other synucleinopathies: from overt neurodegeneration back to early synaptic dysfunction. *Cell Death Dis.* **14**, 1–16 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0018-b023",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        724.0,
+        547.0,
+        743.0
+      ],
+      "markdown": "2. Hardy, J. & Gwinn-Hardy, K. Genetic Classification of Primary Neurodegenerative Disease. *Science* **282**, 1075–1079 (1998).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0018-b024",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0018-b025",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "18",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

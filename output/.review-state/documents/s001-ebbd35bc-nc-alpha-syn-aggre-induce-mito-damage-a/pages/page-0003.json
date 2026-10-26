@@ -1,0 +1,116 @@
+{
+  "page": 3,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0003.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0003.png plus a 2x render of the figure bbox and a 4x crop of the panel-c/d region. Figure item p0003-b002 set to label 'Figure 1' / asset_name 'figure-1'; bbox widened from [55,45,546,546] to [48,42,552,547] so the panel letters a-d, the row labels 'Original image' / 'TOMM20 Threshold' / 'Abundance:', every y-axis title, every rotated x-tick label and all six 10 µm scale bars sit inside the crop with a small margin; verified the Fig. 1 caption (starts y=549) is NOT inside the crop. The Fig. 1 caption was split by the extractor across the two columns: p0003-b003 (left, kind caption) and p0003-b004 (right, wrongly kind text). Merged them into a single caption item p0003-b003 spanning [39,548,562,657] and REMOVED id p0003-b004 - the caption now reads as one verbatim block through '...https://BioRender.com/cot8ver.' Caption text fixes: 'in a compactmanner'->'in a compact manner' (the PDF text layer drops the space; the page clearly prints one). All p-values transcribed exactly as printed, including the source's own inconsistent multiplication glyphs (letter 'x' in '1x10<sup>−15</sup>' etc., but '×' in 'p = 4.798×10<sup>−12</sup>'); N = 3, n = 50, 'one-sided Brown-Forsythe and Welch ANOVA', Dunnett's T3, em dashes in 'For c—mitochondrial count' / 'For d—mitochondrial count' and the hyphen in '(c-d)' all match the source. Removed stray spaces between <sup> markers and the following ;/,/. in the caption and in body items p0003-b005/b006. ΔΨm preserved. Body reading order (left p0003-b005 then right p0003-b006) verified. No cross-page join: page 2 ends on a complete sentence ('...monomeric α-Syn<sup>46</sup>.') and p0003-b005 starts a new paragraph. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0003-b000",
+    "Review possible header/footer: p0003-b001",
+    "Review possible header/footer: p0003-b007"
+  ],
+  "items": [
+    {
+      "id": "p0003-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0003-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0003-b002",
+      "kind": "figure",
+      "bbox": [
+        48.0,
+        42.0,
+        552.0,
+        547.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na b<br>SH-SY5Y HMC3<br>Control CCCP -Syn Control CCCP -Syn<br>TOMM20 DAPI TOMM20 DAPI<br>Abundance:<br>c<br>100.48 2.60<br>5.61 0.916 2.90<br>88.08<br>2.16 2.26<br>61.26 0.727<br>4.25 3.69 0.553 2.09 2.07<br>d<br>248.36 0.736<br>241.24 4.63 2.44<br>189.28 2.28<br>2.05<br>2.88 2.81 0.432 1.80<br>0.389 1.65 1.72<br>Original image<br>TOMM20 Threshold<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 1",
+      "asset_name": "figure-1"
+    },
+    {
+      "id": "p0003-b003",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        548.0,
+        562.0,
+        657.0
+      ],
+      "markdown": "Fig. 1 | α-Syn aggregates alter mitochondrial morphology. Morphological analysis of TOMM20 positive mitochondria using plug-in thresholded images (bottom panels) generated from original raw images (top panels) for SH-SY5Y neuronal cells (a) and HMC3 microglial cells (b). Relative abundance of major observable mitochondrial phenotype depicted by the cartoon below. (c-d) Morphological quantifications of mitochondrial numbers (count), perimeter, area, form factor, and aspect ratio per cell for neuronal cells (c) and microglial cells (d). N = 3 independent experiments, n = 50 cells. Statistical significance was calculated using one-sided Brown-Forsythe and Welch ANOVA tests with Dunnett’s T3 multiple comparison. To indicate p-values in a compact manner, the following representation paradigm is used: control = X, CCCP = Y and α-Syn-treatment = Z. For c—mitochondrial count: X-Y and X-Z: p < 1x10<sup>−15</sup>; mean mitochondrial perimeter: X-Y: p = 1.92x10<sup>−9</sup>, X-Z: p < 1x10<sup>−15</sup>; mean mitochondria area: X-Y: p = 3.27x10<sup>−6</sup>; X-Z: p < 1x10<sup>−15</sup>; mean form factor: X-Y and X-Z: p < 1x10<sup>−15</sup>; mean aspect ratio: X-Y: p < 1x10<sup>−15</sup>, X-Z: p = 1.91x10<sup>−8</sup>. For d—mitochondrial count: X-Y: p = 2.61x10<sup>−6</sup>, X-Z: p = 1.207x10<sup>−5</sup>; mean mitochondrial perimeter: X-Y and X-Z: p < 1x10<sup>−15</sup>; mean mitochondrial area: X-Y and X-Z: p < 1x10<sup>−15</sup>; mean form factor: X-Y and X-Z: p < 1x10<sup>−15</sup>; mean aspect ratio: X-Y: p < 1x10<sup>−15</sup>, X-Z: p = 4.798×10<sup>−12</sup>. Data represented as median and quartiles, with mean values mentioned within the graphs. For form factor and aspect ratio, AU=arbitrary units. A schematic representation of mitochondria was created in BioRender. MAYA, S. (2026) https://BioRender.com/cot8ver.",
+      "source_class": "caption"
+    },
+    {
+      "id": "p0003-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        680.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Mitochondrial depolarization has been demonstrated to be associated with the release of Cytochrome c, an intermembrane space protein<sup>47</sup>, although depolarization can occur significantly later than Cytochrome c release into the cytoplasm<sup>48</sup>. To determine whether the observed loss in neuronal and microglial ΔΨm was also accompanied by Cytochrome c release, we performed co-immunostaining with",
+      "source_class": "text"
+    },
+    {
+      "id": "p0003-b006",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        680.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "TOMM20 (Fig. 2d, e). We observed significant Cytochrome c release in both cell types upon exposure to α-Syn aggregates (Fig. 2f, i), accompanied by elevated cytosolic levels (Fig. 2g, j) and a reduction in overall Cytochrome c protein levels (Fig. 2h, k). Taken together, these results are indicative of outer membrane permeabilization (MOMP) and functional impairment of mitochondria following α-Syn exposure.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0003-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0003-b008",
+      "kind": "omit",
+      "bbox": [
+        556.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "3",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

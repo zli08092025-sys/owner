@@ -1,0 +1,151 @@
+{
+  "page": 11,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0011.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0011.png and 4x PyMuPDF crops of source.pdf. Fig. 5 caption (p0011-b002) re-kinded text->caption; the right-column half (was p0011-b006) was a continuation of the same caption, so it was merged into p0011-b002 and placed full-width at the top of the page (bbox widened to 39,49,562,226); p0011-b006 removed. Caption text verified word for word against the PDF text layer including all panel letters a-j, N/n values and every p-value: n = 20-21 / 18-21 / 20-22, 5.57x10^-8, 0.7503, 0.9972, 2.02x10^-9, <1x10^-15, 0.9309, 0.9727, 0.9997, 0.9148, 4.068x10^-9, 3.18x10^-10, 0.9163, 0.2674, 2.24x10^-8, 3.36x10^-9, 0.9989, 0.9729, 5.54x10^-11, and the BioRender credit. Repaired dropped range dash 'n = 1821'->'n = 18-21', 'P- R'->'P-R', 'phalloidinstained'->'phalloidin-stained'. Body text: repaired line-wrap damage 'aggregatesinduced'->'aggregates-induced', 'of α- Syn'->'of α-Syn', 'tested —enabled'->'tested—enabled', 'alsobeen'->'also been', 'proinflammatory'->'pro-inflammatory', '(JSH23)'->'(JSH-23)'. Removed the spurious space the extractor left between </sup> and the following comma/period. Greek (α, κ), en vs em dashes, x vs ×, superscript reference markers and the deliberate source inconsistencies ('1x10' vs '1× 10') were all confirmed against the page. Reading order set to full-width caption, left column, right column. Running head, DOI, footer and the page-number omit item left untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0011-b000",
+    "Review possible header/footer: p0011-b001",
+    "Review possible header/footer: p0011-b010"
+  ],
+  "items": [
+    {
+      "id": "p0011-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0011-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0011-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        226.0
+      ],
+      "markdown": "Fig. 5 | α-Syn-induced intercellular connections are inflammation-dependent. a Representative phalloidin-stained images of neuronal and microglial cells treated with α-Syn aggregates, the STING inhibitor H-151, or both to assess for intercellular connections. Quantification of the percentage of connected cells in different conditions for neuronal cells (b) and microglial cells (c). N = 3 independent experiments, n = 20–21 fields of view. Statistical significance was analyzed using one-sided Brown-Forsythe and Welch One-Way ANOVA and Dunnett’s T3 multiple comparison. To indicate p-values in a compact manner, the following representation paradigm is used: control = P, α-Syn = Q, H-151 = R, and α-Syn+H-151 = S. For b—P-Q: p = 5.57 × 10<sup>–8</sup>, P-R: p = 0.7503, P-S: p = 0.9972, Q-S: p = 2.02 × 10<sup>–9</sup>. For c—P-Q: p < 1x10<sup>–15</sup>, P-R: p = 0.9309, P-S: p = 0.9727, Q-S: p < 1× 10<sup>–15</sup>. d Representative phalloidin-stained images of neuronal and microglial cells treated with α-Syn aggregates, the NF-κB inhibitor JSH-23, or both to assess for intercellular connections. Quantification of the percentage of connected cells in different conditions for neuronal cells (e) and microglial cells (f). N = 3 independent experiments, n = 18-21 fields of view. Statistical significance was analyzed using one-sided Brown-Forsythe and Welch One-Way ANOVA and Dunnett’s T3 multiple comparison. To indicate p-values in a compact manner, the following representation paradigm is used: control = P, α-Syn = Q, JSH-23 = R, and α-Syn+JSH-23 = S. For e—P-Q: p < 1 × 10<sup>–15</sup>, P-R: p = 0.9997, P-S: p = 0.9148, Q-S: p < 1x10<sup>-15</sup>. For f—P-Q: p < 1 × 10<sup>–15</sup>, P-R: p = 0.9999, P-S: p = 0.8453, Q-S: p = 4.068 × 10<sup>-9</sup>. g Representative phalloidin-stained images of neuronal and microglial cells treated with the STING activator diABZI alone, or alongside H-151 or JSH-23 to assess for intercellular connections. Quantification of the percentage of connected cells in different conditions for neuronal cells (h) and microglial cells (i). N = 3 independent experiments, n = 20-22 fields of view. Statistical significance was analyzed using one-sided Brown-Forsythe and Welch One-Way ANOVA and Dunnett’s T3 multiple comparison. To indicate p-values in a compact manner, the following representation paradigm is used: control = P, diABZI = Q, diABZI+H-151 = R, and diABZI+JSH-23 = S. For h—P-Q: p = 3.18 × 10<sup>-10</sup>, P-R: p = 0.9163, P-S: p = 0.2674, Q-S: p = 2.24 × 10<sup>–8</sup>. For i—P-Q: p = 3.36 × 10<sup>-9</sup>, P-R: p = 0.9989, P-S: p = 0.9729, Q-S: p = 5.54 × 10<sup>–11</sup>. Data in all the graphs are represented as median and quartiles, with mean percentage mentioned within the graphs. j Schematic of α-Syn-induced inflammatory regulators of intercellular connections (left panel), and effect of STING activation on such connections, depicting a gate-keeping activity of NF-κB in the process. Schematic in (j) was created in BioRender. MAYA, S. (2026) https://BioRender.com/b5euyqg.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0011-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        252.0,
+        295.0,
+        379.0
+      ],
+      "markdown": "lysosomes, α-Syn has been reported to have affinities for other subcellular membranes, such as those of mitochondria in both cell cultures and dopaminergic neurons of SNpc<sup>70</sup>. Oligomeric complexes of α-Syn have been demonstrated to bind to TOMM20 and disrupt protein import into mitochondria<sup>15</sup>. α-Syn aggregates also promote neuronal death via inhibition of ATP production and mitochondrial permeability transition pore (mPTP) opening<sup>45</sup>. In addition, localization of α-Syn with mitochondria externalizes cardiolipin, a major anionic lipid of the inner mitochondrial membrane, which in turn promotes further seeding of α-Syn aggregates<sup>71,72</sup>. All these results hint towards a major biological role of mitochondria in mediating α-Syn pathology.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0011-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        381.0,
+        295.0,
+        540.0
+      ],
+      "markdown": "In our study, using human neuronal and microglial cell lines, and physiologically relevant in vitro systems of iPSC-derived neurons and microglia, we demonstrate a mechanistic route of α-Syn aggregates-induced intercellular connections. Exogenous pre-formed fibrils of α-Syn can escape from damaged lysosomes and associate with mitochondria. This association leads to a significant compromise in mitochondrial integrity—manifested by organelle fragmentation—and function—as evidenced by loss of membrane potential and release of Cytochrome c. The persistence of damaged mitochondria in neuronal cells likely reflects impaired clearance due to reduced mitophagy flux, consistent with our previous observation of compromised autophagy in these cells<sup>42</sup>. In contrast, microglial cells may compensate through enhanced mitochondrial biogenesis—though this remains to be tested—enabled by the elevated mitophagy flux observed, thereby maintaining mitochondrial homeostasis more effectively.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0011-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        541.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "As a consequence of mitochondrial damage and outer membrane permeabilization, we observed significant release of mtDNA in the cytoplasm, a phenomenon previously reported in several neurodegenerative diseases, including Parkinson’s disease<sup>73</sup>, Alzheimer’s disease<sup>21,74</sup>, and amyotrophic lateral sclerosis<sup>24</sup>. In our system, cytosolic mtDNA triggered a robust inflammatory response in both neuronal and microglial cells through activation of the STING pathway, which in turn induced the expression of pro-inflammatory cytokines and type I interferons. Consistently, inhibition of BAX markedly reduced STING activation and downstream inflammatory responses, demonstrating a clear functional dependency on mitochondrial DNA release. In addition to mtDNA, nuclear DNA damage has also been reported to activate innate immune signaling. For instance, DNA damage or loss of the DNA repair kinase ATM can induce mislocalization of ssDNA to the cytosol and activate STING-dependent interferon responses<sup>75</sup>. Moreover, genotoxic stress, genomic instability, and cellular senescence can promote the formation of micronuclei, which have been implicated in cGAS–STING pathway activation<sup>76–78</sup>, although their contribution remains debated<sup>79–81</sup>. In neurodegenerative contexts, nuclear DNA",
+      "source_class": "text"
+    },
+    {
+      "id": "p0011-b007",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        252.0,
+        562.0,
+        302.0
+      ],
+      "markdown": "damage has also been linked to cGAS–STING activation, although the nature of the chromatin species involved remains unclear<sup>22,23</sup>. Future studies will be required to determine the relative contribution of nuclear versus mitochondrial DNA to cGAS–STING pathway activation in this context.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0011-b008",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        306.0,
+        562.0,
+        454.0
+      ],
+      "markdown": "Activation of innate immune signaling ultimately promoted the formation of intercellular connections driven by the global reorganization of the actin cytoskeleton. Although previous studies have demonstrated an interplay between inflammatory triggers and TNTs<sup>36–38</sup>, the molecular mechanism driving such long TNT connections under these conditions has remained largely undefined. Importantly, we identify this inflammatory activation as the driver of TNT formation through NF-κB-dependent actin remodeling. We also report increased levels of phospho-Cofilin, which impairs actin depolymerization, promoting the formation of long actin filaments essential for TNT-like structures. Although the upstream regulators of cofilin phosphorylation remain to be identified, our findings define inflammation as a mechanistic trigger for TNT biogenesis under Synucleinopathic stress.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0011-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        456.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "In line with the downstream consequences of mtDNA release, we identify the STING pathway as a positive regulator of functional TNTs between neuronal cells and microglia. Notably, NF-κB—a central pro-inflammatory transcription factor downstream of STING—appears to act as a gatekeeper, ultimately determining whether intercellular connections are formed. We further show that the spread of α-Syn aggregates from neuronal cells to microglia is significantly enhanced in pro-inflammatory environments triggered by STING activation or cytokine treatments. Importantly, this enhanced transfer can be reversed by pharmacological inhibition of STING (H-151) or NF-κB (JSH-23), underscoring the critical role of inflammation in promoting α-Syn propagation. These findings are consistent with previous reports implicating inflammatory signaling in facilitating α-Syn spread in vivo<sup>82,83</sup>. While STING deletion has been suggested to be protective against idiopathic PD<sup>22</sup>, the implications of cGAS-STING pathway activation in α-Syn pathology spread in vivo, however, remain to be determined. Elucidating intercellular communication in the brain has remained a consistent challenge, owing to multiple pathways (pleiotropic or redundant) acting in concert to give rise to a phenotype. While our efforts in this study were to identify intracellular signaling events that drive the formation of TNTs, uncovering a functional role of the cGAS-STING pathway in driving the spread of α-Syn aggregates provides a foundation for future work. Within the brain, STING and several receptors of the interferon family are expressed by different cell types. It is plausible that neurodegenerative disease progression is driven by one or all cell types expressing these proteins. Subsequent studies using cell type-specific genetic deletions of cGAS",
+      "source_class": "text"
+    },
+    {
+      "id": "p0011-b010",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0011-b011",
+      "kind": "omit",
+      "bbox": [
+        554.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "11",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

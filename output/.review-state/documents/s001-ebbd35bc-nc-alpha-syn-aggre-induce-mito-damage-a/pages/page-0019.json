@@ -1,0 +1,557 @@
+{
+  "page": 19,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0019.png",
+  "reviewed": true,
+  "review_notes": "Checked against previews/page-0019.png and 6x PyMuPDF crops of source.pdf. Reference list continues from p18 (refs 1-2): refs 3-43 all present, ascending, none missing or duplicated (left column 3-24, right column 25-43). Split 7 extractor items that had merged two or more references into one block (8+9; 10+11+12+13; 15+16; 17+18; 20+21; 29+30; 33+34) into one item per reference, with suffixed ids and per-reference bboxes derived from the PDF line boxes. Restored italics on all journal names and bold on all volume numbers to match the printed faces (verified via font spans AdvOT23e3f5cb.I / AdvOT13119950). Text fixes: ref 12 'hallmark withtherapeutic' -> 'hallmark with therapeutic' (space is visible in the source; the text layer dropped it); ref 13 'of α- synuclein' -> 'of α-synuclein'; ref 28 'bidirectional' -> 'bi-directional'; ref 29 'aggregateinduced' -> 'aggregate-induced'; ref 40 'alphasynuclein' -> 'alpha-synuclein' (all four are hard hyphens that fell at a line break). Verified accented names (Burré, Martínez, Ramírez-Jarquín), Greek α in titles, × in 5×FAD, em dashes in refs 11/12, en dashes in every page range, and that soft line-break hyphens (composi-tion, mitochon-drial, Immu-nol., Tunnel-ling, Sci-ence, Tun-neling, neu-roinflammation) were correctly closed up. Header, footer and the page-number omit item left untouched.",
+  "warnings": [
+    "Review possible header/footer: p0019-b000",
+    "Review possible header/footer: p0019-b001",
+    "Review possible header/footer: p0019-b034"
+  ],
+  "items": [
+    {
+      "id": "p0019-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0019-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0019-b002",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        49.0,
+        284.0,
+        79.0
+      ],
+      "markdown": "3. Dickson, D. W., Lin, W., Liu, W.-K. & Yen, S.-H. Multiple system atrophy: a sporadic synucleinopathy. *Brain Pathol.* **9**, 721–732 (1999).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        81.0,
+        295.0,
+        111.0
+      ],
+      "markdown": "4. Goedert, M. & Spillantini, M. G. Lewy body diseases and multiple system atrophy as α-synucleinopathies. *Mol. Psychiatry* **3**, 462–465 (1998).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        113.0,
+        294.0,
+        143.0
+      ],
+      "markdown": "5. Middleton, E. R. & Rhoades, E. Effects of curvature and composition on α-synuclein binding to lipid vesicles. *Biophys. J.* **99**, 2279–2288 (2010).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        145.0,
+        292.0,
+        164.0
+      ],
+      "markdown": "6. Sharma, M. & Burré, J. α-Synuclein in synaptic function and dysfunction. *Trends Neurosci.* **46**, 153–166 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        167.0,
+        284.0,
+        196.0
+      ],
+      "markdown": "7. Polymeropoulos, M. H. et al. Mutation in the α-synuclein gene identified in families with Parkinson’s disease. *Science* **276**, 2045–2047 (1997).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b007a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        199.0,
+        295.0,
+        229.0
+      ],
+      "markdown": "8. Poole, A. C. et al. The PINK1/Parkin pathway regulates mitochondrial morphology. *Proc. Natl. Acad. Sci. USA* **105**, 1638–1643 (2008).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b007b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        230.0,
+        295.0,
+        261.0
+      ],
+      "markdown": "9. Yang, Y. et al. Pink1 regulates mitochondrial dynamics through interaction with the fission/fusion machinery. *Proc. Natl. Acad. Sci. USA* **105**, 7070–7075 (2008).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b008a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        263.0,
+        295.0,
+        293.0
+      ],
+      "markdown": "10. Wang, X. et al. Parkinson’s disease-associated DJ-1 mutations impair mitochondrial dynamics and cause mitochondrial dysfunction. *J. Neurochem.* **121**, 830–839 (2012).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b008b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        294.0,
+        295.0,
+        325.0
+      ],
+      "markdown": "11. Chen, C., Turnbull, D. M. & Reeve, A. K. Mitochondrial dysfunction in Parkinson’s disease—cause or consequence? *Biology* **8**, 38 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b008c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        326.0,
+        295.0,
+        357.0
+      ],
+      "markdown": "12. Henrich, M. T., Oertel, W. H., Surmeier, D. J. & Geibl, F. F. Mitochondrial dysfunction in Parkinson’s disease—a key disease hallmark with therapeutic potential. *Mol. Neurodegener.* **18**, 83 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b008d",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        358.0,
+        295.0,
+        389.0
+      ],
+      "markdown": "13. Nakamura, K. et al. Optical reporters for the conformation of α-synuclein reveal a specific interaction with mitochondria. *J. Neurosci.* **28**, 12305–12317 (2008).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b009",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        392.0,
+        285.0,
+        422.0
+      ],
+      "markdown": "14. Martínez, J. H. et al. Alpha-synuclein mitochondrial interaction leads to irreversible translocation and complex I impairment. *Arch. Biochem. Biophys.* **651**, 1–12 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b010a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        424.0,
+        295.0,
+        454.0
+      ],
+      "markdown": "15. Di Maio, R. et al. α-Synuclein binds to TOM20 and inhibits mitochondrial protein import in Parkinson’s disease. *Sci. Transl. Med.* **8**, 342ra78–342ra78 (2016).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b010b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        455.0,
+        295.0,
+        486.0
+      ],
+      "markdown": "16. Gong, T., Liu, L., Jiang, W. & Zhou, R. DAMP-sensing receptors in sterile inflammation and inflammatory diseases. *Nat. Rev. Immunol.* **20**, 95–112 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b011a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        488.0,
+        295.0,
+        518.0
+      ],
+      "markdown": "17. Cardon, L. R., Burge, C., Clayton, D. A. & Karlin, S. Pervasive CpG suppression in animal mitochondrial genomes. *Proc. Natl. Acad. Sci. USA* **91**, 3799–3803 (1994).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b011b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        519.0,
+        295.0,
+        539.0
+      ],
+      "markdown": "18. Riley, J. S. & Tait, S. W. Mitochondrial DNA in inflammation and immunity. *EMBO Rep.* **21**, e49799 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b012",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        542.0,
+        295.0,
+        572.0
+      ],
+      "markdown": "19. Chen, Z., Behrendt, R., Wild, L., Schlee, M. & Bode, C. Cytosolic nucleic acid sensing as driver of critical illness: mechanisms and advances in therapy. *Sig Transduct. Target Ther.* **10**, 1–50 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b013a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        574.0,
+        289.0,
+        604.0
+      ],
+      "markdown": "20. Jin, M. et al. Tau activates microglia via the PQBP1-cGAS-STING pathway to promote brain inflammation. *Nat. Commun.* **12**, 6565 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b013b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        605.0,
+        289.0,
+        636.0
+      ],
+      "markdown": "21. Xie, X. et al. Activation of innate immune cGAS-STING pathway contributes to Alzheimer’s pathogenesis in 5×FAD mice. *Nat. Aging* **3**, 202–212 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b014",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        638.0,
+        288.0,
+        668.0
+      ],
+      "markdown": "22. Hinkle, J. T. et al. STING mediates neurodegeneration and neuroinflammation in nigrostriatal α-synucleinopathy. *Proc. Natl. Acad. Sci. USA* **119**, e2118819119 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b015",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        710.0
+      ],
+      "markdown": "23. Sharma, M., Rajendrarao, S., Shahani, N., Ramírez-Jarquín, U. N. & Subramaniam, S. Cyclic GMP-AMP synthase promotes the inflammatory and autophagy responses in Huntington disease. *Proc. Natl. Acad. Sci. USA* **117**, 15989–15999 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b016",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        713.0,
+        283.0,
+        743.0
+      ],
+      "markdown": "24. Yu, C.-H. et al. TDP-43 triggers mitochondrial DNA release via mPTP to activate cGAS/STING in ALS. *Cell* **183**, 636–649.e18 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b017",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        49.0,
+        562.0,
+        79.0
+      ],
+      "markdown": "25. Abounit, S. et al. Tunneling nanotubes spread fibrillar α-synuclein by intercellular trafficking of lysosomes. *EMBO J.* **35**, 2120–2138 (2016).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b018",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        81.0,
+        558.0,
+        121.0
+      ],
+      "markdown": "26. Senol, A. D. et al. α-Synuclein fibrils subvert lysosome structure and function for the propagation of protein misfolding between cells through tunneling nanotubes. *PLoS Biol.* **19**, e3001287 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b019",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        124.0,
+        559.0,
+        164.0
+      ],
+      "markdown": "27. Loria, F. et al. α-Synuclein transfer between neurons and astrocytes indicates that astrocytes play a role in degradation rather than in spreading. *Acta Neuropathol.* **134**, 789–808 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b020",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        167.0,
+        558.0,
+        207.0
+      ],
+      "markdown": "28. Chakraborty, R., Nonaka, T., Hasegawa, M. & Zurzolo, C. Tunnelling nanotubes between neuronal and microglial cells allow bi-directional transfer of α-Synuclein and mitochondria. *Cell Death Dis.* **14**, 1–12 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b021a",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        209.0,
+        557.0,
+        240.0
+      ],
+      "markdown": "29. Scheiblich, H. et al. Microglia rescue neurons from aggregate-induced neuronal dysfunction and death through tunneling nanotubes. *Neuron* **112**, 3106–3125.e8 (2024).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b021b",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        241.0,
+        557.0,
+        271.0
+      ],
+      "markdown": "30. Rustom, A., Saffrich, R., Markovic, I., Walther, P. & Gerdes, H.-H. Nanotubular highways for intercellular organelle transport. *Science* **303**, 1007–1010 (2004).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b022",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        274.0,
+        559.0,
+        304.0
+      ],
+      "markdown": "31. Wang, X. & Gerdes, H.-H. Transfer of mitochondria via tunneling nanotubes rescues apoptotic PC12 cells. *Cell Death Differ.* **22**, 1181–1191 (2015).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b023",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        306.0,
+        562.0,
+        347.0
+      ],
+      "markdown": "32. Vignais, M.-L., Caicedo, A., Brondello, J.-M. & Jorgensen, C. Cell connections by tunneling nanotubes: effects of mitochondrial trafficking on target cell metabolism, homeostasis, and response to therapy. *Stem Cells Int.* **2017**, e6917941 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b024a",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        349.0,
+        560.0,
+        390.0
+      ],
+      "markdown": "33. Cheng, X.-Y. et al. Human iPSCs-derived astrocytes rescue rotenone-induced mitochondrial dysfunction and dopaminergic neurodegeneration in vitro by donating functional mitochondria. *Transl. Neurodegener.* **9**, 13 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b024b",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        391.0,
+        560.0,
+        411.0
+      ],
+      "markdown": "34. Zurzolo, C. Tunneling nanotubes: reshaping connectivity. *Curr. Opin. Cell Biol.* **71**, 139–147 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b025",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        413.0,
+        562.0,
+        453.0
+      ],
+      "markdown": "35. Palese, F., Rakotobe, M. & Zurzolo, C. Transforming the concept of connectivity: unveiling tunneling nanotube biology and their roles in brain development and neurodegeneration. *Physiol. Rev.* **105**, 1823–1865 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b026",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        456.0,
+        562.0,
+        486.0
+      ],
+      "markdown": "36. Zaccard, C. R. et al. CD40L induces functional tunneling nanotube networks exclusively in dendritic cells programmed by mediators of type 1 immunity. *J. Immunol.* **194**, 1047–1056 (2015).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b027",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        488.0,
+        562.0,
+        528.0
+      ],
+      "markdown": "37. Zhang, Y. et al. iPSC-MSCs with high intrinsic MIRO1 and sensitivity to TNF-α yield efficacious mitochondrial transfer to rescue anthracycline-induced cardiomyopathy. *Stem Cell Rep.* **7**, 749–763 (2016).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b028",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        531.0,
+        556.0,
+        561.0
+      ],
+      "markdown": "38. Shahar, M., Szalat, A. & Rosen, H. Pathogenic stress induces human monocytes to express an extracellular web of tunneling nanotubes. *Front. Immunol.* **12**, 620734 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b029",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        563.0,
+        562.0,
+        603.0
+      ],
+      "markdown": "39. Abounit, S., Wu, J. W., Duff, K., Victoria, G. S. & Zurzolo, C. Tunneling nanotubes: a possible highway in the spreading of tau and other prion-like proteins in neurodegenerative diseases. *Prion* **10**, 344–351 (2016).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b030",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        606.0,
+        556.0,
+        636.0
+      ],
+      "markdown": "40. Rostami, J. et al. Human astrocytes transfer aggregated alpha-synuclein via tunneling nanotubes. *J. Neurosci.* **37**, 11835–11853 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b031",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        638.0,
+        561.0,
+        657.0
+      ],
+      "markdown": "41. Huang, H. et al. Intercellular propagation and aggregate seeding of mutant ataxin-1. *J. Mol. Neurosci.* **72**, 708–718 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b032",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        659.0,
+        562.0,
+        689.0
+      ],
+      "markdown": "42. Chakraborty, R. et al. Impaired α-Synuclein aggregate clearance in neuronal cells drive their spread to microglia through tunneling nanotubes. *Nat. Commun.* **17**, 3832 (2026).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b033",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        691.0,
+        562.0,
+        732.0
+      ],
+      "markdown": "43. Thiele, D. L. & Lipsky, P. E. Mechanism of L-leucyl-L-leucine methyl ester-mediated killing of cytotoxic lymphocytes: dependence on a lysosomal thiol protease, dipeptidyl peptidase I, that is enriched in these cells. *Proc. Natl. Acad. Sci. USA* **87**, 83–87 (1990).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0019-b034",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0019-b035",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "19",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "page": 2,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0002.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0002.png and raw PDF text. Two-column reading order verified correct as emitted (left column p0002-b002..b007 incl. '# Results' and the two '##' subsection headings, then right column p0002-b008..b011); no interleaving. Heading levels confirmed: 'Results' stays '#', 'α-Syn aggregates localize to mitochondria and disrupt their morphology' and 'α-Syn aggregates cause mitochondrial dysfunction' are '##'. Text fixes: removed the stray space the extractor left between every <sup>ref</sup> marker and the following period/comma; repaired dropped line-wrap hyphens 'oligomeric α- Syn'->'α-Syn', 'α-Synburdened'->'α-Syn-burdened', 'neurodegenerationassociated'->'neurodegeneration-associated', 'TOMM20stained'->'TOMM20-stained', 'exposed to α- Syn'->'exposed to α-Syn'; closed the space in 'mitochondrial damage— induced' (em dashes per source). Verified en dashes in 'α-Syn–TOMM20', 'Fig. 1f–h', 'Fig. 1i–k', 'Fig. 2d–f', 'glia<sup>27–29</sup>', 'neuron–microglia communication', and that 'α-Syn-mitochondria', 'neuron-astrocyte co-culture' are hyphens in the source. ΔΨm, κ in NF-κB, 16 h/12 h spacing and TOMM20+ all match. Header/footer items p0002-b000/b001/b012 and page-number omit p0002-b013 left untouched. Last left-column item p0002-b007 ends mid-sentence ('SH-SY5Y and') and continues into the right column at p0002-b008 on the same page, so no cross-page join is needed. Cross-page join set: p0002-b002 join_previous='space' because page 1 ends '...translocate to the matrix in a concentration-dependent' and page 2 opens 'manner, leading to impairment in ATP production'. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0002-b000",
+    "Review possible header/footer: p0002-b001",
+    "Review possible header/footer: p0002-b012"
+  ],
+  "items": [
+    {
+      "id": "p0002-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0002-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0002-b002",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        48.0,
+        295.0,
+        249.0
+      ],
+      "markdown": "manner, leading to impairment in ATP production<sup>13,14</sup>. Functional compromise of mitochondria also occurs as a result of oligomeric α-Syn binding with high affinity to the translocase of outer mitochondrial membrane TOMM20, causing impaired protein import into the organelle necessary to sustain physiological functions<sup>15</sup>. Significant damage to mitochondria leads to a loss of membrane integrity, allowing for mitochondrial ligands to be released into the cytoplasm, referred to as damage-associated molecular patterns (DAMPs)<sup>16</sup>. Among the different mitochondria-derived DAMPs is mitochondrial DNA (mtDNA), which shares similarities with bacterial DNA owing to the endosymbiotic origin of these organelles<sup>17,18</sup>. When released in the cytosol, mtDNA triggers an innate immune response via engagement of cytosolic nucleic acid sensors such as cyclic GMP-AMP synthase (cGAS), leading to robust neuroinflammation<sup>19</sup>. Such inflammatory responses involving both pro-inflammatory cytokines and type I interferons are dependent on the activation of stimulator of interferon genes (STING), a phenotype observed in several neurodegenerative diseases like Alzheimer’s<sup>20,21</sup>, Parkinson’s<sup>22</sup>, Huntington’s<sup>23</sup>, and amyotrophic lateral sclerosis<sup>24</sup>.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0002-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        252.0,
+        295.0,
+        454.0
+      ],
+      "markdown": "A common pathological hallmark of neurodegenerative pathologies is their progressive spread to different regions of the brain. In vitro, tunneling nanotubes (TNTs) have emerged as a major route of aggregates such as α-Syn to directly spread not only between neurons<sup>25,26</sup>, but also between neurons and glia<sup>27–29</sup>. Since its initial demonstration in 2004<sup>30</sup>, TNTs are now recognized as unique facilitators of specialized communication between connected cells, also allowing for the exchange of functional organelles such as mitochondria to rescue diseased phenotypes of cells<sup>29,31–33</sup>. Given the specialized nature of these structures, which can be up-regulated “on-demand”, the field has a general consensus that stressors of different natures can promote TNT-mediated intercellular communication<sup>34,35</sup>. Importantly, inflammatory activation has been shown to promote TNTs between dendritic cells<sup>36</sup>, mesenchymal stem cells and cardiomyocytes<sup>37</sup>, and monocytes<sup>38</sup>. In addition, we and others have previously demonstrated that cells burdened with aggregate-prone proteins, including the exposure of neuronal and microglial cells to α-Syn aggregates, promotes the formation of intercellular connections<sup>25,28,39–41</sup>, although the underlying mechanism has remained elusive.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0002-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        456.0,
+        295.0,
+        677.0
+      ],
+      "markdown": "In this study, using human neuronal and microglial cell lines as well as iPSC-derived dopaminergic neurons (hNeurons) and microglia (hMG), we provide direct evidence that mitochondrial damage—induced by α-Syn aggregates—triggers STING-dependent innate immune activation, which in turn promotes the formation of TNTs and facilitates functional intercellular communication between neuronal and microglial cells. We identify a gate-keeping functionality of the major inflammatory transcription factor NF-κB in enabling the transfer of α-Syn from neuronal cells to microglia. Importantly, we demonstrate that damaged mitochondria are also transferred from α-Syn-burdened neuronal cells to microglia, where they are targeted for degradation, revealing an unrecognized dimension of microglial neuroprotection. While previous studies have described mitochondrial donation from microglia to neurons as a protective mechanism<sup>28,29</sup>, our data uncover the reciprocal transfer of damaged organelles from neurons to glia as a complementary response to cellular stress. This work provides mechanistic evidence that neurodegeneration-associated inflammation actively drives TNT-mediated neuron–microglia communication, highlighting a previously uncharacterized role for this pathway in modulating early neuroimmune interactions in disease contexts.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0002-b005",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        689.0,
+        77.0,
+        699.0
+      ],
+      "markdown": "# Results",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0002-b006",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        701.0,
+        282.0,
+        722.0
+      ],
+      "markdown": "## α-Syn aggregates localize to mitochondria and disrupt their morphology",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0002-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        723.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "We previously reported that exogenous α-Syn aggregates largely localize with lysosomes in human neuronal cell line SH-SY5Y and",
+      "source_class": "text"
+    },
+    {
+      "id": "p0002-b008",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        48.0,
+        562.0,
+        326.0
+      ],
+      "markdown": "human microglial cell line HMC3<sup>42</sup>. Given that α-Syn has affinity for mitochondrial membranes, we first examined whether exogenously added aggregates also associate with mitochondria. Following 16 h of aggregate exposure, we observed that approximately 10% of mitochondria (immunostained for TOMM20) overlapped with α-Syn in both SH-SY5Y and HMC3 cells (Supplementary Fig. 1a, b). To validate our findings in a physiologically advanced in vitro model system, we used human iPSC-derived neurons (hNeurons) and microglia (hMG). A similar phenotype was seen in these cells, wherein ~20% of mitochondria overlapped with aggregates (Supplementary Fig. 1c, d). Structured-illumination super-resolution microscopy and 3D reconstruction confirmed these associations as direct contacts between aggregates and the mitochondrial outer membrane (Supplementary Fig. 1e). We also observed a time-dependent increase in mitochondrial association with α-Syn when cells were exposed to aggregates for increasing durations ranging from 1 h to 12 h (Supplementary Fig. 1f–h). Since α-Syn aggregates are internalized and trafficked with lysosomes during this time course<sup>42</sup>, we investigated how they reach mitochondria. Previous studies have shown that α-Syn disrupts lysosomal integrity, causing lysosome membrane permeabilization (LMP)<sup>26,42</sup>. We hypothesized that lysosomal escape enables aggregates to interact with mitochondria. Supporting this, treatment with the LMP-inducing agent L-leucyl-L-leucine methyl ester (LLOMe)<sup>43</sup> led to a significant increase in α-Syn–TOMM20 overlap (Supplementary Fig. 1i–k), consistent with lysosomal rupture facilitating mitochondrial association (Supplementary Fig. 1l).",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0002-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        327.0,
+        562.0,
+        508.0
+      ],
+      "markdown": "α-Syn has been reported to alter the morphology of the mitochondrial network in several different manners<sup>44</sup>. To assess whether the α-Syn-mitochondria association in our system leads to similar structural changes, we performed morphometric assessment of TOMM20-stained mitochondria (Fig. 1a, b). Compared to control cells, treatment with the oxidative phosphorylation uncoupler CCCP or exposure to α-Syn aggregates for 16 h resulted in an increase in the number of TOMM20+ mitochondrial particles per cell with reduced perimeter and area. In addition, the form factor and aspect ratio of these particles were also reduced, indicative of mitochondrial fragmentation (Fig. 1c, d and Supplementary Fig. 1m). To further validate the detrimental effects of aggregated forms of α-Syn on mitochondrial morphology, we treated neuronal and microglial cells with its monomeric form (Supplementary Fig. 2a). Morphometric assessments of TOMM20+ mitochondria revealed no significant alterations in mitochondrial area, perimeter, or solidity (Supplementary Fig. 2b, c), suggesting that mitochondrial morphology is disrupted by α-Syn aggregates.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0002-b010",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        519.0,
+        511.0,
+        529.0
+      ],
+      "markdown": "## α-Syn aggregates cause mitochondrial dysfunction",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0002-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        531.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "To determine whether these morphological alterations were associated with mitochondrial dysfunction, we next assessed mitochondrial membrane potential (ΔΨm), which is essential for maintaining oxidative phosphorylation and ATP production. A previous study on primary rat neuron-astrocyte co-culture reported depolarization of mitochondrial membrane upon exposure to α-Syn oligomers<sup>45</sup>. To test this in our model, we used tetramethylrhodamine methyl ester (TMRM) as a readout of ΔΨm in SH-SY5Y and HMC3 cells exposed to α-Syn or CCCP (Fig. 2a). While CCCP treatment significantly reduced ΔΨm by over 75% in both SH-SY5Y and HMC3 cells, α-Syn aggregate exposure also resulted in robust depolarization of mitochondria (Fig. 2b, c). In line with our previous observations, treatment of cells with α-Syn monomers did not depolarize mitochondria. However, there was an observable increase in TMRM fluorescence intensities in both cell types, albeit not statistically significant in neuronal cells (Supplementary Fig. 2d–f), suggestive of mitohormesis, an adaptive mechanism to enhance cellular resilience. Mitochondria have previously been reported to transiently hyperpolarize to amplify the production of ATP in response to such acute stress, including monomeric α-Syn<sup>46</sup>.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0002-b012",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0002-b013",
+      "kind": "omit",
+      "bbox": [
+        556.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "2",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

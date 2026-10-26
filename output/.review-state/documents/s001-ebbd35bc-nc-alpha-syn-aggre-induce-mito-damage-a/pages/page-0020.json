@@ -1,0 +1,593 @@
+{
+  "page": 20,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0020.png",
+  "reviewed": true,
+  "review_notes": "Checked against previews/page-0020.png and 6x PyMuPDF crops of source.pdf. References 44-87 all present, ascending, none missing or duplicated (left column 44-66, right column 67-87); continues p19 (ends 43) and runs on to p21 (starts 88). Split 5 extractor items that had merged several references into one block (48+49+50; 51-54; 55-59; 60-63; 64-66; 80+81) into one item per reference with suffixed ids and per-reference bboxes from the PDF line boxes. Restored italic journal names and bold volume numbers from the printed faces. Text fixes: ref 44 'alphasynuclein' -> 'alpha-synuclein'; ref 48 'DEVDspecific' -> 'DEVD-specific'; ref 58 'smallmolecule' -> 'small-molecule'; ref 63 'α-synucleindependent' -> 'α-synuclein-dependent'; ref 84 'p65/ RelA' -> 'p65/RelA' (hard hyphens/slash that fell at a line break). Ref 47 keeps the printed defect 'cytochrome crelease' (verified at 6x: the article really prints it closed up; ref 48 prints 'cytochrome c release' correctly) - flagged to the coordinator. The literal footnote asterisks in refs 47 and 70 are printed in the source and are kept, escaped as \\\\* so markdown does not read them as emphasis. Verified accented names (Kräusslich, Härtlova, Glück, Anandatheerthavarada), κ in NF-κB/IκB/NFκB, α in titles, en dashes in every page range, and that soft line-break hyphens (inter-ventions, phos-phorylation, mito-chondrial, recog-nition, Ana-ndatheerthavarada, segre-gation, propa-gation) were correctly closed up. Header, footer and page-number omit left untouched.",
+  "warnings": [
+    "Review possible header/footer: p0020-b000",
+    "Review possible header/footer: p0020-b001",
+    "Review possible header/footer: p0020-b031"
+  ],
+  "items": [
+    {
+      "id": "p0020-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0020-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0020-b002",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        49.0,
+        290.0,
+        79.0
+      ],
+      "markdown": "44. Thorne, N. J. & Tumbarello, D. A. The relationship of alpha-synuclein to mitochondrial dynamics and quality control. *Front. Mol. Neurosci.* **15**, 947191 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        81.0,
+        295.0,
+        111.0
+      ],
+      "markdown": "45. Ludtmann, M. H. R. et al. α-synuclein oligomers interact with ATP synthase and open the permeability transition pore in Parkinson’s disease. *Nat. Commun.* **9**, 2293 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        113.0,
+        283.0,
+        143.0
+      ],
+      "markdown": "46. Ludtmann, M. H. R. et al. Monomeric alpha-synuclein exerts a physiological role on brain ATP synthase. *J. Neurosci.* **36**, 10510–10521 (2016).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        145.0,
+        295.0,
+        186.0
+      ],
+      "markdown": "47. Heiskanen, K. M., Bhat, M. B., Wang, H.-W., Ma, J. & Nieminen, A.-L. Mitochondrial depolarization accompanies cytochrome crelease during apoptosis in PC6 cells\\*. *J. Biol. Chem.* **274**, 5654–5658 (1999).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b006a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        188.0,
+        295.0,
+        229.0
+      ],
+      "markdown": "48. Bossy-Wetzel, E., Newmeyer, D. D. & Green, D. R. Mitochondrial cytochrome c release in apoptosis occurs upstream of DEVD-specific caspase activation and independently of mitochondrial transmembrane depolarization. *EMBO J.* **17**, 37–49 (1998).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b006b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        230.0,
+        295.0,
+        261.0
+      ],
+      "markdown": "49. Mani, S., Swargiary, G. & Chadha, R. Mitophagy impairment in neurodegenerative diseases: Pathogenesis and therapeutic interventions. *Mitochondrion* **57**, 270–293 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b006c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        262.0,
+        295.0,
+        293.0
+      ],
+      "markdown": "50. McArthur, K. et al. BAK/BAX macropores facilitate mitochondrial herniation and mtDNA efflux during apoptosis. *Science* **359**, eaao6047 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b007a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        295.0,
+        295.0,
+        325.0
+      ],
+      "markdown": "51. Kim, J., Kim, H.-S. & Chung, J. H. Molecular mechanisms of mitochondrial DNA release and activation of the cGAS-STING pathway. *Exp. Mol. Med.* **55**, 510–519 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b007b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        326.0,
+        295.0,
+        347.0
+      ],
+      "markdown": "52. Zhang, C. et al. Structural basis of STING binding with and phosphorylation by TBK1. *Nature* **567**, 394–398 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b007c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        348.0,
+        295.0,
+        379.0
+      ],
+      "markdown": "53. Zhao, B. et al. A conserved PLPLRT/SD motif of STING mediates the recruitment and activation of TBK1. *Nature* **569**, 718–722 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b007d",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        380.0,
+        295.0,
+        400.0
+      ],
+      "markdown": "54. Wilson, D. M. et al. Hallmarks of neurodegenerative diseases. *Cell* **186**, 693–714 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b008a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        402.0,
+        295.0,
+        422.0
+      ],
+      "markdown": "55. Oltersdorf, T. et al. An inhibitor of Bcl-2 family proteins induces regression of solid tumours. *Nature* **435**, 677–681 (2005).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b008b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        423.0,
+        295.0,
+        454.0
+      ],
+      "markdown": "56. Ichim, G. et al. Limited mitochondrial permeabilization causes DNA Damage and genomic instability in the absence of cell death. *Mol. Cell* **57**, 860–872 (2015).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b008c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        455.0,
+        295.0,
+        486.0
+      ],
+      "markdown": "57. Riley, J. S. et al. Mitochondrial inner membrane permeabilisation enables mtDNA release during apoptosis. *EMBO J.* **37**, e99238 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b008d",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        487.0,
+        295.0,
+        518.0
+      ],
+      "markdown": "58. Lama, L. et al. Development of human cGAS-specific small-molecule inhibitors for repression of dsDNA-triggered interferon expression. *Nat. Commun.* **10**, 2261 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b008e",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        519.0,
+        295.0,
+        539.0
+      ],
+      "markdown": "59. Haag, S. M. et al. Targeting STING with covalent small-molecule inhibitors. *Nature* **559**, 269–273 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b009a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        541.0,
+        295.0,
+        582.0
+      ],
+      "markdown": "60. Shin, H.-M. et al. Inhibitory action of novel aromatic diamine compound on lipopolysaccharide-induced nuclear translocation of NF-κB without affecting IκB degradation. *FEBS Lett.* **571**, 50–54 (2004).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b009b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        583.0,
+        295.0,
+        614.0
+      ],
+      "markdown": "61. Ramanjulu, J. M. et al. Design of amidobenzimidazole STING receptor agonists with systemic activity. *Nature* **564**, 439–443 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b009c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        615.0,
+        295.0,
+        646.0
+      ],
+      "markdown": "62. Kim, C. et al. Neuron-released oligomeric α-synuclein is an endogenous agonist of TLR2 for paracrine activation of microglia. *Nat. Commun.* **4**, 1562 (2013).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b009d",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        647.0,
+        295.0,
+        678.0
+      ],
+      "markdown": "63. Fellner, L. et al. Toll-like receptor 4 is required for α-synuclein-dependent activation of microglia and astroglia. *Glia* **61**, 349–360 (2013).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b010a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        681.0,
+        295.0,
+        700.0
+      ],
+      "markdown": "64. Ohto, U. et al. Structural basis of CpG and inhibitory DNA recognition by Toll-like receptor 9. *Nature* **520**, 702–705 (2015).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b010b",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        701.0,
+        295.0,
+        721.0
+      ],
+      "markdown": "65. Dhir, A. et al. Mitochondrial double-stranded RNA triggers antiviral signalling in humans. *Nature* **560**, 238–242 (2018).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b010c",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        722.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "66. Gokhale, N. S. et al. Cellular RNA interacts with MAVS to promote antiviral signaling. *Science* **386**, eadl0429 (2024).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        49.0,
+        562.0,
+        79.0
+      ],
+      "markdown": "67. Ljubojevic, N., Henderson, J. M. & Zurzolo, C. The ways of actin: why tunneling nanotubes are unique cell protrusions. *Trends Cell Biol.* **31**, 130–142 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        81.0,
+        562.0,
+        111.0
+      ],
+      "markdown": "68. Carlier, M.-F. et al. Actin depolymerizing factor (ADF/Cofilin) enhances the rate of filament turnover: implication in actin-based motility. *J. Cell Biol.* **136**, 1307–1322 (1997).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b013",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        113.0,
+        560.0,
+        154.0
+      ],
+      "markdown": "69. Weichsel, J., Herold, N., Lehmann, M. J., Kräusslich, H.-G. & Schwarz, U. S. A quantitative measure for alterations in the actin cytoskeleton investigated with automated high-throughput microscopy. *Cytom. Part A* **77A**, 52–63 (2010).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b014",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        156.0,
+        562.0,
+        207.0
+      ],
+      "markdown": "70. Devi, L., Raghavendran, V., Prabhu, B. M., Avadhani, N. G. & Anandatheerthavarada, H. K. Mitochondrial import and accumulation of α-synuclein impair complex I in human dopaminergic neuronal cultures and parkinson disease brain\\*. *J. Biol. Chem.* **283**, 9089–9100 (2008).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b015",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        209.0,
+        554.0,
+        239.0
+      ],
+      "markdown": "71. Lurette, O. et al. Aggregation of alpha-synuclein disrupts mitochondrial metabolism and induce mitophagy via cardiolipin externalization. *Cell Death Dis.* **14**, 1–14 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b016",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        242.0,
+        562.0,
+        271.0
+      ],
+      "markdown": "72. Choi, M. L. et al. Pathological structural conversion of α-synuclein at the mitochondria induces neuronal toxicity. *Nat. Neurosci.* **25**, 1134–1148 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b017",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        274.0,
+        562.0,
+        304.0
+      ],
+      "markdown": "73. Matsui, H. et al. Cytosolic dsDNA of mitochondrial origin induces cytotoxicity and neurodegeneration in cellular and zebrafish models of Parkinson’s disease. *Nat. Commun.* **12**, 3101 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b018",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        306.0,
+        562.0,
+        336.0
+      ],
+      "markdown": "74. Chung, S. et al. Blockade of STING activation alleviates microglial dysfunction and a broad spectrum of Alzheimer’s disease pathologies. *Exp. Mol. Med.* **56**, 1936–1951 (2024).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b019",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        338.0,
+        562.0,
+        368.0
+      ],
+      "markdown": "75. Härtlova, A. et al. DNA damage primes the type I interferon system via the cytosolic DNA sensor STING to promote anti-microbial innate immunity. *Immunity* **42**, 332–343 (2015).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b020",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        370.0,
+        546.0,
+        400.0
+      ],
+      "markdown": "76. Mackenzie, K. J. et al. cGAS surveillance of micronuclei links genome instability to innate immunity. *Nature* **548**, 461–465 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b021",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        402.0,
+        548.0,
+        421.0
+      ],
+      "markdown": "77. Dou, Z. et al. Cytoplasmic chromatin triggers inflammation in senescence and cancer. *Nature* **550**, 402–406 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b022",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        424.0,
+        562.0,
+        453.0
+      ],
+      "markdown": "78. Glück, S. et al. Innate immune sensing of cytosolic chromatin fragments through cGAS promotes senescence. *Nat. Cell Biol.* **19**, 1061–1070 (2017).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b023",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        456.0,
+        555.0,
+        496.0
+      ],
+      "markdown": "79. Takaki, T., Millar, R., Hiley, C. T. & Boulton, S. J. Micronuclei induced by radiation, replication stress, or chromosome segregation errors do not activate cGAS-STING. *Mol. Cell* **84**, 2203–2213.e5 (2024).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b024a",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        499.0,
+        558.0,
+        530.0
+      ],
+      "markdown": "80. Flynn, P. J., Koch, P. D. & Mitchison, T. J. Chromatin bridges, not micronuclei, activate cGAS after drug-induced mitotic errors in human cells. *Proc. Natl. Acad. Sci.* **118**, e2103585118 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b024b",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        531.0,
+        558.0,
+        561.0
+      ],
+      "markdown": "81. Tigano, M., Vargas, D. C., Tremblay-Belzile, S., Fu, Y. & Sfeir, A. Nuclear sensing of breaks in mitochondrial DNA enhances immune surveillance. *Nature* **591**, 477–481 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b025",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        563.0,
+        559.0,
+        593.0
+      ],
+      "markdown": "82. Dutta, D. et al. Selective targeting of the TLR2/MyD88/NF-κB pathway reduces α-synuclein spreading in vitro and in vivo. *Nat. Commun.* **12**, 5382 (2021).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b026",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        595.0,
+        556.0,
+        614.0
+      ],
+      "markdown": "83. Kim, T.-K. et al. Inflammation promotes synucleinopathy propagation. *Exp. Mol. Med.* **54**, 2148–2161 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b027",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        616.0,
+        562.0,
+        646.0
+      ],
+      "markdown": "84. Copetti, T., Bertoli, C., Dalla, E., Demarchi, F. & Schneider, C. p65/RelA modulates BECN1 transcription and autophagy. *Mol. Cell. Biol.* **29**, 2594–2608 (2009).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b028",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        649.0,
+        559.0,
+        679.0
+      ],
+      "markdown": "85. Nivon, M., Richet, E., Codogno, P., Arrigo, A.-P. & Kretz-Remy, C. Autophagy activation by NFκB is essential for cell survival after heat shock. *Autophagy* **5**, 766–783 (2009).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b029",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        681.0,
+        552.0,
+        710.0
+      ],
+      "markdown": "86. Ablasser, A. et al. Cell intrinsic immunity spreads to bystander cells via the intercellular transfer of cGAMP. *Nature* **503**, 530–534 (2013).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b030",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        713.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "87. Tan, H. Y. et al. cGAS and DDX41-STING mediated intrinsic immunity spreads intercellularly to promote neuroinflammation in SOD1 ALS model. *iScience* **25**, 104404 (2022).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0020-b031",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0020-b032",
+      "kind": "omit",
+      "bbox": [
+        550.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "20",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}
