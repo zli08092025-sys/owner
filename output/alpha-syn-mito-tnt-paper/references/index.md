@@ -33,9 +33,13 @@ Use exact headings to locate current line numbers. Read relevant passages, not b
 | Fixed-cell microscopy | Confocal and super-resolution acquisition settings |
 | FACS sample preparation and acquisition | Sorting strategy separating neuronal from microglial populations |
 | Quantification and statistical analyses | Image-analysis plugins and the statistical tests applied |
+| Reporting summary | Statement about the Nature Portfolio reporting summary |
 | Data availability | What the authors state about access to data and source data |
 | References | Bibliography; references 1 to 101 |
 | Additional information | Pointers to supplementary material, peer review and licensing |
+| Acknowledgements | Funding bodies and grant numbers |
+| Author contributions | Which author did what |
+| Competing interests | Declared competing interests |
 
 For long sections, search a narrower subsection or prompt. Headings inside fenced quotations are source content, not document section boundaries.
 
@@ -43,7 +47,7 @@ For long sections, search a narrower subsection or prompt. Headings inside fence
 
 | Exact heading | Look here for |
 | --- | --- |
-| Document beginning | Source text or supplied-material notes |
+| Supplementary information | Records that no supplementary materials were supplied, so the article's Supplementary Fig. and Supplementary Movie callouts cannot be resolved from this package |
 
 For long sections, search a narrower subsection or prompt. Headings inside fenced quotations are source content, not document section boundaries.
 

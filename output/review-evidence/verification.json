@@ -1,14 +1,14 @@
 {
-  "status": "unresolved_discrepancies",
+  "status": "reviewed_with_limitations",
   "mechanical_ok": true,
   "all_sources_agent_reviewed": true,
   "issues": [],
   "documents": {
     "s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a": {
-      "status": "unresolved_discrepancies",
+      "status": "reviewed_with_limitations",
       "mechanical_ok": true,
       "all_pages_agent_reviewed": true,
-      "applied_adjudications": 0,
+      "applied_adjudications": 23,
       "stale_adjudications": 0
     }
   },

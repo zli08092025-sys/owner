@@ -8,7 +8,7 @@ Published online: 15 May 2026
 
 Check for updates
 
-Ranabir Chakraborty<sup>1,2</sup>, Stephanie Maya<sup>1</sup>, Veronica Testa (ORCID)<sup>3,4,6</sup>, Jara Montero-Muñoz (ORCID)<sup>3,4,6</sup>, Takashi Nonaka<sup>5</sup>, Masato Hasegawa (ORCID)<sup>5</sup>, Antonella Consiglio (ORCID)<sup>3,4</sup> & Chiara Zurzolo (ORCID)<sup>1</sup> (corresponding author)
+Ranabir Chakraborty<sup>1,2</sup>, Stephanie Maya<sup>1</sup>, Veronica Testa<sup>3,4,6</sup>, Jara Montero-Muñoz<sup>3,4,6</sup>, Takashi Nonaka<sup>5</sup>, Masato Hasegawa<sup>5</sup>, Antonella Consiglio<sup>3,4</sup> & Chiara Zurzolo<sup>1</sup>
 
 <sup>1</sup>Institut Pasteur, Université Paris Cité, CNRS UMR 3691, Membrane Traffic and Pathogenesis, Paris, France. <sup>2</sup>Université Paris-Saclay, Gif-sur-Yvette, France. <sup>3</sup>Department of Pathology and Experimental Therapeutics, Bellvitge University Hospital-IDIBELL, Barcelona, Spain. <sup>4</sup>Institute of Biomedicine of the University of Barcelona (IBUB), Barcelona, Spain. <sup>5</sup>Dementia Research Project, Tokyo Metropolitan Institute of Medical Science, Tokyo, Japan. <sup>6</sup>These authors contributed equally: Veronica Testa, Jara Montero-Muñoz. e-mail: chiara.zurzolo@pasteur.fr
 
@@ -150,7 +150,7 @@ The employed protocol for the differentiation of microglia and its characterizat
 
 ## Neuron generation
 
-NPCs were generated following a previously published protocol from<sup>95,96</sup>. Briefly, iPSC was split into a 96-well plate, V-bottom shape and centrifuged 800 × g for 10 min to force their aggregation. Cells were grown on mTeSR medium (STEMCELL technologies, 05825) for 24 h. Embryoid bodies (EBs) were plated in a 60 mm dish and the medium was then changed to Proneural [DMEM/F12 (Life, 21331-20) and Neurobasal (Life, 21103-049)—1:1, 0.5% N2 (Life, 17502048), 1% B27 w/o Vitamin A (Life, 12587-010), 1% L-Glutamine (Linus, X0551-100), 1% Penicillin/Streptomycin (ScienCell, 0503), and 2-Mercaptoethanol (Gibco 31350-010)]. EBs were seeded in POLAM-coated (poly-L-ornithine-Sigma-aldrich, P4957; laminin, Sigma-Aldrich, L2020) wells of a 6-well plate with Proneural supplemented with Noggin 200 ng/ml (PeproTech, 120-10 C) and SB431542 10 μM (TOCRIS, 301836-41-9). When NEP rosettes were visible, they were enzymatically dissociated with trypsin 0.05% to obtain NPCs and plated on POLAM-coated wells of a 12-well plate. NPCs were then split up to 6-8 times to purify the culture.
+NPCs were generated following a previously published protocol from<sup>95,96</sup>. Briefly, iPSC was split into a 96-well plate, V-bottom shape and centrifuged 800 × g for 10 min to force their aggregation. Cells were grown on mTeSR medium (STEMCELL technologies, 05825) for 24 h. Embryoid bodies (EBs) were plated in a 60 mm dish and the medium was then changed to Proneural [DMEM/F12 (Life, 21331-20) and Neurobasal (Life, 21103-049)—1:1, 0.5% N2 (Life, 17502048), 1% B27 w/o Vitamin A (Life, 12587-010), 1% L-Glutamine (Linus, X0551-100), 1% Penicillin/Streptomycin (ScienCell, 0503), and 2-Mercaptoethanol (Gibco 31350-010)]. EBs were seeded in POLAM-coated (poly-L-ornithine-Sigma-aldrich, P4957; laminin, Sigma-Aldrich, L2020) wells of a 6-well plate with Proneural supplemented with Noggin 200 ng/ml (PeproTech, 120-10 C) and SB431542 10 µM (TOCRIS, 301836-41-9). When NEP rosettes were visible, they were enzymatically dissociated with trypsin 0.05% to obtain NPCs and plated on POLAM-coated wells of a 12-well plate. NPCs were then split up to 6-8 times to purify the culture.
 
 [Figure 7](../assets/figure/figure-7.jpg)
 
@@ -476,3 +476,4 @@ The authors declare no competing interests.
 - Source: Nature Communications (2026) 17:6462, https://doi.org/10.1038/s41467-026-73136-7. Open access article; figures and text are reproduced here for agent retrieval.
 - Only the main article PDF was supplied. The Supplementary Information (Supplementary Figs. 1-12 and Supplementary Movies), the Reporting Summary, the Peer Review file, and the Source Data file cited by this article were not provided and are therefore absent from references/supplement.md.
 - Statements in the text that cite 'Supplementary Fig.' or 'Supplementary Movie' refer to that unsupplied material and cannot be checked against this package.
+- Figure links follow the article's print position, so a figure and its caption can sit under a later heading than the section that first cites them. The navigation index names the section where each figure is discussed; search 'Fig. N |' to jump to the caption itself.

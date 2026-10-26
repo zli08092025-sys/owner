@@ -5,7 +5,7 @@ description: "Read and answer questions about α-Synuclein aggregates induce mit
 
 # Read this paper
 
-**Draft: source review or verification remains unresolved.**
+Source review is complete with documented limitations.
 
 Start with [the navigation index](references/index.md). Choose the relevant document and section before reading the paper text.
 

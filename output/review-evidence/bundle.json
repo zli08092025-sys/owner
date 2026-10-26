@@ -5,7 +5,8 @@
   "notes": [
     "Source: Nature Communications (2026) 17:6462, https://doi.org/10.1038/s41467-026-73136-7. Open access article; figures and text are reproduced here for agent retrieval.",
     "Only the main article PDF was supplied. The Supplementary Information (Supplementary Figs. 1-12 and Supplementary Movies), the Reporting Summary, the Peer Review file, and the Source Data file cited by this article were not provided and are therefore absent from references/supplement.md.",
-    "Statements in the text that cite 'Supplementary Fig.' or 'Supplementary Movie' refer to that unsupplied material and cannot be checked against this package."
+    "Statements in the text that cite 'Supplementary Fig.' or 'Supplementary Movie' refer to that unsupplied material and cannot be checked against this package.",
+    "Figure links follow the article's print position, so a figure and its caption can sit under a later heading than the section that first cites them. The navigation index names the section where each figure is discussed; search 'Fig. N |' to jump to the caption itself."
   ],
   "sources": [
     {
@@ -155,6 +156,11 @@
     },
     {
       "file": "references/paper.md",
+      "heading": "Reporting summary",
+      "purpose": "Statement about the Nature Portfolio reporting summary"
+    },
+    {
+      "file": "references/paper.md",
       "heading": "Data availability",
       "purpose": "What the authors state about access to data and source data"
     },
@@ -167,6 +173,26 @@
       "file": "references/paper.md",
       "heading": "Additional information",
       "purpose": "Pointers to supplementary material, peer review and licensing"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Acknowledgements",
+      "purpose": "Funding bodies and grant numbers"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Author contributions",
+      "purpose": "Which author did what"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Competing interests",
+      "purpose": "Declared competing interests"
+    },
+    {
+      "file": "references/supplement.md",
+      "heading": "Supplementary information",
+      "purpose": "Records that no supplementary materials were supplied, so the article's Supplementary Fig. and Supplementary Movie callouts cannot be resolved from this package"
     }
   ]
 }
