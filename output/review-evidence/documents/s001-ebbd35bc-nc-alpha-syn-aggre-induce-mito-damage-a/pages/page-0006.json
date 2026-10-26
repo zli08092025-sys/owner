@@ -1,0 +1,105 @@
+{
+  "page": 6,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0006.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview and 6x PDF crops. p0006-b002 is the full-page Fig. 3 image: bbox [92,46,510,653] verified to enclose the PDF image box [106.9,61.2,504.4,629.5] plus all vector overlay text/graphs (union [97.7,49.9,504.4,648.0]) - panel letters a-j, rotated SH-SY5Y/HMC3 labels, axis labels, 5 um scale bars, the MitoTracker Red / DNA-in / DNA-out and TOMM20/BAX-6A7 channel legends and the blue-asterisk keys are all inside; no caption text is inside (Fig. 3 caption is on p7, body prose starts at y=669). Set label 'Figure 3' / asset_name 'figure-3'. p0006-b003 was mis-typed kind 'caption' although it is left-column body prose - changed to kind 'text'. Both body paragraphs (b003 left, b004 right) verified complete and in left-then-right order against the PDF text layer; en dashes in 'Fig. 6g-i'/'Fig. 7a-c' are en dashes, superscripts 55 and 56,57 kept as <sup>. b003 continues the sentence broken at the page 5/6 boundary ('...we first asked' | 'whether inhibiting its release...'), so join_previous='space'. Coordinator: removed 1 extractor-inserted space(s) between a superscript and the punctuation that follows it in the printed source. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0006-b000",
+    "Review possible header/footer: p0006-b001",
+    "Review possible header/footer: p0006-b005"
+  ],
+  "items": [
+    {
+      "id": "p0006-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0006-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0006-b002",
+      "kind": "figure",
+      "bbox": [
+        92.0,
+        46.0,
+        510.0,
+        653.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na Control -Syn<br>MitoTracker Red DNA-TFAM DNA-TFAM d Control -Syn<br>dsDNA TFAM<br>DAPI<br>DNA+TFAM DNA+TFAM<br>DNA-TFAM DNA-TFAM e<br>DNA+TFAM DNA+TFAM<br>Imaris 3D MitoTracker Red DNA-in DNA-out<br>b c f SH-SY5Y:  -Syn exposed g HMC3:  -Syn exposed<br>TOMM20 i TOMM20 i<br>BAX-6A7 ii BAX-6A7<br>i<br>ii<br>i<br>ii ii<br>Imaris 3D ii<br>h SH-SY5Y i HMC3<br>TOMM20 TOMM20<br>dsDNA dsDNA<br>*<br>*<br>*<br>* mtDNA outside mitochondria * mtDNA outside mitochondria<br>j<br>-Syn mtDNA release<br>mtDNA<br>BAX Cytochrome c<br>TFAM release<br>Mitochondrial damage<br>(MOMP)<br>SH-SY5Y SH-SY5Y<br>HMC3<br>HMC3<br>Control Control<br>-Syn -Syn<br>-Syn + BAI-1 -Syn + BAI-1<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 3",
+      "asset_name": "figure-3"
+    },
+    {
+      "id": "p0006-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "whether inhibiting its release could prevent the formation of intercellular connections. Upon co-exposure of neuronal and microglial cells to both α-Syn aggregates and BAI-1, cells failed to upregulate intercellular connections as observed in the presence of only α-Syn aggregates (Supplementary Fig. 6g–i). As a proof-of-concept supporting these findings, we next asked whether cytosolic nucleic acid alone could trigger intercellular connections. To test this, we treated",
+      "source_class": "caption",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0006-b004",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        669.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "SH-SY5Y and HMC3 cells with the BCL-2 family inhibitor ABT-737<sup>55</sup>, which induces limited MOMP and mtDNA release<sup>56,57</sup> in combination with the pan-caspase inhibitor Q-VD-OPh. Upon treatment, both neuronal and microglial cells had significantly increased intercellular connections at all the time points of treatment (6, 12, and 24 h) (Supplementary Fig. 7a–c), supporting the idea that mtDNA release is a key trigger for the formation of intercellular connections.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0006-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0006-b006",
+      "kind": "omit",
+      "bbox": [
+        555.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "6",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

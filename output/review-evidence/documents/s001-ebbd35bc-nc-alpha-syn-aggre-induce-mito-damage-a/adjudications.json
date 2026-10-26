@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "page": 1,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+      "reason": "Checked the visible page. The two missing '1234567890' tokens are the strings '1234567890():,;' set vertically in the left margin at roughly x 7-22 pt, running bottom-to-top: the journal's printer font-test furniture beside the masthead, not article content, so review did not transcribe them. The extra '15' and '2026' come from 'Published online: 15 May 2026' in the dates block, which the PDF stores as a rasterised image and which is therefore absent from the text layer; it was transcribed from the visible page during review."
+    },
+    {
+      "page": 1,
+      "check": "missing_lines",
+      "fingerprint": "dc53f1c4a55990ee2296a891d14a585c070d11c66555496b8f0f16cb4122d325",
+      "reason": "Checked the visible page. The two missing '1234567890' tokens are the strings '1234567890():,;' set vertically in the left margin at roughly x 7-22 pt, running bottom-to-top: the journal's printer font-test furniture beside the masthead, not article content, so review did not transcribe them. The extra '15' and '2026' come from 'Published online: 15 May 2026' in the dates block, which the PDF stores as a rasterised image and which is therefore absent from the text layer; it was transcribed from the visible page during review."
+    },
+    {
+      "page": 1,
+      "check": "number_differences",
+      "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+      "reason": "Checked the visible page. The two missing '1234567890' tokens are the strings '1234567890():,;' set vertically in the left margin at roughly x 7-22 pt, running bottom-to-top: the journal's printer font-test furniture beside the masthead, not article content, so review did not transcribe them. The extra '15' and '2026' come from 'Published online: 15 May 2026' in the dates block, which the PDF stores as a rasterised image and which is therefore absent from the text layer; it was transcribed from the visible page during review."
+    },
+    {
+      "page": 2,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "1c0f0a191877f83cbd97b2397dde7886490efcdf20b2c3213e892ae45ec765a3",
+      "reason": "Checked the visible page. The source sets a reference marker as a superscript immediately after a number and the flattened text layer concatenates the two: 'demonstration in 2004' with superscript 30 reads as '200430', and 'human microglial cell line HMC3' with superscript 42 reads as '342'. The Markdown keeps them distinct as '2004<sup>30</sup>' and 'HMC3<sup>42</sup>'."
+    },
+    {
+      "page": 2,
+      "check": "number_differences",
+      "fingerprint": "bf9bd65d1e42ce4fc64997a7ef1b72596a5208b6a6c6277ff7bbb59c3aa2637f",
+      "reason": "Checked the visible page. The source sets a reference marker as a superscript immediately after a number and the flattened text layer concatenates the two: 'demonstration in 2004' with superscript 30 reads as '200430', and 'human microglial cell line HMC3' with superscript 42 reads as '342'. The Markdown keeps them distinct as '2004<sup>30</sup>' and 'HMC3<sup>42</sup>'."
+    },
+    {
+      "page": 3,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "5e2f3b52ee6d5131b1344b41370505ab3face5b3c2c4a088488d3f4f9e52a98b",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 5,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "112010dda543723352bea30c001010dd1efcd3667ab2b70db98d313f9afb7859",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 6,
+      "check": "number_differences",
+      "fingerprint": "8d8bd1cd9d17a54acae7e4372dc66e07aa581b30cc7bc5c2a7ca62f029077c72",
+      "reason": "Checked the visible page. 'the BCL-2 family inhibitor ABT-737' is followed by superscript reference 55 and the flattened text layer concatenates them into '-73755'. The Markdown preserves the compound name and the marker separately as 'ABT-737<sup>55</sup>'."
+    },
+    {
+      "page": 7,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "6cab3a9ab46401b4fac4bcf3929494b2fff2acb5dadc26204526764f758c83dd",
+      "reason": "Checked the visible page. Three differences are superscript reference markers concatenated onto the preceding number in the flattened text layer: 'G140' with marker 58 reads as '14058', 'TLR2' with 62 as '262' and 'TLR4' with 63 as '463'. The remaining two are the inhibitor name 'JSH-23', whose hyphen the extractor dropped at a line wrap and review restored after checking the page, so the tokenizer reads '-23' where the text layer had '23'. The second parser additionally reads the compound name 'RIG-1' as a signed number, reporting '-1'."
+    },
+    {
+      "page": 7,
+      "check": "number_differences",
+      "fingerprint": "43170c361fa7f2d514fd91f2219b93a11babdf022276905be1659f7c31d94dca",
+      "reason": "Checked the visible page. Three differences are superscript reference markers concatenated onto the preceding number in the flattened text layer: 'G140' with marker 58 reads as '14058', 'TLR2' with 62 as '262' and 'TLR4' with 63 as '463'. The remaining two are the inhibitor name 'JSH-23', whose hyphen the extractor dropped at a line wrap and review restored after checking the page, so the tokenizer reads '-23' where the text layer had '23'."
+    },
+    {
+      "page": 9,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "402a56b9edcc146d062763b5d06168ba320ec16eb94c8ddf5c3a2249d496efc1",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 11,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "a8145b4b31c08ef4b78a90da2a1ce89f6a3de1f1cbc05e206f8f96daf9bb6dc2",
+      "reason": "Checked the visible page. 'n = 20-21 fields of view' is printed with an en dash, which the numeric tokenizer reads as a sign and reports as '-21'; and 'the NF-kB inhibitor JSH-23' had its hyphen dropped by the extractor at a line wrap and restored during review, giving '-23'. Both are tokenizations of characters that match the page, not differing content. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged."
+    },
+    {
+      "page": 11,
+      "check": "number_differences",
+      "fingerprint": "c36515b7607bf81aa6222931018f151498d582e280cfc144b4e3cb15e4333674",
+      "reason": "Checked the visible page. 'n = 20-21 fields of view' is printed with an en dash, which the numeric tokenizer reads as a sign and reports as '-21'; and 'the NF-kB inhibitor JSH-23' had its hyphen dropped by the extractor at a line wrap and restored during review, giving '-23'. Both are tokenizations of characters that match the page, not differing content."
+    },
+    {
+      "page": 13,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "146fdb30d842debded96edae2014a704f43de9e70435aae90f60208a5d4afae0",
+      "reason": "Checked the visible page. 'the NF-kB inhibitor JSH-23' occurs twice with its hyphen restored after review, reported as '-23'. 'p = 5.64x10' with superscript '-5' had its exponent split by the extractor into '<sup>-</sup> 5' and was repaired to '5.64x10<sup>-5</sup>' against the page, reported as '-5'. Both match the printed text. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged."
+    },
+    {
+      "page": 13,
+      "check": "number_differences",
+      "fingerprint": "78993d91e16fa9706930bf13ca9ab020e3eeba8577794aa798ab338755bdb55e",
+      "reason": "Checked the visible page. 'the NF-kB inhibitor JSH-23' occurs twice with its hyphen restored after review, reported as '-23'. 'p = 5.64x10' with superscript '-5' had its exponent split by the extractor into '<sup>-</sup> 5' and was repaired to '5.64x10<sup>-5</sup>' against the page, reported as '-5'. Both match the printed text."
+    },
+    {
+      "page": 15,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "a31dd1f487e7f0edd88384443f9fcd4a93409ef9b27226c07e32463526324aa7",
+      "reason": "Checked the visible page. Three catalogue numbers lost their hyphen where the extractor broke a line, and review restored each after checking the page: 'L-Glutamine (Linus, X0551-100)', 'TLR9-IN-1 (MedChemExpress, HY-148045)' and 'phospho-Ser3-Cofilin (Invitrogen, PA5-17752)'. The tokenizer therefore reports '-100', '-148045' and '-17752' where the text layer had them unhyphenated. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged."
+    },
+    {
+      "page": 15,
+      "check": "number_differences",
+      "fingerprint": "1e7fc6cdccac2f7189ff86376aa0124f77a1cbaac50e938c47c8d7d72fb33bfc",
+      "reason": "Checked the visible page. Three catalogue numbers lost their hyphen where the extractor broke a line, and review restored each after checking the page: 'L-Glutamine (Linus, X0551-100)', 'TLR9-IN-1 (MedChemExpress, HY-148045)' and 'phospho-Ser3-Cofilin (Invitrogen, PA5-17752)'. The tokenizer therefore reports '-100', '-148045' and '-17752' where the text layer had them unhyphenated."
+    },
+    {
+      "page": 17,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "134f235870ea80af38411bcf34e120ddd2b2f14442e83e688eadbce9c5860aba",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 18,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "2bda8ebd9b610dbfd49c60b20462630371272ea462d93f0cdacd32ccb1051b5b",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 19,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "3ed138349c371d2329ad561798f76c48f2f06804eeeb0894f6345f4662e20e3a",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 20,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "94c7b148a716d4483dbbc5ac8380fe3c8cd11500e1296c80fefee54d4ebc4951",
+      "reason": "Second-parser artifact only; the primary parser reports no numeric difference on this page. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged. The printed values on this page were checked against the source during review."
+    },
+    {
+      "page": 21,
+      "check": "independent_parser_number_differences",
+      "fingerprint": "2debc945c18d52b7da39fa33c086e3338b46f47be1ebcd30541121891b513ca3",
+      "reason": "Checked the visible page. The grant number is printed 'PID2022-139546OB-I00'; the extractor dropped the hyphen at a line break and review restored it, so the tokenizer reports '-139546' where the text layer had '139546'. The second parser additionally splits multi-digit numbers into single digits on this PDF's anonymised subset CFF Type 1 fonts, which is why it reports bare digits as missing and the correctly read numbers as extra. fontTools was installed and the package rebuilt to rule out a missing dependency; the diagnostic was unchanged."
+    },
+    {
+      "page": 21,
+      "check": "number_differences",
+      "fingerprint": "03d4d0de8e1cfddd43cce6d955d99fcecb99b53ef2a9175e4fe0992bd2c5c142",
+      "reason": "Checked the visible page. The grant number is printed 'PID2022-139546OB-I00'; the extractor dropped the hyphen at a line break and review restored it, so the tokenizer reports '-139546' where the text layer had '139546'."
+    }
+  ]
+}

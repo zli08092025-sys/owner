@@ -1,0 +1,199 @@
+{
+  "page": 5,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0005.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0005.png plus 5-7x crops of individual lines. Reading order corrected: the extractor emitted the full-width Fig. 2 caption's right half (p0005-b008) AFTER the whole left body column. The caption's two halves (p0005-b002 left + p0005-b008 right) were merged into one kind:'caption' item p0005-b002 spanning [39,45,562,190] and placed at the top of the page, before the body; id p0005-b008 was REMOVED. Body order is now left column p0005-b003..b007 then right column p0005-b009..b013, matching the printed two-column layout. Heading levels: p0005-b004 'α-Syn leads to BAX-mediated mtDNA release', p0005-b006 'α-Syn activates the STING pathway and inflammation' and p0005-b012 'α-Syn-induced intercellular connections are dependent on mtDNA release and inflammation' all demoted from '#' to '##' (Results subsections); the full text of p0005-b012 was verified against the page and was already complete. Caption transcribed verbatim through 'AU=arbitrary units.': panel letters a-n, N = 3 / n = 100 / n = 75 / n = 58 control and 49, Kruskal-Wallis with Dunn's multiple comparison, two-sided Mann-Whitney, *p = 0.0169, ***p = 0.0002, and every p-value kept exactly as printed INCLUDING the source's own mixed exponent and multiplication glyphs (1x10<sup>−15</sup> with U+2212, 1x10<sup>-15</sup> with a hyphen, 1× 10<sup>–15</sup> with an en dash, 7.008 × 10<sup>-10</sup>) - not normalised, per the 'match the source exactly' rule. Text fixes: 'twosided'->'two-sided', 'microglialcells'->'microglial cells', 'STINGTBK1'->'STING-TBK1', 'SHSY5Y'->'SH-SY5Y', and stray spaces removed between <sup> markers and the following ./,/;. Left '(Fig.3h, i)' without a space because the page genuinely prints it that way (verified at 7x). Verified em dashes in 'STING—NF-κB and IRF3—revealed' and 'For b—control-CCCP', en dashes in 'Fig. 4a–c', '5a–f', '5i–n', '6a–c', '6d–f', 'For f–k', and κ/β/α in NF-κB, IL-1β, TNF-α, IFNα, IFNβ. Header/footer p0005-b000/b001/b014 and page-number omit p0005-b015 left untouched. NOT set: join_previous on p0005-b003. The sentence does break mid-way across pages 4->5 ('...and against TOMM20' / 'and LAMP1 (to detect mitolysosomes...'), but the full-width Fig. 2 caption is emitted between them, so a join would glue the body onto the caption - left for the coordinator to decide. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0005-b000",
+    "Review possible header/footer: p0005-b001",
+    "Review possible header/footer: p0005-b014"
+  ],
+  "items": [
+    {
+      "id": "p0005-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0005-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0005-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        45.0,
+        562.0,
+        190.0
+      ],
+      "markdown": "Fig. 2 | α-Syn exposure compromises mitochondrial functionality. a Representative images of TMRM-stained neuronal and microglial cells. Black dotted lines indicate the boundaries of cells. Quantification of fold difference of mean fluorescence intensities of TMRM in neuronal cells (b) and microglial cells (c). N = 3 biological experiments, n = 100 cells. Statistical significance was analyzed using Kruskal-Wallis test with Dunn’s multiple comparison. For b—control-CCCP: p < 1x10<sup>−15</sup>, control-α-Syn: p < 1x10<sup>-15</sup>. For c—control-CCCP: p < 1x10<sup>-15</sup>, control-α-Syn: p = 0.00054. Representative confocal images of Cytochrome c level in neuronal cells (d) and microglial cells (e). f Cytochrome c release index (mean TOMM20 intensity/mean Cytochrome c intensity) in neuronal cells. N = 3 independent experiments, n = 100 cells. g Mean cytosolic Cytochrome c intensity in neuronal cells. N = 3 independent experiments, n = 75 cells. h Mean Cytochrome c intensity per cell in neuronal cells. N = 3 independent experiments, n = 100 cells. (i) Cytochrome c release index (mean TOMM20 intensity/mean Cytochrome c intensity) in microglial cells. N = 3 independent experiments, n = 100 cells. j Mean cytosolic Cytochrome c intensity in microglial cells. N = 3 independent experiments, n = 75 cells. k Mean Cytochrome c intensity per cell in microglial cells. N = 3 independent experiments, n = 100 cells. For f–k, statistical significance was analyzed using a two-sided Mann-Whitney test. For f, p = 1.8x10<sup>-13</sup>; for g, p < 1× 10<sup>–15</sup>; for h, p < 1× 10<sup>–15</sup>; for i, p < 1×10<sup>–15</sup>; for j, p < 1 × 10<sup>–15</sup>; for k, p = 7.008 × 10<sup>-10</sup>. l Representative confocal images of Cytochrome c level in iPSC-derived neurons (hN) and microglia (hMG). m, n Quantification of mean Cytochrome c intensity per cell for hNeurons (m) and hMG (n). N = 3 independent experiments, n = 100 cells for hN, n = 58 control and 49 α-Syn-treated hMG cells. Statistical significance was analyzed using a two-sided Mann-Whitney test. *p = 0.0169, ***p = 0.0002. Data in all the graphs are represented as median and quartiles. For Cytochrome c release index quantifications, AU=arbitrary units.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        209.0,
+        295.0,
+        326.0
+      ],
+      "markdown": "and LAMP1 (to detect mitolysosomes; Supplementary Fig. 3d) in the presence or absence of the autophagy flux inhibitor bafilomycin A1 (Baf A1). Upon α-Syn exposure, we detected an increase in mitophagosomes in both cell types (Supplementary Fig. 3b, c). However, Baf A1 treatment further elevated mitophagosome levels only in microglial cells, and not in neuronal cells. A similar phenotype was observed for mitolysosomes (Supplementary Fig. 3e, f), suggesting impaired mitophagy in neuronal cells but preserved or elevated flux in microglia. This is in accordance with our previous observations of impaired autophagy flux in neuronal cells but not in microglia following α-Syn aggregate exposure<sup>42</sup>, consequently affecting mitophagy dynamics.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0005-b004",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        337.0,
+        220.0,
+        347.0
+      ],
+      "markdown": "## α-Syn leads to BAX-mediated mtDNA release",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0005-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        348.0,
+        295.0,
+        604.0
+      ],
+      "markdown": "Permeabilization of the outer mitochondrial membrane (MOMP) enables the release of mitochondrial matrix components, including mtDNA, into the cytosol. Having observed MOMP in both neuronal and microglial cells upon α-Syn exposure, we next asked whether this led to mtDNA release. Co-immunostaining for double-stranded DNA (dsDNA) (to label mtDNA) and mitochondrial transcription factor A (TFAM) revealed the presence of both TFAM-negative mtDNA and TFAM-positive nucleoids outside mitochondria (Fig. 3a). Of note, the observed cytosolic DNA particles were negative for DAPI counterstain, thereby excluding a possible role of micronuclei in our study. The proportion of extra-mitochondrial mtDNA increased significantly in both cell types upon α-Syn aggregate exposure (Fig. 3b, c). 3D reconstructions of mtDNA and mitochondrial fluorescence signals further confirmed this, enabling quantification of mtDNA retained within mitochondria (DNA-in) versus released in the cytosol (DNA-out) (Fig. 3d, e). Such events were accompanied by the assembly of activated BAX (6A7) on the mitochondrial membrane (Fig. 3f, g), consistent with reports that BAX macropores facilitate mtDNA efflux<sup>50</sup>. To validate the functional role of BAX in α-Syn aggregate-induced mtDNA release, we pharmacologically inhibited BAX (using BAI-1) and observed a prevention of mtDNA release into the cytoplasm (Fig.3h, i). Together, these results suggest that assembly of activated BAX on mitochondrial membranes provides an escape route for mtDNA upon α-Syn aggregate stress (Fig. 3j).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b006",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        616.0,
+        255.0,
+        625.0
+      ],
+      "markdown": "## α-Syn activates the STING pathway and inflammation",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0005-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        627.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Because of its ancestral prokaryotic origin, mtDNA release into the cytosol can trigger innate immune responses and consequent neuroinflammation. Upon recognition by cytosolic nucleic acid sensors such as cGAS, the second messenger cGAMP is produced, promoting dimerization and Golgi translocation of the ER-resident protein STING, marking its activation<sup>51</sup>. With diABZI, a pharmacological STING agonist, as a positive control, we observed that exposure of both neuronal and microglial cells to α-Syn aggregates, but not monomers, led to a marked increase in STING fluorescence intensity on GM130+ Golgi (Fig. 4a–c and Supplementary Fig. 4a–c). A similar STING-Golgi overlap was observed in iPSC-derived hNeurons and hMG, suggesting a",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        209.0,
+        562.0,
+        281.0
+      ],
+      "markdown": "conserved biological response to α-Syn aggregates in different model systems (Fig. 4d, e, f). Following STING activation, Tank Binding Kinase 1 (TBK1) is recruited to the Golgi compartments and activated via transphosphorylation<sup>52,53</sup>. Consistently, we observed an increase in the number of pTBK1 puncta per cell (Fig. 4g, h, i) and the total area of these particles (Fig. 4j, k), confirming activation of the STING-TBK1 axis.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0005-b010",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        284.0,
+        562.0,
+        550.0
+      ],
+      "markdown": "We next examined whether activation of the STING pathway led to an innate immune response, and whether this response differed between neuronal and microglial cells. Immunostaining for the key pro-inflammatory transcription factors downstream of STING—NF-κB and IRF3—revealed a marked increase in nuclear localization of both total and phosphorylated NF-κB in response to α-Syn aggregates in SH-SY5Y and HMC3 cells (Supplementary Fig. 5a–f). Additionally, we observed no significant translocation of NF-κB to the nuclei of cells exposed to α-Syn monomers, indicative of the inflammatory effects of aggregated forms of the protein (Supplementary Fig. 4d–f). Such an activation of NF-κB was observed in iPSC-derived hNeurons and hMG as well (Supplementary Fig. 5g, h), indicating a conserved response across model systems. Similarly, total and phosphorylated IRF3 showed significantly enhanced nuclear accumulation in both cell types (Supplementary Fig. 5i–n). However, when we assessed downstream gene expression by RT-PCR, microglial cells exhibited a substantially stronger transcriptional response. Expression of pro-inflammatory cytokines and phagolysosomal marker (IL-1β, TNF-α, IL-6, CD68; Supplementary Fig. 5o, p) and type I interferons and chemokines (IFNα, IFNβ, CXCL10, CCL20; Supplementary Fig. 5q, r) was consistently and significantly higher in HMC3 compared to SH-SY5Y cells. These results suggest that although both neuronal and microglial cells activate the STING pathway in response to α-Syn, microglia mount a much more robust innate immune response, highlighting their distinct roles in neuroinflammation and disease progression.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        552.0,
+        562.0,
+        636.0
+      ],
+      "markdown": "To further validate the involvement of mtDNA in triggering an innate immune response, we inhibited its release via BAX inhibition and assessed the translocation of STING to the Golgi and NF-κB to the nuclei. Even in the presence of α-Syn aggregates, BAX-inhibited cells exhibited neither activation of STING (Supplementary Fig. 6a–c) nor nuclear occupancy of NF-κB (Supplementary Fig. 6d–f), thereby strengthening the involvement of BAX-mediated mtDNA release in activation of the STING signaling cascade.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b012",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        648.0,
+        542.0,
+        667.0
+      ],
+      "markdown": "## α-Syn-induced intercellular connections are dependent on mtDNA release and inflammation",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0005-b013",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        670.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "Based on our previous observation of α-Syn aggregates promoting intercellular connections in both neuronal and microglial cell lines<sup>28</sup>, and considering that neuroinflammation is a hallmark of neurodegenerative diseases, including PD<sup>54</sup>, we hypothesized that inflammation may play a causative role in driving the formation of these connections. Since we observed significant release of mtDNA in both cell types in the presence of α-Syn aggregates (Fig. 3), we first asked",
+      "source_class": "text"
+    },
+    {
+      "id": "p0005-b014",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0005-b015",
+      "kind": "omit",
+      "bbox": [
+        556.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "5",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

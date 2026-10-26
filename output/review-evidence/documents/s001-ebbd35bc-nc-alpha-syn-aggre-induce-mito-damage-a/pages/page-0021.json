@@ -1,0 +1,414 @@
+{
+  "page": 21,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0021.png",
+  "reviewed": true,
+  "review_notes": "Checked against previews/page-0021.png and 6x PyMuPDF crops of source.pdf. Back matter plus the tail of the reference list: refs 88-101 all present, ascending, none missing or duplicated, continuing p20 (ends 87); the list ends at 101 and no extractor item merged or split a reference here. Restored italic journal names and bold volume numbers. Ref fixes: 94 'iPSCbased' -> 'iPSC-based'; ref 98 keeps the printed footnote asterisk, escaped as \\\\* so markdown does not read it as emphasis; verified Alzheimer's. Dement. / Am. J. Physiol. Endocrinol. Metab. italic spans that cross a line break, accented names (Sánchez-Danés, Tristán-Noguero, Sáenz-de-Santa-María, Cordelières), β in 'amyloid β–induced' and 'β-cells', and all en dashes. Acknowledgements: restored the space in 'Institut Pasteur, for' (visible in source, lost by the text layer); closed up 'LCF/BQ/DI21/11860038.' across the line break and restored the hyphen in grant 'PID2022-139546OB-I00'; the unclosed parenthesis after that fellowship code is printed that way in the article. HEADING FIX: 'Reprints and permissions information is available at' was emitted as a '##' heading; at 6x it is a bold run-in lead-in continuing into regular-weight body text on the same line, not a printed heading, so it is now a text item merged with the following URL (former item p0021-b028 folded in). The four printed top-level headings (Acknowledgements, Author contributions, Competing interests, Additional information) are set in the true bold face and stay '#'; the six 'Additional information' entries all use the same semibold run-in face as the reference volume numbers, so they stay text with their labels bolded rather than being promoted to '##'. Open Access licence paragraph transcribed verbatim with the Creative Commons URL closed up across its line break; copyright line kept. Header, footer and page-number omit left untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0021-b000",
+    "Review possible header/footer: p0021-b001",
+    "Review possible header/footer: p0021-b032"
+  ],
+  "items": [
+    {
+      "id": "p0021-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0021-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0021-b002",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        49.0,
+        290.0,
+        79.0
+      ],
+      "markdown": "88. Wright, S. S. et al. Transplantation of gasdermin pores by extracellular vesicles propagates pyroptosis to bystander cells. *Cell* **188**, 280–291.e17 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        81.0,
+        282.0,
+        100.0
+      ],
+      "markdown": "89. Yano, S. et al. Propagation of neuronal micronuclei regulates microglial characteristics. *Nat. Neurosci.* **28**, 487–498 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        102.0,
+        295.0,
+        121.0
+      ],
+      "markdown": "90. Chang, M. et al. Intercellular communication in the brain through a dendritic nanotubular network. *Science* **390**, eadr7403 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        124.0,
+        276.0,
+        154.0
+      ],
+      "markdown": "91. Thanos, J. M. et al. STING deletion protects against amyloid β–induced Alzheimer’s disease pathogenesis. *Alzheimer’s. Dement.* **21**, e70305 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        156.0,
+        295.0,
+        186.0
+      ],
+      "markdown": "92. Sánchez-Danés, A. et al. Disease-specific phenotypes in dopamine neurons from human iPS-based models of genetic and sporadic Parkinson’s disease. *EMBO Mol. Med.* **4**, 380–395 (2012).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        188.0,
+        294.0,
+        218.0
+      ],
+      "markdown": "93. di Domenico, A. et al. Patient-specific iPSC-derived astrocytes contribute to non-cell-autonomous neurodegeneration in Parkinson’s disease. *Stem Cell Rep.* **12**, 213–229 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b008",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        220.0,
+        294.0,
+        250.0
+      ],
+      "markdown": "94. Blasco-Agell, L. et al. LRRK2-mutant microglia and neuromelanin synergize to drive dopaminergic neurodegeneration in an iPSC-based Parkinson's disease model. *Commun. Biol.* **8**, 1203 (2025).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b009",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        252.0,
+        292.0,
+        282.0
+      ],
+      "markdown": "95. Tristán-Noguero, A. et al. iPSC-based modeling of THD recapitulates disease phenotypes and reveals neuronal malformation. *EMBO Mol. Med.* **15**, e15847 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b010",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        284.0,
+        295.0,
+        314.0
+      ],
+      "markdown": "96. Chambers, S. M. et al. Highly efficient neural conversion of human ES and iPS cells by dual inhibition of SMAD signaling. *Nat. Biotechnol.* **27**, 275–280 (2009).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b011",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        317.0,
+        295.0,
+        347.0
+      ],
+      "markdown": "97. Calatayud, C. et al. CRISPR/Cas9-mediated generation of a tyrosine hydroxylase reporter iPSC line for live imaging and isolation of dopaminergic neurons. *Sci. Rep.* **9**, 6811 (2019).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b012",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        349.0,
+        295.0,
+        389.0
+      ],
+      "markdown": "98. Nonaka, T., Watanabe, S. T., Iwatsubo, T. & Hasegawa, M. Seeded aggregation and toxicity of α-Synuclein and Tau: cellular models of neurodegenerative diseases\\*. *J. Biol. Chem.* **285**, 34885–34898 (2010).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b013",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        392.0,
+        295.0,
+        422.0
+      ],
+      "markdown": "99. Sáenz-de-Santa-María, I., Henderson, J. M., Pepe, A. & Zurzolo, C. Identification and characterization of tunneling nanotubes for intercellular trafficking. *Curr. Protoc.* **3**, e939 (2023).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b014",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        424.0,
+        293.0,
+        453.0
+      ],
+      "markdown": "100. Bolte, S. & Cordelières, F. P. A guided tour into subcellular colocalization analysis in light microscopy. *J. Microsc.* **224**, 213–232 (2006).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b015",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        456.0,
+        280.0,
+        496.0
+      ],
+      "markdown": "101. Chaudhry, A., Shi, R. & Luciani, D. S. A pipeline for multidimensional confocal analysis of mitochondrial morphology, function, and dynamics in pancreatic β-cells. *Am. J. Physiol. Endocrinol. Metab.* **318**, E87–E101 (2020).",
+      "source_class": "list-item"
+    },
+    {
+      "id": "p0021-b016",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        507.0,
+        140.0,
+        519.0
+      ],
+      "markdown": "# Acknowledgements",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0021-b017",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        520.0,
+        295.0,
+        657.0
+      ],
+      "markdown": "We thank all the members of the Membrane Traffic and Pathogenesis Unit, Institut Pasteur, for insightful discussions. We thank Reine Bouyssie, a member of the administrative staff of the Membrane Traffic and Pathogenesis Unit, for her continued support. We thank Prof. Julien Prudent for kindly providing the BAX-6A7 antibody. We thank Dr. Gautham Hari Narayana Sankara Narayana for technical assistance with actin coherence measurements. RC was supported by the Pasteur-Paris University International Doctoral Program (PPU) and the Journal of Cell Science Traveling Fellowship (JCSTF24101615). Research in the CZ lab is supported by France Parkinson (Soutien de l’Association France Parkinson 2021), France Alzheimer (AAP2021, AAP2024), Don Explore AD (Programme Explore de l’Institut Pasteur), Fondation pour la Recherche Médicale FRM (MND202310017892), Fédération pour la Recherche sur le",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b018",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        49.0,
+        562.0,
+        186.0
+      ],
+      "markdown": "Cerveau (FRC 2023), Agence Nationale de la Recherche ANR Un ProSec (ANR-23-CE16-0012-03) and LysMitoPAD (ANR-24-JPW2-0003-02). SM was supported by the France Parkinson Postdoctoral Fellowship (Soutien de l’Association France Parkinson 2025). VT was the recipient of a pre-doctoral La Caixa INPhINIT Incoming Fellowship (code: LCF/BQ/DI21/11860038. JMM was the recipient of a pre-doctoral fellowship FPI (PRE2022-104573) from the Spanish Ministry of Economy and Competitiveness (MINECO). Research in the AC lab is supported by PID2022-139546OB-I00, supported by MCIN/AEI/10.13039/501100011033 and FEDER; “la Caixa” Foundation (CaixaResearch Health 2024, under agreement LCF/PR/HR24/00788), AGAUR (2021-SGR-974). This study was conducted within the context of the Pasteur International Joint Research Unit on Neurodegenerative Diseases.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0021-b019",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        197.0,
+        415.0,
+        206.0
+      ],
+      "markdown": "# Author contributions",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0021-b020",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        209.0,
+        562.0,
+        260.0
+      ],
+      "markdown": "Conceptualization: R.C. and C.Z.; Methodology: R.C., S.M., V.T., J.M.M., T.N., and M.H.; Investigation: R.C., P.S., V.T., and J.M.M.; Visualization: R.C.; Supervision: C.Z. and A.C.; Funding acquisition: C.Z. and A.C.; Writing—original draft: R.C.; Writing—review and editing: R.C., S.M., V.T., J.M.M., A.C., and C.Z.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b021",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        272.0,
+        410.0,
+        283.0
+      ],
+      "markdown": "# Competing interests",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0021-b022",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        284.0,
+        466.0,
+        293.0
+      ],
+      "markdown": "The authors declare no competing interests.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b023",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        304.0,
+        424.0,
+        313.0
+      ],
+      "markdown": "# Additional information",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0021-b024",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        317.0,
+        510.0,
+        347.0
+      ],
+      "markdown": "**Supplementary information** The online version contains supplementary material available at https://doi.org/10.1038/s41467-026-73136-7.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b025",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        359.0,
+        553.0,
+        377.0
+      ],
+      "markdown": "**Correspondence** and requests for materials should be addressed to Chiara Zurzolo.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b026",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        392.0,
+        562.0,
+        422.0
+      ],
+      "markdown": "**Peer review information** *Nature Communications* thanks the anonymous reviewers for their contribution to the peer review of this work. A peer review file is available.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b027",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        434.0,
+        562.0,
+        455.0
+      ],
+      "markdown": "**Reprints and permissions information** is available at http://www.nature.com/reprints",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b029",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        467.0,
+        552.0,
+        486.0
+      ],
+      "markdown": "**Publisher’s note** Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b030",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        499.0,
+        562.0,
+        636.0
+      ],
+      "markdown": "**Open Access** This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b031",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        649.0,
+        385.0,
+        657.0
+      ],
+      "markdown": "© The Author(s) 2026",
+      "source_class": "text"
+    },
+    {
+      "id": "p0021-b032",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0021-b033",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "21",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "page": 12,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0012.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0012.png plus a 1.7x render of the figure bbox itself. Figure 6 image: label set to 'Figure 6', asset_name to 'figure-6'; asset_category left unset (main-article figure). Bbox [71,46,531,654] verified by rendering it: it contains panels a-h, every panel letter, both micrograph blocks, all violin plots with their axis titles ('Percentage acceptors (HMC3) with aggregates', 'Number of α-Syn aggregates per HMC3 acceptor', 'Percentage acceptors (HMC3) with α-Syn'), the diABZI/H-151/JSH-23 condition rows, the significance bars, all 10 μm scale bars and both 'α-Syn WGA DAPI *HMC3 acceptor positive for α-Syn' channel legends; it reaches the full width of panel d's 'SH-SY5Y^α-Syn ± STING modulators CM' label and the '(Secretion control)' line under panel h. No caption text falls inside the crop (the Fig. 6 caption is on page 13). A PyMuPDF content-extent scan of the region gives [74.5,50.0,525.3,648.9], so the bbox encloses everything with a small margin. The two-column Discussion prose below the figure (p0012-b003 left, p0012-b004/b005 right) is preserved in left-then-right reading order and was not swallowed by the crop. Fixed 'α- Syn–stressed'->'α-Syn–stressed' (line-wrap break; the en dash in 'α-Syn–stressed' and 'α-Syn–burdened' is kept) and removed the stray space before punctuation after </sup>. Header, DOI, footer and page-number omit item untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0012-b000",
+    "Review possible header/footer: p0012-b001",
+    "Review possible header/footer: p0012-b006"
+  ],
+  "items": [
+    {
+      "id": "p0012-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0012-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0012-b002",
+      "kind": "figure",
+      "bbox": [
+        71.0,
+        46.0,
+        531.0,
+        654.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na<br>Control diABZI H-151 + diABZI<br>b c d<br>*<br>*<br>*<br>* *<br>* * *<br>* *<br>*<br>* *<br>*<br>* *<br>-Syn WGA DAPI *HMC3 acceptor positive for  -Syn<br>e<br>Control IL-1 IL-1 TNF-<br>f<br>* * *<br>* *<br>* *<br>* * * * * * * * *<br>*<br>* * *<br>* * *<br>* *<br>* *<br>* * * * * * * *<br>*<br>*<br>* * *<br>g<br>*<br>*<br>* *<br>*<br>*<br>*<br>*<br>* *<br>*<br>*<br>-Syn WGA DAPI *HMC3 acceptor positive for  -Syn<br>h<br>-Syn + HMC3<br>SH-SY5Y<br>- JSH-23<br>-Syn + HMC3<br>SH-SY5Y<br>+ JSH-23<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 6",
+      "asset_name": "figure-6"
+    },
+    {
+      "id": "p0012-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        688.0
+      ],
+      "markdown": "or STING will better elucidate the role of this pathway in α-Syn spread in the brain.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0012-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        691.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "In addition to aggregate transfer, we observe that damaged mitochondria are also transferred from α-Syn–burdened neuronal cells to microglia, where they are subsequently degraded. Given the extensive mitochondrial damage induced by α-Syn and the impaired mitophagy observed in neuronal cells, TNT-mediated transfer to",
+      "source_class": "text"
+    },
+    {
+      "id": "p0012-b005",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        670.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "microglia likely serves as a compensatory mechanism to maintain cellular homeostasis. In our earlier work, we reported increased autophagic flux in bystander microglia co-cultured with α-Syn–stressed neurons<sup>42</sup>. Here, we also demonstrate bystander inflammation in these microglia, which may further promote autophagy induction through NF-κB-mediated signaling<sup>84,85</sup>. Such an inflammatory response in microglial cells could arise because of a",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0012-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0012-b007",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "12",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

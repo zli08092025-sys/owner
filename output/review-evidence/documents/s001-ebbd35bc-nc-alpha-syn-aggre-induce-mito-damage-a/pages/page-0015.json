@@ -1,0 +1,211 @@
+{
+  "page": 15,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0015.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0015.png and 5.5x PyMuPDF crops of source.pdf. Fig. 7 caption (p0015-b002) re-kinded text->caption; its right-column continuation (was p0015-b009) merged into it and placed full-width at the top (bbox 39,49,562,226); p0015-b009 removed. Caption verified against a superscript-aware dump: panels a-j, N = 3, n = 35/47/21/22, 74/185/30/34, n = 50, n = 48-50, n = 50 cells per group, ns: p = 0.6621, ****p < 1×10^-15, ns: p = 0.5655, ***p = 0.000145, *p = 0.0109, ****p < 1× 10^-15; Uncorrected Fisher's LSD and Mann-Whitney tests. Repaired 'in coculture'->'in co-culture', 'α- Syn-burdened'->'α-Syn-burdened', 'MannWhitney'->'Mann-Whitney', and the five '(N<sup>MitoDsRed</sup> α-Syn' where the extractor inserted a space the source does not print. Demoted three headings from '#' to '##' — 'Preparation of α-Syn aggregates', 'Reagents and primary antibodies' and 'Immunocytochemistry' are Methods subsections. Methods prose checked item by item against the page: Life 21103-049, 0.5% N2 Life 17502048, 1% B27 w/o Vitamin A Life 12587-010, L-Glutamine Linus X0551-100, ScienCell 0503, Gibco 31350-010, Sigma-aldrich P4957, Sigma-Aldrich L2020, Noggin 200 ng/ml PeproTech 120-10 C, SB431542 10 μM TOCRIS 301836-41-9, trypsin 0.05%, 80-100% confluency, Sonic Hedgehog 200 ng/ml PeproTech 100-45, FGF8 100 ng/ml PeproTech 100-25, B27 Life 17504-044, BDNF Peprotech 450-02, GDNF Peprotech 450-10; diABZI SelleckChem S8796 2.5 μM/2 h, H-151 inh-h151 0.5 μg/mL/16 h (24 h for transfer), JSH-23 Sigma J4455 10 μM, G140 inh-g140 10 μM, ABT-737 Sigma 197333 10 μM, Q-VD-OPh Sigma 551476 10 μM, BAI1 HY-103269 1 μM then 100 nM/16 h, IL-1α Sigma I2778 3 ng/mL, IL-1β Sigma H6291 20 ng/mL, TNF-α Merck Millipore 654205 50 ng/mL, TAK-242 Tocris 6587 10 μM, TL2-C29 inh-C29 100 μM, TLR9-IN-1 HY-148045 10 μM, RIG012 HY-147124 0.1 μM, LLOMe Sigma L7393 1 mM, CCCP Sigma C2759 20 μM; MitoTracker Red CMX Ros M7512 500 nM/30 min/37 °C, TMRM T668 100 nM/30 min/37 °C; antibody catalogue numbers and 1:400/1:100/1:50/1:500/1:1000/1:5000 dilutions all checked. Repaired three catalogue/compound errors the extractor introduced: 'HY148045'->'HY-148045', 'PA517752'->'PA5-17752', 'phosphoSer172-TBK1'->'phospho-Ser172-TBK1'; plus line-wrap damage 'POLAMcoated'->'POLAM-coated' and 'X0551100'->'X0551-100'; and set 'NH4Cl'->'NH<sub>4</sub>Cl' (subscript confirmed by font size). Normalised one MICRO SIGN (U+00B5) in '10 µM (TOCRIS…)' to Greek mu (U+03BC) so all μ in the document are the same codepoint. Removed the stray space between </sup> and following punctuation (InvitroFit<sup>TM</sup> , …). Verified −80 °C / −20 °C use a true minus sign, the 5 s “on” / 2 s “off” curly quotes, 500 nM and 200 nM fibril concentrations, 'Alexa Fluor™ 488' and that 'Escherichia coli' is NOT italic in the source, so it was left upright. Reading order set to full-width caption, left column, right column. Header, DOI, footer and page-number omit item untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break. Coordinator, after independent verification: reverted 'SB431542 10 µM' to the MICRO SIGN U+00B5 that the page actually prints. Review had normalised it to Greek mu, but the article genuinely mixes the two codepoints and the package preserves U+00B5 elsewhere.",
+  "warnings": [
+    "Review possible header/footer: p0015-b000",
+    "Review possible header/footer: p0015-b001",
+    "Review possible header/footer: p0015-b015"
+  ],
+  "items": [
+    {
+      "id": "p0015-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0015-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0015-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        226.0
+      ],
+      "markdown": "Fig. 7 | Neuronal cells transfer damaged mitochondria to microglial cells for degradation. a Representative confocal images of mitochondria-labeled control (upper panels) or α-Syn-loaded (bottom panels) neuronal cells (donors) in co-culture for 24 h with microglial cells (acceptors). b Quantification of the percentage of microglial cells receiving MitoDsRed+ mitochondria in both co-cultures and conditioned media (secretion) experiments. N = 3 independent experiments, n = 35 (N<sup>MitoDsRed</sup> + M co-culture), 47 (N<sup>MitoDsRed</sup>α-Syn + M co-culture), 21 (N<sup>MitoDsRed</sup> + M secretion) and 22 (N<sup>MitoDsRed</sup>α-Syn + M secretion) fields of views. Statistical significance was analyzed using two-sided Two-Way ANOVA with Uncorrected Fisher’s LSD multiple comparison. ns: p = 0.6621, ****p < 1×10<sup>-15</sup>. c Quantification of the number of mitochondrial particles received per acceptor microglia as in (b). N = 74 (N<sup>MitoDsRed</sup> + M co-culture), 185 (N<sup>MitoDsRed</sup>α-Syn + M co-culture), 30 (N<sup>MitoDsRed</sup> + M secretion), and 34 (N<sup>MitoDsRed</sup>α-Syn + M secretion) cells. Statistical significance was analyzed using two-sided Two-Way ANOVA with Uncorrected Fisher’s LSD multiple comparison. ns: p = 0.5655, ***p = 0.000145. d Representative confocal images of neuronal cell-derived MitoDsRed+ mitochondria in microglial cells. Quantification of the proportion of transferred mitochondria from naïve neuronal cells (e) or α-Syn-burdened neuronal cells (f) that remain isolated in microglial cells or overlap with the host network. Total number of mitochondrial particles analyzed is mentioned within the pie-chart. g Quantification of the relative health of transferred mitochondria (Cytochrome c level, indicative of outer membrane permeabilization state of mitochondria) from naïve (N<sup>MitoDsRed</sup> + M) or α-Syn-burdened (N<sup>MitoDsRed</sup>α-Syn + M) neuronal cells. N = 3 independent experiments, n = 50 transferred mitochondrial particles analyzed. Statistical significance was tested using a two-sided Mann-Whitney test. *p = 0.0109. h Representative confocal image, and orthogonal views of dashed boxes, highlighting encapsulation of MitoDsRed+ mitochondrial particles derived from α-Syn-burdened neuronal cells within LAMP1+ lysosomes of microglial cells. N = 3 independent experiments. i Quantification of overlap between MitoDsRed+ mitochondria and LAMP1+ lysosomes in acceptor microglial cells. N = 3 independent experiments, n = 48-50 cells. j Quantification of overlap between MitoDsRed and K63-Ubiquitin in α-Syn-exposed neuronal cells grown either in monoculture or in coculture with microglia. N = 3 independent experiments, n = 50 cells per group. Statistical significance was analyzed using a two-sided Mann-Whitney test. ****p < 1× 10<sup>–15</sup>. Data in violin plots are represented as median and quartiles, with mean values mentioned within the graphs.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        252.0,
+        295.0,
+        367.0
+      ],
+      "markdown": "and Neurobasal (Life, 21103-049)—1:1, 0.5% N2 (Life, 17502048), 1% B27 w/o Vitamin A (Life, 12587-010), 1% L-Glutamine (Linus, X0551-100), 1% Penicillin/Streptomycin (ScienCell, 0503), and 2-Mercaptoethanol (Gibco 31350-010)]. EBs were seeded in POLAM-coated (poly-L-ornithine-Sigma-aldrich, P4957; laminin, Sigma-Aldrich, L2020) wells of a 6-well plate with Proneural supplemented with Noggin 200 ng/ml (PeproTech, 120-10 C) and SB431542 10 µM (TOCRIS, 301836-41-9). When NEP rosettes were visible, they were enzymatically dissociated with trypsin 0.05% to obtain NPCs and plated on POLAM-coated wells of a 12-well plate. NPCs were then split up to 6-8 times to purify the culture.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0015-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        370.0,
+        295.0,
+        540.0
+      ],
+      "markdown": "DAn were differentiated following a previously published protocol<sup>97</sup>. NPCs at 80-100% confluency were cultured on POLAM-coated (poly-L-ornithine Sigma-Aldrich, P4957; laminin, Sigma-Aldrich, L2020) wells in DAn induction medium [DMEM/F12 (Life, 21331-20), 1% N2 (Life, 17502048), 1% Penicillin/Streptomycin (ScienCell, 0503)] supplemented with 200 ng/ml Sonic Hedgehog (PeproTech, 100-45) and 100 ng/ml FGF8 (PeproTech, 100-25) for 6 days. This step allowed for NPCs patterning towards dopaminergic fate. DAn progenitors were then plated on POLAM-coated dishes in N2B27 medium (DMEM/F12 (Life, 21331-20)—Neurobasal (Life, 21103-049) 1:1, 0.5% N2 (Life, 17502048), 1% B27(Life, 17504-044), 1% L-Glutamine (Linus, X0551-100), and 1% Penicillin/Streptomycin (ScienCell, 0503) for 10 days for maturation. For terminal differentiation, DAn were cultured on Matrigel (Corning, 354234) coated wells supplemented with 20 ng/ml BDNF (Peprotech, 450-02) and 20 ng/ml GDNF (Peprotech, 450-10) for 25 days.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b005",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        552.0,
+        171.0,
+        561.0
+      ],
+      "markdown": "## Preparation of α-Syn aggregates",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0015-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        562.0,
+        295.0,
+        700.0
+      ],
+      "markdown": "α-Syn aggregates were prepared using established protocols<sup>98</sup>. Briefly, human wild-type α-Syn was purified from Escherichia coli BL21 (DE3) with RP-HPLC. Using a manufacturer’s protocol of labeling kit, fibrils were either conjugated with Alexa Fluor™ 488, 568, 647 fluorophores (Invitrogen), or not, and stocks were stored at −80 °C for long-term, and −20 °C for short-term storage and immediate use. Prior to exposure to cells, fibrils were diluted in growth medium at a working concentration of 500 nM and sonicated (BioBlock Scientific, Vibra Cell 7504) for 5 min at an amplitude of 80%, pulsed for 5 s “on” and 2 s “off”. For iPSC-derived cells, owing to their fragile nature, a lower concentration of fibrils (200 nM) was used. Sonicated fibrils were then added to cells directly without the addition of any intracellular delivery agents for designated time points.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b007",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        712.0,
+        174.0,
+        722.0
+      ],
+      "markdown": "## Reagents and primary antibodies",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0015-b008",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        723.0,
+        295.0,
+        742.0
+      ],
+      "markdown": "For inflammatory modulations, following reagents were used with associated treatment concentration and durations: STING activator—",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b010",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        252.0,
+        562.0,
+        475.0
+      ],
+      "markdown": "diABZI (SelleckChem— compound 3, S8796; 2.5 μM for 2 h towards the end of experiment), STING inhibitor—H-151 (Invivogen InvitroFit<sup>TM</sup>, inh-h151; 0.5 μg/mL for 16 h for TNT assessment experiments, and 24 h for α-Syn transfer experiments), NF-κB inhibitor — JSH-23 (Sigma, J4455; 10 μM for 16 h for TNT assessment experiments, and 24 h for α-Syn transfer experiments), human cGAS inhibitor— G140 (Invivogen InvitroFit<sup>TM</sup>, inh-g140; 10 μM for 16 h), Bcl-2 inhibitor —ABT-737 (Sigma, 197333; 10 μM for 6 h, 12 h, or 24 h) co-treated with pan-caspase inhibitor—Q-VD-OPh (Non-O-methylated, Sigma, 551476, 10 μM), BAX inhibitor—BAI1 (MedChemExpress, HY-103269, 1 μM for 1 h followed by a wash and subsequently 100 nM for 16 h), human IL-1α (Sigma, I2778; 3 ng/mL for 24 h), human IL-1β (Sigma, H6291; 20 ng/mL for 24 h), human TNF-α (Merck Millipore, 654205; 50 ng/mL for 24 h), TLR4 inhibitor—TAK-242 (Tocris, 6587; 10 μM for 16 h), TLR2 inhibitor—TL2-C29 (Invivogen InvitroFit<sup>TM</sup>, inh-C29; 100 μM for 16 h), TLR9 inhibitor—TLR9-IN-1 (MedChemExpress, HY-148045, 10 μM for 16 h), RIG1 inhibitor —RIG012 (MedChemExpress, HY-147124, 0.1 μM for 16 h), lysosomotropic agent LLOMe (Sigma, L7393; 1 mM for 1 h towards the end of experiment), mitochondrial electron transport chain uncoupler CCCP (Sigma, C2759; 20 μM for 2 h).",
+      "source_class": "text",
+      "join_previous": "none"
+    },
+    {
+      "id": "p0015-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        477.0,
+        562.0,
+        507.0
+      ],
+      "markdown": "The following dyes were used: MitoTracker Red CMX Ros (Invitrogen, M7512; 500 nM for 30 min at 37 °C) and TMRM (Invitrogen, T668; 100 nM for 30 min at 37 °C).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        509.0,
+        562.0,
+        668.0
+      ],
+      "markdown": "Primary antibodies against the following antigens were used: TOMM20 (Santa Cruz, sc-17764; 1:400), Cytochrome c (BD Pharmigen, 556432, 1:400), dsDNA (Progen, clone AC-30-10, 690014; 1:100), TFAM (Invitrogen, PA5-29571; 1:400), GM130 (BD Biosciences, 610823; 1:100), STING (Invitrogen, PA5-23381; 1:100), phospho-Ser172-TBK1 (Cell Signaling Technology, D52C2; 1:50), NF-κB (Thermo Fischer, 51-0500; 1:100), phospho-Ser536-NF-κB (Invitrogen, Ma5-15160, T.849.2; 1:100), IRF3 (Cell Signaling Technology, D6I4C; 1:100), phospho-Ser386-IRF3 (Cell Signaling Technology, E7J8G; 1:100), activated BAX-6A7 (Santa Cruz, sc23959; 1:100; kind gift from Julien Prudent), LC3B (Cell Signaling Technology, D11, 1:500), LAMP1 (DSHB, H4A3, 1:100), Cofilin (Invitrogen, PA5-17372; 1:1000 for western blotting), phospho-Ser3-Cofilin (Invitrogen, PA5-17752; 1:1000 for western blotting), GAPDH (Sigma, G9545; 1:5000 for western blotting).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b013",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        680.0,
+        399.0,
+        690.0
+      ],
+      "markdown": "## Immunocytochemistry",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0015-b014",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        691.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "Immunofluorescence on cell lines was performed using a standard protocol, as described previously<sup>42</sup>. In brief, cells were fixed with 4% paraformaldehyde (PFA [Electron Microscopy Sciences, 15710]) for 30 min at room temperature (RT) and incubated in 50 mM ammonium chloride (NH<sub>4</sub>Cl [Sigma Aldrich, A0171]) solution for 15 min at",
+      "source_class": "text"
+    },
+    {
+      "id": "p0015-b015",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0015-b016",
+      "kind": "omit",
+      "bbox": [
+        552.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "15",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

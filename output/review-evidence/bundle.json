@@ -1,0 +1,198 @@
+{
+  "schema_version": 2,
+  "name": "alpha-syn-mito-tnt-paper",
+  "title": "α-Synuclein aggregates induce mitochondrial damage and trigger innate immunity to drive neuron–microglia communication",
+  "notes": [
+    "Source: Nature Communications (2026) 17:6462, https://doi.org/10.1038/s41467-026-73136-7. Open access article; figures and text are reproduced here for agent retrieval.",
+    "Only the main article PDF was supplied. The Supplementary Information (Supplementary Figs. 1-12 and Supplementary Movies), the Reporting Summary, the Peer Review file, and the Source Data file cited by this article were not provided and are therefore absent from references/supplement.md.",
+    "Statements in the text that cite 'Supplementary Fig.' or 'Supplementary Movie' refer to that unsupplied material and cannot be checked against this package.",
+    "Figure links follow the article's print position, so a figure and its caption can sit under a later heading than the section that first cites them. The navigation index names the section where each figure is discussed; search 'Fig. N |' to jump to the caption itself."
+  ],
+  "sources": [
+    {
+      "id": "s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a",
+      "role": "main",
+      "title": "α-Synuclein aggregates induce mitochondrial damage and trigger innate immunity to drive neuron–microglia communication (Nature Communications, main article PDF)",
+      "reviewed": true,
+      "review_notes": "All 21 pages of the main article PDF were inspected page by page against rendered previews and zoomed crops, by five reviewers over separate page ranges plus a coordinator pass. Checked: two-column reading order, heading hierarchy, figure crop completeness for Figures 1-9, verbatim figure captions including N/n values and p-values, Methods reagents with catalogue numbers and dilutions, the qRT-PCR primer table, and references 1-101 for sequence and completeness. The page-1 masthead was reclassified from a figure to an omission and the dates/authors/abstract block from a table to prose. Sentences split by the column and page layout were reconnected with join_previous, and a reading_order places each figure immediately before its own caption at a paragraph boundary. Printed defects in the article were kept verbatim rather than silently corrected.",
+      "asset_name": "alpha-syn-mito-tnt-main"
+    }
+  ],
+  "navigation": [
+    {
+      "file": "references/paper.md",
+      "heading": "Results",
+      "purpose": "Entry point for the findings; the ten subsections below sit under it"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn aggregates localize to mitochondria and disrupt their morphology",
+      "purpose": "Aggregate-TOMM20 colocalisation and mitochondrial morphometry; Figure 1"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn aggregates cause mitochondrial dysfunction",
+      "purpose": "Membrane potential, cytochrome c release and mitophagy readouts; Figure 2"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn leads to BAX-mediated mtDNA release",
+      "purpose": "BAX macropore assembly and cytosolic mtDNA measurements; Figure 3"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn activates the STING pathway and inflammation",
+      "purpose": "cGAS-STING-NF-κB-IRF3 readouts and cytokine induction; Figure 4"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn-induced intercellular connections are dependent on mtDNA release and inflammation",
+      "purpose": "Intercellular connection counts under STING and NF-κB modulation; Figure 5"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Inflammation arises intracellularly and is independent of cell-surface receptors",
+      "purpose": "TLR and RIG-I controls separating intracellular from surface sensing"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Inflammation-induced connections enable functional interactions between neuronal cells and microglia",
+      "purpose": "Neuron-to-microglia α-Syn transfer and actin/cofilin remodelling; Figure 6"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Neuronal cells transfer damaged mitochondria to microglia",
+      "purpose": "Mitochondrial donation and lysosomal degradation in acceptor microglia; Figure 7"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn-burdened neuronal cells prime microglia towards inflammation",
+      "purpose": "Bystander microglial response and mtDNA status of transferred mitochondria; Figure 8"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Discussion",
+      "purpose": "Authors' interpretation, the working model and stated limits; Figure 9"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Methods",
+      "purpose": "Entry point for experimental procedure; the subsections below sit under it"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Culture of cell lines",
+      "purpose": "SH-SY5Y and HMC3 media, sera, catalogue numbers and passaging"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Culture of hiPSC lines",
+      "purpose": "iPSC maintenance and substrate before differentiation"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Microglia generation",
+      "purpose": "hMG differentiation timeline and cytokine concentrations"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Neuron generation",
+      "purpose": "hNeuron differentiation protocol and media composition"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Preparation of α-Syn aggregates",
+      "purpose": "Recombinant fibril production, sonication and working concentrations"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Reagents and primary antibodies",
+      "purpose": "Inhibitors with catalogue numbers, concentrations and durations; antibody dilutions"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Immunocytochemistry",
+      "purpose": "Fixation, permeabilisation, blocking and staining steps"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Mitophagy flux analysis",
+      "purpose": "Mitophagosome and mitolysosome staining with bafilomycin block"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "qRT-PCR",
+      "purpose": "RNA workflow, normalisation, and the primer sequence table"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Western blotting",
+      "purpose": "Lysis buffer, gels, transfer and detection"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "α-Syn transfer assay",
+      "purpose": "Donor-acceptor co-culture design, ratios and timings"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "TNT counting",
+      "purpose": "Fixation protocol and counting criteria for tunnelling nanotubes"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Fixed-cell microscopy",
+      "purpose": "Confocal and super-resolution acquisition settings"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "FACS sample preparation and acquisition",
+      "purpose": "Sorting strategy separating neuronal from microglial populations"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Quantification and statistical analyses",
+      "purpose": "Image-analysis plugins and the statistical tests applied"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Reporting summary",
+      "purpose": "Statement about the Nature Portfolio reporting summary"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Data availability",
+      "purpose": "What the authors state about access to data and source data"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "References",
+      "purpose": "Bibliography; references 1 to 101"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Additional information",
+      "purpose": "Pointers to supplementary material, peer review and licensing"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Acknowledgements",
+      "purpose": "Funding bodies and grant numbers"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Author contributions",
+      "purpose": "Which author did what"
+    },
+    {
+      "file": "references/paper.md",
+      "heading": "Competing interests",
+      "purpose": "Declared competing interests"
+    },
+    {
+      "file": "references/supplement.md",
+      "heading": "Supplementary information",
+      "purpose": "Records that no supplementary materials were supplied, so the article's Supplementary Fig. and Supplementary Movie callouts cannot be resolved from this package"
+    }
+  ]
+}

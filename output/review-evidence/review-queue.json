@@ -1,0 +1,977 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a",
+      "title": "α-Synuclein aggregates induce mitochondrial damage and trigger innate immunity to drive neuron–microglia communication (Nature Communications, main article PDF)",
+      "pages": 21,
+      "contact_sheets": [
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0001-0004.jpg",
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0005-0008.jpg",
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0009-0012.jpg",
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0013-0016.jpg",
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0017-0020.jpg",
+        "review-aid/s001-ebbd35bc-nc-alpha-syn-aggre-induce-mito-damage-a/pages-0021-0021.jpg"
+      ],
+      "items": [
+        {
+          "page": 1,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0001-b000"
+        },
+        {
+          "page": 1,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0001-b001"
+        },
+        {
+          "page": 1,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0001-b009"
+        },
+        {
+          "page": 1,
+          "kind": "suggested_compact_omission",
+          "item": "p0001-b009",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 2,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0002-b000"
+        },
+        {
+          "page": 2,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0002-b001"
+        },
+        {
+          "page": 2,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0002-b012"
+        },
+        {
+          "page": 2,
+          "kind": "suggested_compact_omission",
+          "item": "p0002-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 2,
+          "kind": "suggested_compact_omission",
+          "item": "p0002-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 2,
+          "kind": "suggested_compact_omission",
+          "item": "p0002-b012",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 3,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0003-b000"
+        },
+        {
+          "page": 3,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0003-b001"
+        },
+        {
+          "page": 3,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0003-b007"
+        },
+        {
+          "page": 3,
+          "kind": "suggested_compact_omission",
+          "item": "p0003-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 3,
+          "kind": "suggested_compact_omission",
+          "item": "p0003-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 3,
+          "kind": "suggested_compact_omission",
+          "item": "p0003-b007",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 4,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0004-b000"
+        },
+        {
+          "page": 4,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0004-b001"
+        },
+        {
+          "page": 4,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0004-b006"
+        },
+        {
+          "page": 4,
+          "kind": "suggested_compact_omission",
+          "item": "p0004-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 4,
+          "kind": "suggested_compact_omission",
+          "item": "p0004-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 4,
+          "kind": "suggested_compact_omission",
+          "item": "p0004-b006",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 5,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0005-b000"
+        },
+        {
+          "page": 5,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0005-b001"
+        },
+        {
+          "page": 5,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0005-b014"
+        },
+        {
+          "page": 5,
+          "kind": "suggested_compact_omission",
+          "item": "p0005-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 5,
+          "kind": "suggested_compact_omission",
+          "item": "p0005-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 5,
+          "kind": "suggested_compact_omission",
+          "item": "p0005-b014",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 6,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0006-b000"
+        },
+        {
+          "page": 6,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0006-b001"
+        },
+        {
+          "page": 6,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0006-b005"
+        },
+        {
+          "page": 6,
+          "kind": "suggested_compact_omission",
+          "item": "p0006-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 6,
+          "kind": "suggested_compact_omission",
+          "item": "p0006-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 6,
+          "kind": "suggested_compact_omission",
+          "item": "p0006-b005",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 7,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0007-b000"
+        },
+        {
+          "page": 7,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0007-b001"
+        },
+        {
+          "page": 7,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0007-b014"
+        },
+        {
+          "page": 7,
+          "kind": "suggested_compact_omission",
+          "item": "p0007-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 7,
+          "kind": "suggested_compact_omission",
+          "item": "p0007-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 7,
+          "kind": "suggested_compact_omission",
+          "item": "p0007-b014",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 8,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0008-b000"
+        },
+        {
+          "page": 8,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0008-b001"
+        },
+        {
+          "page": 8,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0008-b005"
+        },
+        {
+          "page": 8,
+          "kind": "suggested_compact_omission",
+          "item": "p0008-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 8,
+          "kind": "suggested_compact_omission",
+          "item": "p0008-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 8,
+          "kind": "suggested_compact_omission",
+          "item": "p0008-b005",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 9,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0009-b000"
+        },
+        {
+          "page": 9,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0009-b001"
+        },
+        {
+          "page": 9,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0009-b015"
+        },
+        {
+          "page": 9,
+          "kind": "suggested_compact_omission",
+          "item": "p0009-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 9,
+          "kind": "suggested_compact_omission",
+          "item": "p0009-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 9,
+          "kind": "suggested_compact_omission",
+          "item": "p0009-b015",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 10,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0010-b000"
+        },
+        {
+          "page": 10,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0010-b001"
+        },
+        {
+          "page": 10,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0010-b006"
+        },
+        {
+          "page": 10,
+          "kind": "suggested_compact_omission",
+          "item": "p0010-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 10,
+          "kind": "suggested_compact_omission",
+          "item": "p0010-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 10,
+          "kind": "suggested_compact_omission",
+          "item": "p0010-b006",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 11,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0011-b000"
+        },
+        {
+          "page": 11,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0011-b001"
+        },
+        {
+          "page": 11,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0011-b010"
+        },
+        {
+          "page": 11,
+          "kind": "suggested_compact_omission",
+          "item": "p0011-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 11,
+          "kind": "suggested_compact_omission",
+          "item": "p0011-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 11,
+          "kind": "suggested_compact_omission",
+          "item": "p0011-b010",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 12,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0012-b000"
+        },
+        {
+          "page": 12,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0012-b001"
+        },
+        {
+          "page": 12,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0012-b006"
+        },
+        {
+          "page": 12,
+          "kind": "suggested_compact_omission",
+          "item": "p0012-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 12,
+          "kind": "suggested_compact_omission",
+          "item": "p0012-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 12,
+          "kind": "suggested_compact_omission",
+          "item": "p0012-b006",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 13,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0013-b000"
+        },
+        {
+          "page": 13,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0013-b001"
+        },
+        {
+          "page": 13,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0013-b015"
+        },
+        {
+          "page": 13,
+          "kind": "suggested_compact_omission",
+          "item": "p0013-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 13,
+          "kind": "suggested_compact_omission",
+          "item": "p0013-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 13,
+          "kind": "suggested_compact_omission",
+          "item": "p0013-b015",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 14,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0014-b000"
+        },
+        {
+          "page": 14,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0014-b001"
+        },
+        {
+          "page": 14,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0014-b006"
+        },
+        {
+          "page": 14,
+          "kind": "suggested_compact_omission",
+          "item": "p0014-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 14,
+          "kind": "suggested_compact_omission",
+          "item": "p0014-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 14,
+          "kind": "suggested_compact_omission",
+          "item": "p0014-b006",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 15,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0015-b000"
+        },
+        {
+          "page": 15,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0015-b001"
+        },
+        {
+          "page": 15,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0015-b015"
+        },
+        {
+          "page": 15,
+          "kind": "suggested_compact_omission",
+          "item": "p0015-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 15,
+          "kind": "suggested_compact_omission",
+          "item": "p0015-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 15,
+          "kind": "suggested_compact_omission",
+          "item": "p0015-b015",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 16,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0016-b000"
+        },
+        {
+          "page": 16,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0016-b001"
+        },
+        {
+          "page": 16,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0016-b005"
+        },
+        {
+          "page": 16,
+          "kind": "suggested_compact_omission",
+          "item": "p0016-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 16,
+          "kind": "suggested_compact_omission",
+          "item": "p0016-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 16,
+          "kind": "suggested_compact_omission",
+          "item": "p0016-b005",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 17,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0017-b000"
+        },
+        {
+          "page": 17,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0017-b001"
+        },
+        {
+          "page": 17,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0017-b013"
+        },
+        {
+          "page": 17,
+          "kind": "suggested_compact_omission",
+          "item": "p0017-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 17,
+          "kind": "suggested_compact_omission",
+          "item": "p0017-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 17,
+          "kind": "suggested_compact_omission",
+          "item": "p0017-b013",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 18,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0018-b000"
+        },
+        {
+          "page": 18,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0018-b001"
+        },
+        {
+          "page": 18,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0018-b024"
+        },
+        {
+          "page": 18,
+          "kind": "suggested_compact_omission",
+          "item": "p0018-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 18,
+          "kind": "suggested_compact_omission",
+          "item": "p0018-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 18,
+          "kind": "suggested_compact_omission",
+          "item": "p0018-b024",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 19,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0019-b000"
+        },
+        {
+          "page": 19,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0019-b001"
+        },
+        {
+          "page": 19,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0019-b034"
+        },
+        {
+          "page": 19,
+          "kind": "suggested_compact_omission",
+          "item": "p0019-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 19,
+          "kind": "suggested_compact_omission",
+          "item": "p0019-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 19,
+          "kind": "suggested_compact_omission",
+          "item": "p0019-b034",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 20,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0020-b000"
+        },
+        {
+          "page": 20,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0020-b001"
+        },
+        {
+          "page": 20,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0020-b031"
+        },
+        {
+          "page": 20,
+          "kind": "suggested_compact_omission",
+          "item": "p0020-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 20,
+          "kind": "suggested_compact_omission",
+          "item": "p0020-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 20,
+          "kind": "suggested_compact_omission",
+          "item": "p0020-b031",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 21,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0021-b000"
+        },
+        {
+          "page": 21,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0021-b001"
+        },
+        {
+          "page": 21,
+          "kind": "extractor_warning",
+          "detail": "Review possible header/footer: p0021-b032"
+        },
+        {
+          "page": 21,
+          "kind": "suggested_compact_omission",
+          "item": "p0021-b000",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 21,
+          "kind": "suggested_compact_omission",
+          "item": "p0021-b001",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 21,
+          "kind": "suggested_compact_omission",
+          "item": "p0021-b032",
+          "reason": "Repeated decorative page header/footer."
+        },
+        {
+          "page": 1,
+          "kind": "unresolved_diagnostic",
+          "check": "missing_lines",
+          "fingerprint": "dc53f1c4a55990ee2296a891d14a585c070d11c66555496b8f0f16cb4122d325",
+          "adjudication_entry": {
+            "page": 1,
+            "check": "missing_lines",
+            "fingerprint": "dc53f1c4a55990ee2296a891d14a585c070d11c66555496b8f0f16cb4122d325",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 1,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+          "adjudication_entry": {
+            "page": 1,
+            "check": "number_differences",
+            "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 1,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+          "adjudication_entry": {
+            "page": 1,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "d6d120fc045c3677528277bec1b15b0a52e51b7579e5cff26599d7823c25999c",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 2,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "bf9bd65d1e42ce4fc64997a7ef1b72596a5208b6a6c6277ff7bbb59c3aa2637f",
+          "adjudication_entry": {
+            "page": 2,
+            "check": "number_differences",
+            "fingerprint": "bf9bd65d1e42ce4fc64997a7ef1b72596a5208b6a6c6277ff7bbb59c3aa2637f",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 2,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "1c0f0a191877f83cbd97b2397dde7886490efcdf20b2c3213e892ae45ec765a3",
+          "adjudication_entry": {
+            "page": 2,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "1c0f0a191877f83cbd97b2397dde7886490efcdf20b2c3213e892ae45ec765a3",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 3,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "5e2f3b52ee6d5131b1344b41370505ab3face5b3c2c4a088488d3f4f9e52a98b",
+          "adjudication_entry": {
+            "page": 3,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "5e2f3b52ee6d5131b1344b41370505ab3face5b3c2c4a088488d3f4f9e52a98b",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 5,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "112010dda543723352bea30c001010dd1efcd3667ab2b70db98d313f9afb7859",
+          "adjudication_entry": {
+            "page": 5,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "112010dda543723352bea30c001010dd1efcd3667ab2b70db98d313f9afb7859",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 6,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "8d8bd1cd9d17a54acae7e4372dc66e07aa581b30cc7bc5c2a7ca62f029077c72",
+          "adjudication_entry": {
+            "page": 6,
+            "check": "number_differences",
+            "fingerprint": "8d8bd1cd9d17a54acae7e4372dc66e07aa581b30cc7bc5c2a7ca62f029077c72",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 7,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "43170c361fa7f2d514fd91f2219b93a11babdf022276905be1659f7c31d94dca",
+          "adjudication_entry": {
+            "page": 7,
+            "check": "number_differences",
+            "fingerprint": "43170c361fa7f2d514fd91f2219b93a11babdf022276905be1659f7c31d94dca",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 7,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "6cab3a9ab46401b4fac4bcf3929494b2fff2acb5dadc26204526764f758c83dd",
+          "adjudication_entry": {
+            "page": 7,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "6cab3a9ab46401b4fac4bcf3929494b2fff2acb5dadc26204526764f758c83dd",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 9,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "402a56b9edcc146d062763b5d06168ba320ec16eb94c8ddf5c3a2249d496efc1",
+          "adjudication_entry": {
+            "page": 9,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "402a56b9edcc146d062763b5d06168ba320ec16eb94c8ddf5c3a2249d496efc1",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 11,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "c36515b7607bf81aa6222931018f151498d582e280cfc144b4e3cb15e4333674",
+          "adjudication_entry": {
+            "page": 11,
+            "check": "number_differences",
+            "fingerprint": "c36515b7607bf81aa6222931018f151498d582e280cfc144b4e3cb15e4333674",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 11,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "a8145b4b31c08ef4b78a90da2a1ce89f6a3de1f1cbc05e206f8f96daf9bb6dc2",
+          "adjudication_entry": {
+            "page": 11,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "a8145b4b31c08ef4b78a90da2a1ce89f6a3de1f1cbc05e206f8f96daf9bb6dc2",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 13,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "78993d91e16fa9706930bf13ca9ab020e3eeba8577794aa798ab338755bdb55e",
+          "adjudication_entry": {
+            "page": 13,
+            "check": "number_differences",
+            "fingerprint": "78993d91e16fa9706930bf13ca9ab020e3eeba8577794aa798ab338755bdb55e",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 13,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "146fdb30d842debded96edae2014a704f43de9e70435aae90f60208a5d4afae0",
+          "adjudication_entry": {
+            "page": 13,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "146fdb30d842debded96edae2014a704f43de9e70435aae90f60208a5d4afae0",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 15,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "1e7fc6cdccac2f7189ff86376aa0124f77a1cbaac50e938c47c8d7d72fb33bfc",
+          "adjudication_entry": {
+            "page": 15,
+            "check": "number_differences",
+            "fingerprint": "1e7fc6cdccac2f7189ff86376aa0124f77a1cbaac50e938c47c8d7d72fb33bfc",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 15,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "a31dd1f487e7f0edd88384443f9fcd4a93409ef9b27226c07e32463526324aa7",
+          "adjudication_entry": {
+            "page": 15,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "a31dd1f487e7f0edd88384443f9fcd4a93409ef9b27226c07e32463526324aa7",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 17,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "134f235870ea80af38411bcf34e120ddd2b2f14442e83e688eadbce9c5860aba",
+          "adjudication_entry": {
+            "page": 17,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "134f235870ea80af38411bcf34e120ddd2b2f14442e83e688eadbce9c5860aba",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 18,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "2bda8ebd9b610dbfd49c60b20462630371272ea462d93f0cdacd32ccb1051b5b",
+          "adjudication_entry": {
+            "page": 18,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "2bda8ebd9b610dbfd49c60b20462630371272ea462d93f0cdacd32ccb1051b5b",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 19,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "3ed138349c371d2329ad561798f76c48f2f06804eeeb0894f6345f4662e20e3a",
+          "adjudication_entry": {
+            "page": 19,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "3ed138349c371d2329ad561798f76c48f2f06804eeeb0894f6345f4662e20e3a",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 20,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "94c7b148a716d4483dbbc5ac8380fe3c8cd11500e1296c80fefee54d4ebc4951",
+          "adjudication_entry": {
+            "page": 20,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "94c7b148a716d4483dbbc5ac8380fe3c8cd11500e1296c80fefee54d4ebc4951",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 21,
+          "kind": "unresolved_diagnostic",
+          "check": "number_differences",
+          "fingerprint": "03d4d0de8e1cfddd43cce6d955d99fcecb99b53ef2a9175e4fe0992bd2c5c142",
+          "adjudication_entry": {
+            "page": 21,
+            "check": "number_differences",
+            "fingerprint": "03d4d0de8e1cfddd43cce6d955d99fcecb99b53ef2a9175e4fe0992bd2c5c142",
+            "reason": "Describe the visible source check."
+          }
+        },
+        {
+          "page": 21,
+          "kind": "unresolved_diagnostic",
+          "check": "independent_parser_number_differences",
+          "fingerprint": "2debc945c18d52b7da39fa33c086e3338b46f47be1ebcd30541121891b513ca3",
+          "adjudication_entry": {
+            "page": 21,
+            "check": "independent_parser_number_differences",
+            "fingerprint": "2debc945c18d52b7da39fa33c086e3338b46f47be1ebcd30541121891b513ca3",
+            "reason": "Describe the visible source check."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "page": 1,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0001.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview and 3.2-3.6x PDF crops. Masthead picture p0001-b002 changed figure->omit (decorative nature communications banner; label/asset_name removed). Merged-prose 'table' p0001-b004 split into three text items in printed reading order: p0001-b004a dates block (adds the 'Published online: 15 May 2026' line, which is a raster image the extractor missed) + 'Check for updates'; p0001-b004b author list with <sup> affiliation markers and ORCID/corresponding-author cues as plain text; p0001-b004c the abstract as searchable prose (de-hyphenated line wraps, fi/fl ligatures normalised, restored spaces in 'While α-synuclein', 'that α-Syn', 'of α-Syn', 'and α-Syn', 'Our findings'; en dashes kept in cGAS–STING–NF-κB–IRF3). Title heading p0001-b003 kept first, as printed. Italicised gene symbols *SNCA*, *PARKIN*, *PINK-1*, *DJ-1* in p0001-b005/b007 per source italics; removed stray spaces before full stops after <sup>1–4</sup>/<sup>5,6</sup>/<sup>8–10</sup>/<sup>11,12</sup>. Affiliation footnote p0001-b008: removed Markdown blockquote and converted glued affiliation digits to <sup>n</sup> form. Running header/footer items p0001-b000/b001/b009 and page-number omit p0001-b010 left untouched. Coordinator: page-1 running header and DOI set to omit to match the automatic header removal applied to pages 2-21. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break. Coordinator, after independent verification: removed the editorial interpolations '(ORCID)' and '(corresponding author)' from the author line. The page shows ORCID icons and an envelope glyph, not those words, and no ORCID identifiers are printed, so the words added no retrievable information. The corresponding author remains identifiable from the printed e-mail line.",
+  "warnings": [
+    "Review possible header/footer: p0001-b000",
+    "Review possible header/footer: p0001-b001",
+    "Review possible header/footer: p0001-b009"
+  ],
+  "items": [
+    {
+      "id": "p0001-b002",
+      "kind": "omit",
+      "bbox": [
+        34.0,
+        29.0,
+        567.0,
+        70.0
+      ],
+      "markdown": "",
+      "source_class": "picture",
+      "reason": "Decorative journal masthead banner (nature communications wordmark, red rule and open-access icon); branding, not a scientific figure."
+    },
+    {
+      "id": "p0001-b000",
+      "kind": "omit",
+      "bbox": [
+        39.0,
+        94.0,
+        71.0,
+        103.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header",
+      "reason": "Repeated page header ('Article'); identical furniture is auto-omitted on pages 2-21 but falls outside the margin band on page 1 because the masthead shifts it down."
+    },
+    {
+      "id": "p0001-b001",
+      "kind": "omit",
+      "bbox": [
+        400.0,
+        96.0,
+        562.0,
+        105.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header",
+      "reason": "Repeated page header (article DOI URL); identical furniture is auto-omitted on pages 2-21. The DOI is recorded in the package notes."
+    },
+    {
+      "id": "p0001-b003",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        113.0,
+        529.0,
+        218.0
+      ],
+      "markdown": "# α-Synuclein aggregates induce mitochondrial damage and trigger innate immunity to drive neuron–microglia communication",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0001-b004a",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        256.0,
+        190.0,
+        334.0
+      ],
+      "markdown": "Received: 14 July 2025\n\nAccepted: 1 May 2026\n\nPublished online: 15 May 2026\n\nCheck for updates",
+      "source_class": "text"
+    },
+    {
+      "id": "p0001-b004b",
+      "kind": "text",
+      "bbox": [
+        217.0,
+        256.0,
+        509.0,
+        300.0
+      ],
+      "markdown": "Ranabir Chakraborty<sup>1,2</sup>, Stephanie Maya<sup>1</sup>, Veronica Testa<sup>3,4,6</sup>, Jara Montero-Muñoz<sup>3,4,6</sup>, Takashi Nonaka<sup>5</sup>, Masato Hasegawa<sup>5</sup>, Antonella Consiglio<sup>3,4</sup> & Chiara Zurzolo<sup>1</sup>",
+      "source_class": "text"
+    },
+    {
+      "id": "p0001-b004c",
+      "kind": "text",
+      "bbox": [
+        217.0,
+        320.0,
+        562.0,
+        558.0
+      ],
+      "markdown": "Tunneling nanotubes (TNTs) enable direct intercellular transfer of macromolecules, organelles, and pathogenic protein aggregates. While α-synuclein (α-Syn) aggregates are known to promote TNT formation, the underlying mechanisms remain poorly defined. Here, using human neuronal and microglial cell lines, as well as iPSC-derived dopaminergic neurons and microglia, we show that α-Syn aggregates induce severe mitochondrial damage, leading to cytosolic release of mitochondrial DNA (mtDNA) and activation of the cGAS–STING–NF-κB–IRF3 pathway. This innate immune response drives actin cytoskeleton remodeling and the formation of TNT-like structures, promoting intercellular transfer of α-Syn from neurons to microglia. Additionally, neuronal cells transfer damaged mitochondria to microglia, where they undergo lysosome-mediated degradation. Neuron-to-microglia communication under α-Syn-induced stress also triggers a bystander inflammatory response in microglia, suggesting a neuroimmune activation. Our findings identify mitochondrial damage and STING-mediated inflammation as key drivers of TNT formation and α-Syn propagation, highlighting potential targets to modulate disease progression in Synucleinopathies.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0001-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        584.0,
+        295.0,
+        679.0
+      ],
+      "markdown": "Aggregation of α-Synuclein (α-Syn) is commonly observed in Synucleinopathies such as Parkinson’s (PD), dementia with Lewy bodies, and multiple systems atrophy<sup>1–4</sup>. Physiologically a cytosolic protein existing as a monomer, α-Syn has been reported to have association affinities to curved membranes such as synaptic vesicles, thereby implicating them in regulating vesicular dynamics at pre-synaptic terminals<sup>5,6</sup>. Mutations or duplication/triplication of the gene encoding α-Syn (*SNCA*) lead to pathological manifestations pertaining to aggregation of the protein<sup>7</sup>, characterized by significant",
+      "source_class": "text"
+    },
+    {
+      "id": "p0001-b006",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        584.0,
+        562.0,
+        604.0
+      ],
+      "markdown": "loss of dopaminergic neurons in the Substantia Nigra pars compacta (SNpc).",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0001-b007",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        605.0,
+        562.0,
+        679.0
+      ],
+      "markdown": "Besides *SNCA*, several other genes have also been implicated in the pathogenesis of familial PD, such as *PARKIN*, *PINK-1*, and *DJ-1*, protein products of which are essential for mitochondrial homeostasis<sup>8–10</sup>. Consequently, the pathogenesis of PD has been associated with mitochondrial dysfunction<sup>11,12</sup>. Interestingly, α-Syn has also been reported to interact with the mitochondrial membrane and irreversibly translocate to the matrix in a concentration-dependent",
+      "source_class": "text"
+    },
+    {
+      "id": "p0001-b008",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        701.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "<sup>1</sup>Institut Pasteur, Université Paris Cité, CNRS UMR 3691, Membrane Traffic and Pathogenesis, Paris, France. <sup>2</sup>Université Paris-Saclay, Gif-sur-Yvette, France. <sup>3</sup>Department of Pathology and Experimental Therapeutics, Bellvitge University Hospital-IDIBELL, Barcelona, Spain. <sup>4</sup>Institute of Biomedicine of the University of Barcelona (IBUB), Barcelona, Spain. <sup>5</sup>Dementia Research Project, Tokyo Metropolitan Institute of Medical Science, Tokyo, Japan. <sup>6</sup>These authors contributed equally: Veronica Testa, Jara Montero-Muñoz. e-mail: chiara.zurzolo@pasteur.fr",
+      "source_class": "footnote"
+    },
+    {
+      "id": "p0001-b009",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0001-b010",
+      "kind": "omit",
+      "bbox": [
+        557.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "1",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

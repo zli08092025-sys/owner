@@ -1,0 +1,198 @@
+{
+  "page": 7,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0007.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview and 6x crops of both caption columns. The Fig. 3 caption is a two-column block at the top of the page: p0007-b002 (left half) and p0007-b008 (right half) are one caption, so both were retyped kind 'text' -> 'caption' and b008 was moved to sit directly after b002, ahead of the body prose. This also repairs the left/right column continuity for the body ('...To elucidate the' | 'roles of TLR9 and RIG-1...'). Caption verified verbatim: panel letters a-j, N=3 independent experiments, n=40 cells, two-sided Mann-Whitney test, 'For both (b, c): p < 1x 10-15', the BioRender credit and URL. NOTE: the published PDF really does set that one exponent on the baseline (span size 7.0, no raised baseline), unlike page 9 where the same exponents are true superscripts - left verbatim. Repaired line-wrap hyphen damage that destroyed real compound hyphens: 'cellsurface'->'cell-surface' (heading), 'cotreatment'->'co-treatment' and 'JSH23'->'JSH-23' (b004), 'α- Syn'->'α-Syn' (b006), 'functionalTNT'->'functional TNT' (b011), 'proinflammatory'->'pro-inflammatory' and 'TNTmediated'->'TNT-mediated' (b012), 'JSH23'->'JSH-23' (b013), 'α-Synburdened'->'α-Syn-burdened' (b008). Demoted the two Results subsection headings p0007-b005 and p0007-b010 from '#' to '##'. Verified Greek (α-Syn, NF-κB), en dashes in cGAS-STING-NF-κB (en dashes in source) and in ranges 8a-c / 9d-f / 10a-d, and the superscript reference markers 58-68. Reading order is caption (both halves), then left column top-to-bottom, then right column; no sentence dropped at the column or page boundary. No join_previous: page 6 ends on a complete sentence and this page opens with the caption. Coordinator: merged the right-column half p0007-b008 into p0007-b002; this caption is typeset as one full-width block and the extractor split it at the column gutter. Coordinator: removed 6 extractor-inserted space(s) between a superscript and the punctuation that follows it in the printed source. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0007-b000",
+    "Review possible header/footer: p0007-b001",
+    "Review possible header/footer: p0007-b014"
+  ],
+  "items": [
+    {
+      "id": "p0007-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0007-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0007-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        136.0
+      ],
+      "markdown": "Fig. 3 | α-Syn induces BAX-mediated mtDNA release in the cytoplasm. a Representative super-resolution SIM images of neuronal cells (top panels) and microglial cells (bottom panels) labeled for mitochondria and stained for mtDNA and TFAM. Quantification of extra-mitochondrial mtDNA per cell for neuronal cells (b) and microglial cells (c). N = 3 independent experiments, n = 40 cells. Statistical significance was analyzed using two-sided Mann-Whitney test. For both (b, c): p < 1× 10-15. Data represented as median and quartiles, with mean values mentioned within the graphs. Imaris 3D reconstructions of depicting mtDNA encapsulated within mitochondria (magenta) or extra-mitochondrial (blue) for neuronal cells (d) and microglial cells (e). Imaris 3D reconstruction of activated BAX (6A7) assembly on mitochondria (white arrowheads) in α-Syn-exposed neuronal cells (f) and microglial cells (g). Representative confocal images and corresponding line profiles of fluorescence intensities (blue arrows depict the line trajectories) depicting mtDNA containment within organelles. Data representative of 3 independent experiments. Blue asterisks denote mtDNA not encapsulated within TOMM20+ mitochondria. j Schematic depicting the mechanism of mtDNA release in α-Syn-burdened cells. For h, i AU=arbitrary units. Schematic in j was created in BioRender. MAYA, S. (2026) https://BioRender.com/momrjhm.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        166.0,
+        295.0,
+        347.0
+      ],
+      "markdown": "To then determine whether α-Syn-induced intercellular connections were dependent on innate immune activation, we inhibited key steps of the pathway. Since cytosolic mtDNA is sensed by cGAS, we first treated cells with the human cGAS inhibitor G140<sup>58</sup> alone or in combination with α-Syn aggregates (Supplementary Fig. 7d). As expected, α-Syn significantly increased the percentage of connected cells, but this effect was markedly reduced in the presence of G140 (Supplementary Fig. 7e, f), indicating a positive role of cGAS activity in the formation of intercellular connections. We next performed similar experiments using the STING inhibitor H-151 (prevents palmitoylation and clustering of STING)<sup>59</sup> (Fig. 5a), and NF-κB inhibitor JSH-23 (prevents its nuclear translocation)<sup>60</sup> (Fig. 5d). In both cases, inhibition of these effectors significantly reduced the α-Syn-induced increase in intercellular connections (Fig. 5b, c, e, f). Taken together, these results demonstrate that the cGAS–STING–NF-κB axis plays a positive regulatory role in the formation of intercellular connections in response to α-Syn aggregates (Fig. 5j—left panel and Supplementary Fig. 7g).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        348.0,
+        295.0,
+        465.0
+      ],
+      "markdown": "To further validate the involvement of STING in promoting intercellular connections, we treated both neuronal and microglial cells with diABZI, a potent non-nucleic acid STING agonist<sup>61</sup> (Fig. 5g). Treatment with diABZI significantly increased the number of intercellular connections in both cell types, an effect abolished by co-treatment with the STING inhibitor H-151. Notably, the diABZI-induced increase in connections was also prevented by the NF-κB inhibitor JSH-23 (Fig. 5h, i). These results support a direct role for STING activation in promoting intercellular connectivity and identify NF-κB as a critical downstream effector with a gatekeeping role in this process (Fig. 5j, right panel).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b005",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        477.0,
+        289.0,
+        497.0
+      ],
+      "markdown": "## Inflammation arises intracellularly and is independent of cell-surface receptors",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0007-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        498.0,
+        295.0,
+        668.0
+      ],
+      "markdown": "α-Syn aggregates released by neurons have been reported to bind and activate microglial cell surface Toll-like receptors (TLRs) TLR2<sup>62</sup> and TLR4<sup>63</sup>. To assess whether the inflammatory responses upon α-Syn exposure, resulting in intercellular connections, observed in our systems depended on the activation of these TLRs, we treated cells with α-Syn aggregates alone or in the presence of TLR4 inhibitor TAK-242 and TLR2 inhibitor TL2-C29. While α-Syn exposure promoted intercellular connectivity, neither inhibitor reduced this effect (Supplementary Fig. 8a–c). We therefore hypothesized that inflammation in our system may instead result from intracellular activation of the STING pathway. To test this, we measured nuclear NF-κB levels following co-treatment with α-Syn and either STING or TLR inhibitors (Supplementary Fig. 8d). Only STING inhibition significantly reduced nuclear NF-κB accumulation (Supplementary Fig. 8e, f), indicating that at 16 h post α-Syn exposure, the observed inflammation and enhanced connectivity are driven by STING activation rather than TLR signaling.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Intracellularly, however, nucleic acids can be detected not only in the cytosol, but also within endo-lysosomal compartments. TLR9 is one such nucleic acid sensor that robustly responds to bacterial dsDNA<sup>64</sup>. Given our previous observations of MOMP and mtDNA release in the cytosol, concomitant mtRNA spillage also seems inevitable. mtRNA can be recognized by cytosolic sensor RIG-1, which has been reported to generate an anti-viral response<sup>65,66</sup>. To elucidate the",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        166.0,
+        562.0,
+        272.0
+      ],
+      "markdown": "roles of TLR9 and RIG-1 in the formation of intercellular connections, we co-treated cells with α-Syn aggregates and their respective pharmacological inhibitors, TLR9-IN-1 and RIG012 (Supplementary Fig. 9a). We observed that despite the inhibition of these nucleic acid sensors, cells were still able to upregulate intercellular connections in the presence of α-Syn aggregates (Supplementary Fig. 9b, c). These results are also supported by our observation of significant translocation of NF-κB to the nucleus even upon TLR9 and RIG-1 inhibitions (Supplementary Fig. 9d–f), thereby highlighting a major role of cytosolic mtDNA in regulating inflammation-driven intercellular connections.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0007-b010",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        284.0,
+        554.0,
+        304.0
+      ],
+      "markdown": "## Inflammation-induced connections enable functional interactions between neuronal cells and microglia",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0007-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        306.0,
+        562.0,
+        465.0
+      ],
+      "markdown": "A key criterion for classifying intercellular connections as TNTs is their ability to transfer materials between connected cells. We have previously demonstrated that α-Syn aggregates can transfer from neuronal cells to microglia via TNTs<sup>28</sup>. To assess whether STING activation and resulting inflammation led to functional TNT connections between these two cell types, we co-cultured α-Syn-exposed SH-SY5Y neuronal cells (donors) with HMC3 microglia (acceptors) in the presence of STING activity modulators (Fig. 6a). We observed a significant increase in the extent of transfer (percentage of acceptor microglia positive for α-Syn) upon STING activation with diABZI, but not when STING was activated in the presence of its inhibitor H-151 (Fig. 6b). In addition, H-151 also reduced the number of transferred α-Syn aggregates (Fig. 6c). Such transfer happened majorly in a contact-dependent manner, as analysis of conditioned media demonstrated minimal contribution of secretion on α-Syn transfer (Fig. 6d).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        466.0,
+        562.0,
+        647.0
+      ],
+      "markdown": "Building on our observation of upregulation of cytokine expression in α-Syn-exposed cells, we further explored the role of NF-κB in TNT formation. Treatment of neuronal and microglial monocultures with pro-inflammatory cytokines IL-1α, IL-1β and TNF-α increased the percentage of connected cells for both cell types. However, this cytokine-induced increase was abolished in the presence of the NF-κB inhibitor JSH-23 (Supplementary Fig. 10a–d). To assess the functional nature of these connections, we performed co-culture experiments as above, where we assessed the extent of α-Syn transfer from neuronal cells (donors) to microglia (acceptors) in the presence of inflammatory modulators (Fig. 6e). While NF-κB activation through the pro-inflammatory cytokines promoted α-Syn transfer to microglial cells, its inhibition significantly reduced the extent (Fig. 6f) and the number of transferred aggregates (Fig. 6g). Since α-Syn secretion remained minimal and largely unaffected by NF-κB modulation (Fig. 6h), our results support a direct, positive role for NF-κB in promoting TNT-mediated α-Syn transfer from neuronal cells to microglia.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b013",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        648.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "TNT formation is linked to actin remodeling<sup>67</sup>. To understand how inflammation affects actin organization in promoting functional intercellular connections, we examined total and phosphorylated cofilin levels in cells treated with α-Syn, TNF-α, or cotreated with JSH-23. Actin depolymerizing factor (ADF)/cofilin promotes actin depolymerization and filament severing<sup>68</sup>, while its phosphorylation inactivates this function, favoring longer actin filaments in cells. Upon inflammatory stimulation (α-Syn and TNF-α), both neuronal and microglial cells showed increased total cofilin (Supplementary Fig. 10e,",
+      "source_class": "text"
+    },
+    {
+      "id": "p0007-b014",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0007-b015",
+      "kind": "omit",
+      "bbox": [
+        556.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "7",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

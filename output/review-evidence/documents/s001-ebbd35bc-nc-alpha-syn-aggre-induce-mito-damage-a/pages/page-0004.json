@@ -1,0 +1,116 @@
+{
+  "page": 4,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0004.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview page-0004.png and a 1.8x render of the figure bbox. Figure item p0004-b002 set to label 'Figure 2' / asset_name 'figure-2'; bbox widened from [61,46,540,654] to [52,42,548,658] so panel letters a-n, the rotated row labels SH-SY5Y / HMC3 / hN / hMG, the 'Cytochrome c | TOMM20 | DAPI' and 'MitoTracker Red | Cytochrome c | DAPI' channel legends, every y-axis title and all 10 µm and 5 µm scale bars are inside the crop with margin. Confirmed all 14 panels (a-n) are present. Figure 2 has NO caption on this page - its caption is the first block on page 5, which is where I set it. Body reading order verified: left column p0004-b003 then p0004-b004, then right column p0004-b005. Removed stray spaces between <sup> markers and the following period. Cross-page join set: p0004-b003 join_previous='space' because the printed first line 'Similar experiments in hNeurons and hMG also revealed a reduction of' is flush left (no paragraph indent) and continues the paragraph that ends page 3 at '...following α-Syn exposure.'; the sentence itself is complete, so this is a paragraph join rather than a mid-sentence one - flagged for the coordinator. Header/footer p0004-b000/b001/b006 and page-number omit p0004-b007 left untouched. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0004-b000",
+    "Review possible header/footer: p0004-b001",
+    "Review possible header/footer: p0004-b006"
+  ],
+  "items": [
+    {
+      "id": "p0004-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0004-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0004-b002",
+      "kind": "figure",
+      "bbox": [
+        52.0,
+        42.0,
+        548.0,
+        658.0
+      ],
+      "markdown": "<!-- Start of picture text -->\na Control CCCP -Syn b c<br>TMRM<br>100%<br>100%<br>-68.95%<br>-28.72%<br>TMRM -75.90%<br>-75.98%<br>d e<br>SH-SY5Y HMC3<br>Control -Syn Control -Syn<br>-Syn -Syn<br>Cytochrome c TOMM20 DAPI Cytochrome c TOMM20 DAPI<br>f g h i j k<br>l Control -Syn<br>MitoTracker Red<br>Cytochrome c  m n<br>DAPI<br>SH-SY5Y<br>HMC3<br>hN<br>hMG<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 2",
+      "asset_name": "figure-2"
+    },
+    {
+      "id": "p0004-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        670.0,
+        295.0,
+        709.0
+      ],
+      "markdown": "Similar experiments in hNeurons and hMG also revealed a reduction of Cytochrome c levels (Fig. 2l, m, n), underscoring the detrimental impact of α-Syn aggregates on mitochondrial functionality in both cell lines and iPSC-derived cells.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0004-b004",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        713.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Having observed significant mitochondrial damage, we next asked whether aggregate-exposed cells were capable of clearing damaged mitochondria via mitophagy, a process implicated to be",
+      "source_class": "text"
+    },
+    {
+      "id": "p0004-b005",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        669.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "impaired in several neurodegenerative diseases<sup>49</sup>. Dysfunctional mitochondria are targeted to autophagosomes via interactions of mitophagy receptors with LC3 (mitophagosomes), which then fuse with lysosomes (mitolysosomes) for degradation. To address mitophagy flux in neuronal and microglial cells following α-Syn exposure, we performed co-immunostaining against TOMM20 and LC3 (to detect mitophagosomes; Supplementary Fig. 3a) and against TOMM20",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0004-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0004-b007",
+      "kind": "omit",
+      "bbox": [
+        555.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "4",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

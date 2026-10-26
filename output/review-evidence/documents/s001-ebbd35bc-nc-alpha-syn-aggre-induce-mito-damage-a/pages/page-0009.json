@@ -1,0 +1,211 @@
+{
+  "page": 9,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0009.png",
+  "reviewed": true,
+  "review_notes": "Checked against preview and 8x crops. The Fig. 4 caption is a two-column block at the top of the page: p0009-b002 (left half, ends '...per group. Statistical') and p0009-b008 (right half, starts 'significance was analyzed...') are one caption, so both were retyped kind 'text' -> 'caption' and b008 was moved directly after b002, ahead of the body prose; this also repairs the body column continuity ('...from α-Syn-stressed neuronal' | 'cells but also actively clearing them'). Caption verified verbatim: panel letters a-k, N = 3 independent experiments, the per-group n values (140/139/141, 85/85/82, 60, 50), two-sided Mann-Whitney test, ****p < 0.0001, the X/Y/Z p-value paradigm and every exponent (confirmed as real superscripts in the PDF, size 4.2 on a raised baseline, so <sup> is right here). Fixed 'For (k)—XY' back to 'For (k)—X-Y' (hyphen destroyed by a line-wrap repair). Same class of fix in the body: 'α- Syn'->'α-Syn' (b003), 'α-Synburdened'->'α-Syn-burdened' (b006), 'neuronalderived'->'neuronal-derived' and 'K63ubiquitinated'->'K63-ubiquitinated' (b007), 'α- Syn-burdened'->'α-Syn-burdened', 'cocultured'->'co-cultured' (x2) and 'aggregateladen'->'aggregate-laden' (b011). Heading levels confirmed against the preview: b004 'Neuronal cells transfer damaged mitochondria to microglia' and b010 'α-Syn-burdened neuronal cells prime microglia towards inflammation' are Results subsections and are correctly '##'; b013 'Discussion' is a top-level section and is correctly '#'. Left-then-right reading order verified; no sentence dropped. b003 continues the sentence broken at the page 8/9 boundary ('...(Supplementary Fig. 6j, k),' | 'consistent with the reduced...'), so join_previous='space' - note the Fig. 4 caption block is emitted between them. Left verbatim: the source typo 'Supplementary Fig. 12h, I, k, l, n, o, q, r' (capital I) and 'p = 4,64 ×10-8' (comma decimal), both confirmed in the printed page. Coordinator: merged the right-column half p0009-b008 into p0009-b002; this caption is typeset as one full-width block and the extractor split it at the column gutter. Coordinator: removed 15 extractor-inserted space(s) between a superscript and the punctuation that follows it in the printed source. Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0009-b000",
+    "Review possible header/footer: p0009-b001",
+    "Review possible header/footer: p0009-b015"
+  ],
+  "items": [
+    {
+      "id": "p0009-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0009-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0009-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        176.0
+      ],
+      "markdown": "Fig. 4 | α-Syn aggregates activate STING. a Representative confocal images of STING translocation to GM130+ Golgi in neuronal and microglial cells. Quantification of mean STING fluorescence intensity on GM130+ Golgi in neuronal cells (b) and microglial cells (c). N = 3 independent experiments; for neuronal cells: n = 140 cells for control, 139 for diABZI, and 141 cells for α-Syn group, and for microglial cells: n = 85 cells for control, 85 for diABZI, and 82 cells for α-Syn group. Statistical significance was analyzed using a two-sided Mann-Whitney test. To indicate p-values in a compact manner, the following representation paradigm is used: control = X, diABZI = Y and α-Syn-treatment = Z. For b—X-Y and X-Z: p < 1x10<sup>-15</sup>; for c —X-Y: p = 4× 10<sup>–15</sup>, X-Z: p < 1 × 10<sup>–15</sup>. d Representative confocal images of STING translocation to GM130+ Golgi in hiPSC-derived neurons (hN) and microglia (hMG). Quantification of mean STING fluorescence intensity on GM130+ Golgi in hNeurons (e) and hMG (f). N = 3 independent experiments; n = 60 cells per group. Statistical significance was analyzed using a two-sided Mann-Whitney test. For e— p = 5.8 × 10<sup>–14</sup>; for f—p = 8.41 × 10<sup>–11</sup>. g Representative confocal images of pTBK1 in neuronal and microglial cells. Quantification of the number of pTBK1 puncta per cell in neuronal cells (h) and microglial cells (i). Quantification of pTBK1 area per cell in neuronal cells (j) and microglial cells (k). For h–k, N = 3 independent experiments, n = 50 cells per group. Statistical significance was analyzed using a two-sided Mann-Whitney test. ****p < 0.0001. To indicate p-values in a compact manner, the following representation paradigm is used: control = X, diABZI = Y and α-Syn-treatment = Z. For h—X-Y: p < 1× 10<sup>–15</sup>, X-Z: p = 4,64 ×10<sup>–8</sup>. For i—X-Y: p < 1× 10<sup>–15</sup>, X-Z: p = 2.81 × 10<sup>–8</sup>. For j—X-Y: p < 1× 10<sup>–15</sup>, X-Z: p = 9.76 × 10<sup>–10</sup>. For (k)—X-Y: p = 3.36 × 10<sup>–11</sup>, X-Z: p = 2.06 × 10<sup>–10</sup>. For all the graphs, data are represented as median and quartiles, with mean values mentioned within the graphs.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b003",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        199.0,
+        295.0,
+        240.0
+      ],
+      "markdown": "consistent with the reduced intercellular connections seen in Fig. 5e, f. Taken together, these results indicate that inflammatory stress induces global actin remodeling that supports TNT formation and facilitates α-Syn transfer from neurons to microglia.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0009-b004",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        252.0,
+        281.0,
+        261.0
+      ],
+      "markdown": "## Neuronal cells transfer damaged mitochondria to microglia",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0009-b005",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        263.0,
+        295.0,
+        411.0
+      ],
+      "markdown": "While a recent study elegantly demonstrated a neuroprotective function of microglia via TNT-mediated transfer of functional mitochondria<sup>29</sup>, it remains unclear whether neurons also transfer mitochondria to microglia. Given our findings of extensive mitochondrial damage in α-Syn-treated neuronal cells (Fig. 2), we hypothesized that they could transfer damaged mitochondria to microglia. To test this, we co-cultured naïve microglia and mitochondria-labeled neuronal cells (matrix-targeted DsRed—MitoDsRed) loaded or not with α-Syn (Fig. 7a). We observed a more than two-fold increase in the extent of mitochondrial transfer from aggregate-burdened neuronal cells, compared to control cells, with most of the transfer occurring in a contact-dependent manner (Fig. 7b). Additionally, microglia received significantly more mitochondrial particles from α-Syn-stressed neuronal cells (Fig. 7c).",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b006",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        413.0,
+        295.0,
+        550.0
+      ],
+      "markdown": "While functional mitochondria transfer from microglia to neuronal cells exert a neuroprotective effect via integration into the host mitochondrial network<sup>29</sup>, most mitochondria transferred from neuronal cells to microglia remained isolated and did not integrate in the microglial mitochondria network (Fig. 7d, e, f). The proportion of isolated mitochondria also increases from ~68% when coming from naïve neuronal cells to ~81% when derived from α-Syn-burdened neuronal cells. Measurements of Cytochrome c levels in these transferred organelles revealed that mitochondria derived from aggregate-burdened neuronal cells had a lower level of the protein (Fig. 7g), suggesting that outer membrane-permeabilized mitochondria (damaged) are preferentially transferred to microglial cells.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        552.0,
+        295.0,
+        743.0
+      ],
+      "markdown": "Given that the transferred mitochondria are damaged and do not integrate into the host mitochondrial network, we hypothesized that these organelles are destined for degradation, representing an alternative neuroprotective mechanism by which microglia clear neuronal-derived damaged components. Upon immunostaining for lysosomes, we observed significant engulfment of MitoDsRed particles within LAMP1+ vesicles in microglial cells, with most mitochondrial particles targeted for clearance (Fig. 7h, i; median>0.84 for both groups). To determine whether such directional mitochondrial transfer had any benefit to neuronal cells, we assessed for the burden of K63-ubiquitinated mitochondria (damaged mitochondria destined for degradation) in α-Syn aggregate-exposed neuronal cells grown in either monocultures or co-culture with microglia. We observed a significant reduction in the fraction of K63-ubiquitinated mitochondria in neuronal cells in the presence of microglia (Fig. 7j). Taken together, these results demonstrate that neuronal inability to clear damaged mitochondria (disrupted mitophagy flux) results in microglia not only receiving these damaged organelles from α-Syn–stressed neuronal",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b009",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        199.0,
+        562.0,
+        218.0
+      ],
+      "markdown": "cells but also actively clearing them, adding a new layer to microglial neuroprotective functions.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0009-b010",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        230.0,
+        532.0,
+        249.0
+      ],
+      "markdown": "## α-Syn-burdened neuronal cells prime microglia towards inflammation",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0009-b011",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        252.0,
+        562.0,
+        540.0
+      ],
+      "markdown": "Having observed mitochondrial damage-induced mtDNA release in α-Syn-burdened cells and elevated mitochondrial transfer from stressed neuronal cells to microglia, we next asked whether the transferred mitochondrial particles contained mtDNA. To address this, we co-cultured SH-SY5Y-MitoDsRed cells (donors) with acceptor HMC3 cells, and immunostained for both TOMM20 and DNA (Fig. 8a). We found that the majority of transferred mitochondrial particles were mtDNA+ (63.51% in control group, versus 75.81% upon α-Syn exposure) (Fig. 8b). Notably, we also observed mtDNA extruding from the mitochondrial matrix after reaching microglial cells (Fig. 8a—inset iii). As such, we next assessed the inflammatory state of microglial cells when co-cultured with naïve or α-Syn-burdened neuronal cells. We observed a mild activation of STING in microglial cells co-cultured with aggregate-laden neuronal cells (Fig. 8c, d), along with increased nuclear levels of NF-κB (Fig. 8e, f) and IRF3 (Fig. 8g, h) in these cells. Interestingly, this inflammatory response was independent of the number of α-Syn aggregates received by microglia (Supplementary Fig. 11a–c). To assess downstream responses in microglia, we co-cultured naïve or α-Syn aggregate exposed SH-SY5Y cells labeled with actin-chromobody-RFP (SH-RFP) and HMC3 cells before sorting them utilizing flow cytometry (Supplementary Fig. 11d). We found a ~ 2-fold increase in gene expressions of IFNα and IFNβ for HMC3 cells that were co-cultured with α-Syn-burdened neuronal cells (Supplementary Fig. 11e). Taken together, these results suggest a bystander priming of microglia towards inflammation, which can be potentiated via either mtDNA release in microglial cells, alterations of microglial mitochondrial functionalities, and/or other secretory factors.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        541.0,
+        562.0,
+        700.0
+      ],
+      "markdown": "To discern the possible route of bystander microglial inflammation, we utilised a similar co-culture experimental paradigm as above, but also inhibited cGAS (G140), STING (H-151) and NF-κB (JSH-23) in aggregate-exposed neuronal cells. We observed a significant reduction in the extent of bystander STING activation when neuronal cells were inhibited for cGAS (Supplementary Fig. 12a, b), as opposed to STING or NF-κB inhibitions (Supplementary Fig. 12c, d, e, f respectively). Such an observation was also consistent when NF-κB or IRF3 translocation to the nucleus was assessed. Whole inhibition of neuronal STING or NF-κB did not significantly alter the immune response of bystander cells (Supplementary Fig. 12h, I, k, l, n, o, q, r). There was a marked phenotypic rescue upon neuronal cGAS inhibition (Supplementary Fig. 12g, j, m, p). These observations highlight a possible role of neuronal cGAS-generated second messenger cGAMP in being transferred to microglia to elicit a bystander inflammatory response.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b013",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        711.0,
+        361.0,
+        720.0
+      ],
+      "markdown": "# Discussion",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0009-b014",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        723.0,
+        562.0,
+        743.0
+      ],
+      "markdown": "The roles of TNTs in mediating intercellular communication between neuronal and glial cells have been very well established. Neuronal cells",
+      "source_class": "text"
+    },
+    {
+      "id": "p0009-b015",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0009-b016",
+      "kind": "omit",
+      "bbox": [
+        555.0,
+        764.0,
+        562.0,
+        771.0
+      ],
+      "markdown": "9",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}

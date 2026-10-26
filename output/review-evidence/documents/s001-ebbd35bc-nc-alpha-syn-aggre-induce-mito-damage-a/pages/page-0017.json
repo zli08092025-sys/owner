@@ -1,0 +1,176 @@
+{
+  "page": 17,
+  "width": 595.2760009765625,
+  "height": 790.8660278320312,
+  "mode": "native",
+  "preview": "previews/page-0017.png",
+  "reviewed": true,
+  "review_notes": "Inspected preview PNG plus 2.8x PyMuPDF crops of the Fig. 9 region and of the caption text, and re-extracted the page's text spans to check every superscript and Greek glyph. Item order was already true reading order (Fig. 8 caption across both columns, then the full-width Fig. 9 image, then the Fig. 9 caption across both columns, then left-column body, then right-column body) and was left unchanged. Fig. 8 caption: fixed 'control or alpha- Syn-burdened' -> 'alpha-Syn-burdened' (the hyphen is the compound hyphen of alpha-Syn, wrapped at a line end); b003 re-kinded from 'text' to 'caption' since it is the right-hand half of the same Fig. 8 legend; removed the stray space the superscript extractor left before the full stop in '1x10<sup>-15</sup> .' and '4x10<sup>-15</sup> .'. Verified against the PDF text layer: '**p = 0.0029', '****p < 1x10^-15' and '****p = 4x10^-15' all carry FOUR asterisks for the two 1e-15/4e-15 values and TWO for 0.0029, the exponent is a superscript '-15' with a plain hyphen-minus on this page (page 15 uses an en dash in the same construction - left each as printed), the multiplication signs are U+00D7, and N = 3 / n = 100 are correct in d, f and h. Figure 9 set (label 'Figure 9', asset_name 'figure-9'); bbox [56,203,545,493] verified against the PDF content union [61.4,208.2,539.6,487.1]: it contains numbered steps 1-12, the 'Neuronal cells' and 'Microglia' labels at the top, the 'Nucleus' label at bottom left, the TNT labels, the red dashed arrow and the 'Clearance + Mild bystander inflammation - Microglial priming' text at the right, and it stops above the caption at y=495.6 so no caption text is in the crop. Fig. 9 caption: restored the compound hyphen in 'neuronalderived' -> 'neuronal-derived'; kept the source's own typo 'mediatied' verbatim; BioRender attribution 'Created in BioRender. MAYA, S. (2026) https://BioRender.com/x5dad2t.' verified character by character. Demoted two Methods subsection headings from '#' to '##': 'Mitophagy flux analysis' and 'qRT-PCR'. Checked 400 nM, SML1661, 4368814, 1725124, 1 ug, DeltaDeltaCt, beta-actin, 9036-19-5, 41105901, 228549, 1:5000, 4 degC. Header/footer items left untouched. Coordinator: merged the right-column half p0017-b003 into p0017-b002; this caption is typeset as one full-width block and the extractor split it at the column gutter. Coordinator: merged the right-column half p0017-b006 into p0017-b005; this caption is typeset as one full-width block and the extractor split it at the column gutter (joined across a line-wrap hyphen, no space inserted). Coordinator: set join_previous where the two-column layout split a sentence, verified against the source text on both sides of the break.",
+  "warnings": [
+    "Review possible header/footer: p0017-b000",
+    "Review possible header/footer: p0017-b001",
+    "Review possible header/footer: p0017-b013"
+  ],
+  "items": [
+    {
+      "id": "p0017-b000",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        23.0,
+        72.0,
+        32.0
+      ],
+      "markdown": "Article",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0017-b001",
+      "kind": "text",
+      "bbox": [
+        398.0,
+        25.0,
+        562.0,
+        33.0
+      ],
+      "markdown": "https://doi.org/10.1038/s41467-026-73136-7",
+      "source_class": "page-header"
+    },
+    {
+      "id": "p0017-b002",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        49.0,
+        562.0,
+        176.0
+      ],
+      "markdown": "Fig. 8 | mtDNA status of transferred mitochondria and bystander inflammation. a Representative super-resolution SIM images of α-Syn-burdened MitoDsRed + neuronal cells in co-culture with microglial cells for 24 h. Insets i, ii, and iii highlight transferred mitochondrial particles that are mtDNA + , mtDNA-, and have mtDNA extruding (white arrowhead) from the matrix, respectively. b Quantification of the proportion of transferred mitochondria from control or α-Syn-burdened neuronal cells that are positive or negative for mtDNA. N = 3 independent experiments, numbers of mitochondrial particles analyzed are mentioned within the bars. Error bars represent SEM. c Representative confocal images of STING translocation to GM130+ Golgi in microglial cells when co-cultured for 24 h with naïve (left panels) or α-Syn-burdened (right panels) neuronal cells. d Quantification of mean STING fluorescence intensity on GM130+ Golgi in microglial cells. N = 3 independent experiments, n = 100 cells. Statistical significance was analyzed using two-sided Mann-Whitney test. **p = 0.0029. e Representative confocal images of nuclear translocation of NF-κB in microglial cells when co-cultured for 24 h with naïve (left panels) or α-Syn-burdened (right panels) neuronal cells. Magenta dotted lines indicate nuclei borders. f Quantification of mean nuclear NF-κB fluorescence intensity in microglial cells. N = 3 independent experiments, n = 100 cells. Statistical significance was analyzed using two-sided Mann-Whitney test. ****p < 1×10<sup>-15</sup>. g Representative confocal images of nuclear translocation of IRF3 in microglial cells when co-cultured for 24 h with naïve (left panels) or α-Syn-burdened (right panels) neuronal cells. h Quantification of mean nuclear IRF3 fluorescence intensity in microglial cells. N = 3 independent experiments, n = 100 cells. Statistical significance was analyzed using two-sided Mann-Whitney test. ****p = 4×10<sup>-15</sup>. Data in violin graphs are represented as median and quartiles. Mean values are mentioned within the graphs.",
+      "source_class": "caption"
+    },
+    {
+      "id": "p0017-b004",
+      "kind": "figure",
+      "bbox": [
+        56.0,
+        203.0,
+        545.0,
+        493.0
+      ],
+      "markdown": "<!-- Start of picture text -->\nClearance<br>+<br>Mild bystander<br>inflammation -<br>Microglial priming<br><!-- End of picture text -->",
+      "source_class": "picture",
+      "label": "Figure 9",
+      "asset_name": "figure-9"
+    },
+    {
+      "id": "p0017-b005",
+      "kind": "caption",
+      "bbox": [
+        39.0,
+        495.0,
+        558.0,
+        543.0
+      ],
+      "markdown": "Fig. 9 | Working model. Schematic representation of the main findings of the study. Exposure of neuronal or microglial cells to α-Syn aggregates induce mitochondrial damage and BAX-mediated mtDNA release in the cytoplasm. This results in activation of the innate immune pathway cGAS-STING, leading to inflammation and formation of functional intercellular connections dependent on cofilin-mediatied actin reorganization and spread of α-Syn aggregates and damaged mitochondria from neuronal cells to microglia. Microglial cells target neuronal-derived mitochondria for degradation, and also elicit a mild inflammatory response, dependent on neuronal cGAS activity. Created in BioRender. MAYA, S. (2026) https://BioRender.com/x5dad2t.",
+      "source_class": "caption"
+    },
+    {
+      "id": "p0017-b007",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        573.0,
+        295.0,
+        690.0
+      ],
+      "markdown": "hiPSC were fixed with 4% PFA for 20 min followed by permeabilization with 0.1 % Triton-X100 (Sigma-Aldrich, 9036-19-5) solution. Cells were blocked with a solution composed of 0.3% Triton-X100 and 3% normal donkey serum (Millipore, 41105901) diluted in TBS for 2 h at RT. Cells were then incubated with primary antibodies in the afore-mentioned dilutions overnight at 4 °C. The next day, cells were re-blocked for 1 h at RT, followed by secondary antibody incubation for 2 h at RT. Finally, cells were incubated with DAPI (Abcam, 228549), diluted to 1:5000 in TBS, and coverslips were mounted on glass slides with PVA-DABCO (Sigma Aldrich) mounting media.",
+      "source_class": "text"
+    },
+    {
+      "id": "p0017-b008",
+      "kind": "heading",
+      "bbox": [
+        39.0,
+        701.0,
+        136.0,
+        711.0
+      ],
+      "markdown": "## Mitophagy flux analysis",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0017-b009",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        713.0,
+        295.0,
+        732.0
+      ],
+      "markdown": "To assess mitophagy flux upon exposure of cells to α-Syn aggregates, cells were immunostained for TOMM20 and LC3 (mitophagosomes) or",
+      "source_class": "text"
+    },
+    {
+      "id": "p0017-b010",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        573.0,
+        562.0,
+        604.0
+      ],
+      "markdown": "TOMM20 and LAMP1 (mitolysosomes). To inhibit mitophagy flux, a saturating concentration of 400 nM of Bafilomycin A1 (Sigma, SML1661) was added for 4 h before fixation and immunostaining.",
+      "source_class": "text",
+      "join_previous": "space"
+    },
+    {
+      "id": "p0017-b011",
+      "kind": "heading",
+      "bbox": [
+        306.0,
+        616.0,
+        342.0,
+        625.0
+      ],
+      "markdown": "## qRT-PCR",
+      "source_class": "section-header"
+    },
+    {
+      "id": "p0017-b012",
+      "kind": "text",
+      "bbox": [
+        306.0,
+        627.0,
+        562.0,
+        731.0
+      ],
+      "markdown": "RNA was isolated using TRIZOL reagent (Invitrogen) following the manufacturer’s protocol. 1 μg of RNA was used to synthesize cDNA using the high-capacity cDNA reverse transcription kit (4368814, Applied Biosystems). qPCR was carried out using diluted cDNA (20 ng per reaction) using iTaq universal SYBR Green supermix (1725124, BioRad). Relative mRNA expression was calculated using the ΔΔCt method, and each gene was normalized with the Ct value of β-actin. Three technical replicate reaction mixes were performed for each gene and biological replicate. Primers against the following human genes were used:",
+      "source_class": "text"
+    },
+    {
+      "id": "p0017-b013",
+      "kind": "text",
+      "bbox": [
+        39.0,
+        763.0,
+        187.0,
+        772.0
+      ],
+      "markdown": "Nature Communications |  (2026) 17:6462",
+      "source_class": "page-footer"
+    },
+    {
+      "id": "p0017-b014",
+      "kind": "omit",
+      "bbox": [
+        553.0,
+        764.0,
+        562.0,
+        770.0
+      ],
+      "markdown": "17",
+      "source_class": "page-footer",
+      "reason": "Page-number-only footer/header; confirm against preview."
+    }
+  ]
+}
